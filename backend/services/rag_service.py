@@ -16,7 +16,10 @@ class RAGService:
         if not os.path.exists(self.persist_directory):
             os.makedirs(self.persist_directory)
             
-        self.chroma_client = chromadb.PersistentClient(path=self.persist_directory)
+        self.chroma_client = chromadb.PersistentClient(
+            path=self.persist_directory,
+            settings=Settings(anonymized_telemetry=False)
+        )
         
         # Initialization of embedding model is deferred to lazy load
         self.model = None
