@@ -1,0 +1,704 @@
+2025-05-30 00:18:36,005 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-05-30 00:18:50,074 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-05-30 00:25:55,776 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 00:25:55,777 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 00:26:00,577 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-05-30 00:26:00,577 - enhanced_learning_service - WARNING - Received only 0 concepts, expected at least 3
+2025-05-30 00:26:03,609 - enhanced_learning_service - INFO - Successfully generated 0 learning concepts
+2025-05-30 00:28:05,905 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 00:28:05,906 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 00:30:37,791 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 00:30:37,792 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 00:30:42,268 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-05-30 00:30:42,268 - enhanced_learning_service - WARNING - Received only 0 concepts, expected at least 3
+2025-05-30 00:30:44,003 - enhanced_learning_service - INFO - Successfully generated 0 learning concepts
+2025-05-30 00:32:23,744 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 00:32:23,746 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 00:34:45,011 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 00:34:45,012 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 00:38:06,357 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 00:38:06,357 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 00:38:11,179 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-05-30 00:38:11,180 - enhanced_learning_service - WARNING - Received only 0 concepts, expected at least 3
+2025-05-30 00:38:17,727 - enhanced_learning_service - INFO - Successfully generated 0 learning concepts
+2025-05-30 00:39:12,044 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-05-30 00:39:13,944 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-05-30 00:39:42,064 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 00:39:42,065 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 00:39:45,904 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-05-30 00:39:45,904 - enhanced_learning_service - WARNING - Received only 0 valid concepts, expected at least 3
+2025-05-30 00:39:51,025 - enhanced_learning_service - INFO - Successfully generated 0 learning concepts
+2025-05-30 00:41:56,962 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 00:41:56,963 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 00:42:00,846 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-05-30 00:42:00,847 - enhanced_learning_service - WARNING - Received only 0 valid concepts, expected at least 3
+2025-05-30 00:42:19,070 - enhanced_learning_service - INFO - Successfully generated 0 learning concepts
+2025-05-30 00:42:48,987 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-05-30 00:43:22,454 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 00:43:22,455 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 00:43:33,476 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-05-30 00:43:33,477 - enhanced_learning_service - INFO - Successfully generated 4 learning concepts
+2025-05-30 00:57:18,619 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-05-30 00:57:19,744 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-05-30 00:58:50,664 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 00:58:50,664 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 00:59:02,568 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-05-30 00:59:02,569 - enhanced_learning_service - INFO - Successfully generated 4 learning concepts
+2025-05-30 00:59:44,312 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 00:59:44,313 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 00:59:53,520 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-05-30 00:59:53,521 - enhanced_learning_service - INFO - Successfully generated 5 learning concepts
+2025-05-30 01:00:47,790 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 01:00:47,791 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 01:01:07,128 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-05-30 01:01:07,129 - enhanced_learning_service - INFO - Successfully generated 8 learning concepts
+2025-05-30 09:20:30,603 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-30 09:20:30,604 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-30 09:20:42,936 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-05-30 09:20:42,937 - enhanced_learning_service - INFO - Successfully generated 5 learning concepts
+2025-05-31 15:17:31,663 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-05-31 15:17:32,092 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-05-31 15:17:55,517 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-05-31 15:17:55,517 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-05-31 15:18:06,727 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-05-31 15:18:06,728 - enhanced_learning_service - INFO - Successfully generated 4 learning concepts
+2025-06-01 11:31:27,152 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:31:27,599 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:36:25,407 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:38:48,388 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:39:18,944 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 11:39:18,945 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 11:41:11,477 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:41:12,936 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:42:08,809 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 11:42:08,810 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 11:42:26,640 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 11:42:26,641 - enhanced_learning_service - INFO - Successfully generated 9 learning concepts
+2025-06-01 11:43:15,900 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:44:32,451 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 11:44:32,452 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 11:44:48,583 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 11:44:48,583 - enhanced_learning_service - INFO - Successfully generated 9 learning concepts
+2025-06-01 11:46:38,254 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:46:58,792 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 11:46:58,792 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 11:47:16,610 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 11:47:16,612 - enhanced_learning_service - INFO - Successfully generated 9 learning concepts
+2025-06-01 11:47:50,038 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:47:51,465 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:48:23,920 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 11:48:23,921 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 11:48:42,069 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 11:48:42,069 - enhanced_learning_service - INFO - Successfully generated 9 learning concepts
+2025-06-01 11:49:23,435 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:49:24,882 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:49:44,966 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 11:49:44,966 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 11:50:03,440 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 11:50:03,441 - enhanced_learning_service - INFO - Successfully generated 9 learning concepts
+2025-06-01 11:51:46,985 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:52:16,795 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 11:52:16,795 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 11:52:36,249 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 11:52:36,250 - enhanced_learning_service - INFO - Successfully generated 8 learning concepts
+2025-06-01 11:55:00,490 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:55:01,957 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 11:55:23,685 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 11:55:23,686 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 11:55:42,490 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 11:55:42,490 - enhanced_learning_service - INFO - Successfully generated 9 learning concepts
+2025-06-01 11:57:53,819 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 11:57:53,819 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 11:58:10,330 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 11:58:10,331 - enhanced_learning_service - INFO - Successfully generated 9 learning concepts
+2025-06-01 11:59:33,914 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 11:59:33,915 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 11:59:49,850 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 11:59:49,851 - enhanced_learning_service - INFO - Successfully generated 9 learning concepts
+2025-06-01 12:39:30,812 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 12:39:31,247 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 12:42:12,333 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 12:42:15,845 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 12:43:15,002 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 12:43:15,002 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 12:43:30,471 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 12:43:30,471 - enhanced_learning_service - INFO - Successfully generated 9 learning concepts
+2025-06-01 12:46:34,305 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 12:46:35,748 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 12:53:43,714 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 12:53:43,715 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 12:54:05,229 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 12:54:05,229 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-01 12:56:15,431 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 12:56:16,901 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 12:57:08,850 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 12:57:08,850 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 12:57:23,948 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 12:57:23,948 - enhanced_learning_service - INFO - Successfully generated 6 learning concepts
+2025-06-01 12:59:01,300 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 12:59:01,301 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 12:59:15,272 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 12:59:15,273 - enhanced_learning_service - INFO - Successfully generated 6 learning concepts
+2025-06-01 13:00:42,466 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 13:00:43,915 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 13:01:34,186 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 13:01:34,187 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 13:01:50,322 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 13:01:50,322 - enhanced_learning_service - INFO - Successfully generated 6 learning concepts
+2025-06-01 13:01:50,323 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 13:01:50,323 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 13:02:01,343 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 13:02:01,344 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-01 13:02:56,023 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 13:02:58,482 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 13:03:28,057 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 13:03:28,058 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 13:03:44,574 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 13:03:44,575 - enhanced_learning_service - INFO - Successfully generated 6 learning concepts
+2025-06-01 13:03:44,575 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 13:03:44,575 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 13:03:55,759 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 13:03:55,759 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-01 14:00:25,239 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 14:00:25,669 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 14:05:26,040 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 14:05:26,041 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 14:05:43,460 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 14:05:43,461 - enhanced_learning_service - INFO - Successfully generated 6 learning concepts
+2025-06-01 14:05:43,461 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 14:05:43,461 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 14:05:54,569 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 14:05:54,570 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-01 14:08:31,956 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 14:08:31,957 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 14:08:44,057 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 14:08:44,057 - enhanced_learning_service - INFO - Successfully generated 5 learning concepts
+2025-06-01 14:08:44,058 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 14:08:44,058 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 14:08:54,430 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 14:08:54,430 - enhanced_learning_service - INFO - Successfully generated 5 learning concepts
+2025-06-01 14:12:23,849 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 14:12:23,850 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 14:12:35,177 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 14:12:35,177 - enhanced_learning_service - INFO - Successfully generated 4 learning concepts
+2025-06-01 14:12:35,178 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-01 14:12:35,178 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-01 14:12:49,039 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-01 14:12:49,041 - enhanced_learning_service - INFO - Successfully generated 6 learning concepts
+2025-06-01 14:18:42,048 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 14:18:42,444 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-01 14:19:08,041 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-03 23:07:50,432 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-03 23:07:50,875 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-03 23:09:08,568 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-03 23:09:08,569 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-03 23:09:20,523 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-03 23:09:20,524 - enhanced_learning_service - INFO - Successfully generated 4 learning concepts
+2025-06-03 23:09:20,524 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-03 23:09:20,524 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-03 23:09:33,030 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-03 23:09:33,030 - enhanced_learning_service - INFO - Successfully generated 6 learning concepts
+2025-06-03 23:12:09,717 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-03 23:12:09,718 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-03 23:12:20,829 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-03 23:12:20,830 - enhanced_learning_service - INFO - Successfully generated 5 learning concepts
+2025-06-03 23:46:07,876 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-03 23:46:08,304 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-03 23:46:51,191 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-03 23:46:51,192 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-03 23:47:08,658 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-03 23:47:08,658 - enhanced_learning_service - INFO - Successfully generated 6 learning concepts
+2025-06-03 23:47:08,659 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-03 23:47:08,659 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-03 23:47:19,930 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-03 23:47:19,930 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-08 20:33:25,050 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 20:33:25,648 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 20:49:05,895 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 20:49:06,456 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 20:52:40,275 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 20:53:07,579 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 20:53:08,189 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 20:54:43,611 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 20:54:54,313 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 20:55:07,833 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 20:55:08,417 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:01:45,789 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:01:45,790 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:02:53,045 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-08 21:02:53,046 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-08 21:03:26,681 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-08 21:03:26,681 - enhanced_learning_service - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-06-08 21:03:26,682 - enhanced_learning_service - ERROR - Raw response: ```json
+{
+ "concepts": [
+  {
+   "concept": "Amortized Analysis",
+   "definition": "Amortized analysis is a technique for analyzing the average time complexity of a sequence of operations on a data structure. It involves calculating the total time cost of a sequence of operations and dividing it by the number of operations to obtain the average time cost per operation.",
+   "real_world_application": "It is used to analyze the time complexity of algorithms that use data structures, such as heapsort, that perform repeated operations on a data structure.",
+   "latest_insight": "Amortized analysis is a valuable technique for analyzing the time complexity of algorithms and data structures. It allows us to understand the average performance of a sequence of operations, even if some operations are more expensive. It provides a guarantee of average performance per operation in the worst case."
+  },
+  {
+   "concept": "Aggregate Method",
+   "definition": "The aggregate method of amortized analysis involves determining an upper bound on the total time cost of a sequence of operations. It provides a guarantee of the worst-case average cost per operation over all operations.",
+   "real_world_application": "It is used to analyze the time complexity of a sequence of operations on a data structure, such as a stack or a k-bit counter.",
+   "latest_insight": "The aggregate method is a valuable technique for analyzing the time complexity of sequences of operations on data structures. It provides a worst-case upper bound on the total time cost of the sequence, which can be used to ensure that the algorithm will perform well in the worst case."
+  },
+  {
+   "concept": "Accounting Method",
+   "definition": "The accounting method of amortized analysis involves assigning amortized costs to each operation in a sequence of operations. It guarantees that the sum of the amortized costs is at least equal to the sum of the actual costs of all the operations in the sequence.",
+   "real_world_application": "It is used to analyze the time complexity of a sequence of operations on a data structure, such as a stack or a k-bit counter.",
+   "latest_insight": "The accounting method is a robust technique for analyzing the time complexity of sequences of operations on data structures. As long as the assigned costs are appropriately calculated, the analysis provides a guaranteed upper bound on the actual cost of the sequence."
+  },
+  {
+   "concept": "Potential Method",
+   "definition": "The potential method of amortized analysis involves maintaining a potential function that represents the potential energy stored in the data structure. It is based on the idea of charging the expensive operations and using the credit to pay for the cheap operations.",
+   "real_world_application": "It is used to analyze the time complexity of a sequence of operations on a data structure, such as a stack or a k-bit counter.",
+   "latest_insight": "The potential method is a powerful technique for analyzing the time complexity of sequences of operations on data structures. It involves maintaining a potential function that represents the potential energy stored in the data structure. It provides a guarantee that the sum of the amortized costs is at least equal to the sum of the actual costs of all the operations in the sequence."
+  }"]}
+2025-06-08 21:04:54,755 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:04:54,755 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:05:29,626 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:05:29,634 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:10:46,061 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:10:46,750 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:11:41,725 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-08 21:11:41,726 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-08 21:12:14,724 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-08 21:12:14,724 - enhanced_learning_service - ERROR - Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-06-08 21:12:14,725 - enhanced_learning_service - ERROR - Raw response: ```json
+{
+ "concepts": [
+    {
+        "concept": "Amortized Analysis",
+        "definition": "Amortized analysis is a technique for analyzing the average time complexity of a sequence of operations on a data structure. It involves assigning a cost to each operation and then calculating the average cost of the sequence of operations.",
+        "real_world_application": "Managing and understanding the performance of data structures in the Amazon shopping cart to optimize the user experience",
+        "latest_insight": "2023: Researchers develop a new technique for analyzing algorithms that dramatically simplifies the process of finding the average time complexity of a sequence of operations, making it easier to design efficient data structures. They used a new approach based on potential functions, which they show can be used to analyze a wide range of data structures."
+    },
+    {
+        "concept": "Aggregate Method",
+        "definition": "The aggregate method of amortized analysis involves determining an upper bound on the total sequence of n operations. This can be done by finding the worst-case time for each operation and then aggregating those times for all operations.",
+        "real_world_application": "Analyzing the average time complexity of a sequence of operations on a data structure, such as a stack or a queue.",
+        "latest_insight": "2023: Researchers develop a new technique for analyzing algorithms that dramatically simplifies the process of finding the average time complexity of a sequence of operations, making it easier to design efficient data structures. They used a new approach based on potential functions, which they show can be used to analyze a wide range of data structures."
+    },
+    {
+        "concept": "Accounting Method",
+        "definition": "The accounting method of amortized analysis involves assigning a cost to each operation. This cost can be higher or lower than the actual cost of the operation, but it must ensure that the sum of all the amortized costs in a sequence is at least the sum of all the actual costs.",
+        "real_world_application": "Analyzing the average time complexity of a sequence of operations on a data structure, such as a stack or a queue.",
+        "latest_insight": "2023: Researchers develop a new technique for analyzing algorithms that dramatically simplifies the process of finding the average time complexity of a sequence of operations, making it easier to design efficient data structures. They used a new approach based on potential functions, which they show can be used to analyze a wide range of data structures."
+    },
+    {
+        "concept": "Potential Method",
+        "definition": "The potential method of amortized analysis involves maintaining a potential function that represents the potential energy associated with the data structure. It is a more complex version of the accounting method that guarantees that the sum of all the amortized costs in a sequence is at least the sum of all the actual costs.",
+        "real_world_application": "Analyzing the average time complexity of a sequence of operations on a data structure, such as a stack or a queue.",
+        "latest_insight": "2023: Researchers develop a new technique for analyzing algorithms that dramatically simplifies the process of finding the average time complexity of a sequence of operations, making it easier to design efficient data structures. They used a new approach based on potential functions, which they show can be used to analyze a wide range of data structures."
+    }
+  ]
+}
+```
+2025-06-08 21:42:27,150 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:42:27,816 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:43:04,976 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-08 21:43:04,977 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-08 21:43:52,487 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-08 21:43:52,488 - enhanced_learning_service - INFO - Successfully generated 4 learning concepts
+2025-06-08 21:45:32,562 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-08 21:45:32,562 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-08 21:45:54,325 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-08 21:45:54,326 - enhanced_learning_service - WARNING - Received only 2 valid concepts, expected at least 3
+2025-06-08 21:46:05,897 - enhanced_learning_service - INFO - Successfully generated 4 learning concepts
+2025-06-08 21:48:34,758 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:48:50,499 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:49:47,439 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-08 21:49:47,439 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-08 21:49:58,557 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-08 21:49:58,558 - enhanced_learning_service - WARNING - Received only 1 valid concepts, expected 7
+2025-06-08 21:50:31,511 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-08 21:52:34,916 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:53:10,782 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:54:30,140 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-08 21:54:30,140 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-08 21:54:55,335 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-08 21:54:55,336 - enhanced_learning_service - WARNING - Received only 2 valid concepts, expected 7
+2025-06-08 21:55:28,894 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-08 21:57:27,976 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 21:58:16,563 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-08 21:58:16,564 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-08 21:58:31,276 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-08 21:58:31,277 - enhanced_learning_service - WARNING - Received only 2 valid concepts, expected 7
+2025-06-08 21:58:54,192 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-08 22:02:23,063 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-08 22:02:23,063 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-08 22:03:07,983 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-08 22:03:07,984 - enhanced_learning_service - WARNING - Received only 2 valid concepts, expected 7
+2025-06-08 22:06:49,550 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-08 22:06:49,550 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-08 22:07:17,319 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-08 22:07:17,320 - enhanced_learning_service - WARNING - Received only 4 valid concepts, expected 7
+2025-06-08 22:07:37,122 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-08 22:10:09,321 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 22:12:10,376 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 22:12:11,024 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-08 22:13:26,786 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-08 22:13:26,787 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-08 22:13:39,529 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-08 22:13:39,530 - enhanced_learning_service - WARNING - Received only 2 valid concepts, expected 7
+2025-06-08 22:14:04,352 - enhanced_learning_service - ERROR - Failed to parse JSON response: Invalid control character at: line 23 column 181 (char 2445)
+2025-06-08 22:14:04,352 - enhanced_learning_service - ERROR - Raw response: Here is a set of five distinct learning concepts with the structure you specified, focusing on different aspects of computational complexity:
+```json
+[
+ {
+   "concept": "Circuit Simplification",
+   "definition": "The process of reducing the complexity of a logical circuit by eliminating redundant elements, such as gates and inputs, while preserving the overall functionality.",
+    "real_world_application": "Optimizing electronic design for digital systems to enhance performance, reduce power consumption, and expedite manufacturing.",
+    "latest_insight": "A recent research paper explored the application of machine learning techniques to automatically identify circuit simplification opportunities, bringing new possibilities for efficient design iteration."
+ },
+ {
+   "concept": "Parameterized Complexity",
+   "definition": "This domain explores the complexity of computational problems that accept parameters affecting their complexity, often expressing problem-solving algorithms as functions of parameters.",
+    "real_world_application": "Managing database queries, as the parameterized complexity allows for customizing and optimizing queries based on specific criteria and datasets.",
+    "latest_insight": "A recent study proposed a new technique for classifying and comparing parameterized problems, opening new avenues for more effective problem analysis and complexity theory."
+ },
+ {
+   "concept": "Interactive Proof Systems",
+    "definition": "Ensuring computational proofs are correct, interactive proof systems require interaction between prover and verifier. Each poses possible challenges and queries to the other, employing sound and efficient protocols.",
+     "real_world_application": "Electronic voting is a use case, employing interactive proof systems to ensure accurate representation, guarding against false votes and potential tampering.",
+    "latest_insight": "A 2022 publication outlined a novel interactive proof system framework, introducing the concept of non-interactive verifiable proofs. This approach mitigates the need for a prover, enhancing privacy in certain applications."
+ },
+ {
+   "concept": "Zeno's Paradox",
+    "definition": "This ancient philosophical conundrum poses questions on the possibility of motion and infinity. It suggests that to move from one point to another, an infinite number of steps would be required, leading to confusion about reality.",
+     "real_world_application": "In computational geometry, Zeno's paradox inspires algorithms for determining whether a point is within a shape, or if a line intersects a polygon. 
+    "latest_insight": "Researchers continued to explore formalizing Zeno's concept in computational terms, representing a meta-level computational paradox, questioning the computational steps required to solve a problem."
+ },
+ {
+   "concept": "Fourier Analysis",
+   "definition": "This mathematical technique interprets periodic functions as combinations of trigonometric functions, exploring their frequency components. It aids in expressing and manipulating signals and series with periodic patterns.",
+    "real_world_application": "Applications are found in image processing, signal filtering, and understanding noise patterns in communication systems.",
+    "latest_insight": "A recent research study demonstrated an innovative application of Fourier analysis in training deep neural networks, accelerating the training process and enhancing the model's overall performance."
+ }
+]
+```
+2025-06-08 22:14:04,353 - enhanced_learning_service - INFO - Successfully generated 2 learning concepts
+2025-06-08 22:20:25,182 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-08 22:20:25,182 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-08 22:20:59,191 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-08 22:20:59,192 - enhanced_learning_service - WARNING - Received only 6 valid concepts, expected 7
+2025-06-08 22:21:10,528 - enhanced_learning_service - INFO - Successfully generated 8 learning concepts
+2025-06-10 00:09:16,249 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:09:17,035 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:10:59,225 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-10 00:10:59,226 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-10 00:11:14,108 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-10 00:11:14,108 - enhanced_learning_service - WARNING - Received only 2 valid concepts, expected 7
+2025-06-10 00:11:42,234 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-10 00:16:13,297 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:18:19,375 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-10 00:18:19,375 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-10 00:19:16,983 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-10 00:19:16,984 - enhanced_learning_service - ERROR - Failed to parse JSON response: Expecting value: line 47 column 34 (char 4748)
+2025-06-10 00:19:16,985 - enhanced_learning_service - ERROR - Raw response: Here is a JSON array containing detailed concepts extracted from the text:
+```json
+[
+    {
+        "concept": "NP-completeness",
+        "definition": "A set of decision problems, for which any problem in the set can be solved in polynomial time if and only if the solution to the problem can be verified by a deterministic machine in polynomial time.",
+        "real_world_application": "Used to study the efficiency of problem-solving algorithms and to develop algorithms that can solve problems in polynomial time.",
+        "latest_insight": "The complexity of NP-complete problems remains an open question in computer science, with no solution found so far."
+    },
+    {
+        "concept": "Tractable and Intractable Problems",
+        "definition": "A tractable problem is a problem that can be solved in polynomial time, while an intractable problem is a problem that cannot be solved in polynomial time.",
+        "real_world_application": "Tractable problems have possible solutions that can be calculated within a reasonable amount of time, while intractable problems have possible solutions that cannot be calculated within a reasonable amount of time given the current state of technology.",
+        "latest_insight": "A famous intractable problem is the traveling salesman problem: Given a list of cities and the distances between each pair of cities, it asks for the shortest possible route that visits each city exactly once."
+    },
+    {
+        "concept": "Decision and Optimization Problems",
+        "definition": "A decision problem is a problem that produces a yes or no answer, while an optimization problem is a problem that produces the best solution from all possible solutions.",
+        "real_world_application": "A famous decision problem is the boolean satisfiability problem: Given a boolean formula, the problem asks if the formula can be satisfied by assigning values to the variables.",
+        "latest_insight": "A famous optimization problem is the knapsack problem: Given a set of items, each with a weight and a value, it asks for the combination of items that has the highest total value while not exceeding a given weight."
+    },
+    {
+        "concept": "Nondeterminism",
+        "definition": "A nondeterministic algorithm can produce one of several possible outcomes at certain points during execution, with each outcome being determined by some probability distribution.",
+        "real_world_application": "Nondeterministic algorithms can be used to solve problems more efficiently than deterministic algorithms, but they may also be more difficult to analyze and predict.",
+        "latest_insight": "One example of a nondeterministic algorithm is the randomized quick sort algorithm, which uses randomization to efficiently sort a list of items."
+    },
+    {
+        "concept": "P and NP",
+        "definition": "P is a class of decision problems that can be solved by a deterministic machine in polynomial time, while NP is a class of decision problems that can be solved by a nondeterministic machine in polynomial time.",
+        "real_world_application": "The complexity of problems in the P class is easier to solve than problems in the NP class.",
+        "latest_insight": "It is not known whether P = NP, meaning that it is still an open question whether every problem in the NP class can be solved in polynomial time or not."
+    },
+    {
+        "concept": "Polynomial Reduction",
+        "definition": "If one problem can be transformed into another problem in polynomial time, the first problem is said to be reducible to the second problem.",
+        "real_world_application": "Polynomial reduction is used to study the relationships between different problems and to develop algorithms that can solve problems more efficiently.",
+        "latest_insight": "For example, if a problem L1 can be reduced to problem L2 in polynomial time, and L2 is known to be solvable in polynomial time, then L1 is also solvable in polynomial time."
+    },
+    {
+        "concept": "NP-complete",
+        "definition": "A problem L2 is NP-complete if every problem L1 in NP is reducible to L2 in polynomial time, and if L2 is also solvable in polynomial time.",
+        "real_world_application": "NP-complete problems are problems that are relatively difficult to solve, and are used to benchmark the performance of algorithms.",
+        "latest_insight": "It is still an open question whether NP-complete problems are solvable in polynomial time, and this is one of the most famous open problems in computer science."
+    },
+    {
+        "concept": "Approximation Algorithms",
+        "definition": "An approximation algorithm is an algorithm that finds a solution that is not necessarily the optimal solution but is close to the optimal solution.",
+        "real_world_application":
+2025-06-10 00:28:37,587 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-10 00:28:37,587 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-10 00:28:56,967 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-10 00:28:56,968 - enhanced_learning_service - WARNING - Received only 2 valid concepts, expected 7
+2025-06-10 00:39:24,743 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:46:04,114 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:48:56,970 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:48:57,815 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:49:53,166 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:50:33,158 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:52:09,543 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:52:10,396 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:55:04,790 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:55:50,423 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:55:51,338 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:57:27,038 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:58:01,217 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:59:43,229 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 00:59:44,092 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 01:00:47,543 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 01:07:11,937 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-10 01:07:12,786 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-11 22:45:58,503 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-11 22:45:59,150 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-11 22:51:18,699 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-11 22:51:30,103 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-11 22:51:30,103 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-11 22:51:49,761 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-11 22:51:49,762 - enhanced_learning_service - WARNING - Received only 3 valid concepts, expected 7
+2025-06-11 22:52:05,134 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-11 22:53:41,393 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-11 22:54:25,640 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-11 22:54:25,640 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-11 22:54:45,870 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-11 22:54:45,870 - enhanced_learning_service - WARNING - Received only 3 valid concepts, expected 7
+2025-06-11 22:55:04,744 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-11 22:55:09,717 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-11 22:56:39,537 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-11 22:56:39,537 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-11 22:57:15,218 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-11 22:57:15,219 - enhanced_learning_service - WARNING - Received only 6 valid concepts, expected 7
+2025-06-11 22:57:20,648 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2025-06-11 23:05:59,506 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-11 23:09:07,849 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-11 23:09:07,849 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-06-11 23:09:56,067 - enhanced_learning_service - INFO - Received response from Cohere API
+2025-06-11 23:09:56,068 - enhanced_learning_service - ERROR - Failed to parse JSON response: Expecting ',' delimiter: line 19 column 150 (char 1691)
+2025-06-11 23:09:56,069 - enhanced_learning_service - ERROR - Raw response: ```json
+{
+ "concepts": [
+    {
+        "concept": "NP-completeness",
+        "definition": "A set of decision problems, the solution of which can be verified quickly (in polynomial time)." ,
+        "real_world_application": "It is a theoretical concept in computer science that is used to solve complex problems." ,
+        "latest_insight": "It is not known if the class of NP-complete problems is equal to the class of problems that can be solved in polynomial time (P)."
+    },
+    {
+        "concept": "Tractable and Intractable Problems",
+        "definition": "A tractable problem is a problem that can be solved in polynomial time, while an intractable problem is a problem that cannot be solved in polynomial time.",
+        "real_world_application": "Tractable problems are problems that a computational agent can solve easily. On the other hand, intractable problems are problems that are very difficult to solve." ,
+        "latest_insight": "A famous example of an intractable problem is the traveling salesman problem, which is a problem that asks for the shortest possible route that visits a given set of cities."
+    } ,
+    {
+        "concept": "Decision and Optimization Problems",
+        "definition": "A decision problem is a problem that can be solved by determining whether a given input satisfies a given condition.",
+        "real_world_application": "A example of a decision problem is satisfiability problem, which is a problem that asks if a given boolean formula can be satisfied by assigning values to its variables.",
+        "latest_insight": "The theory of NP-completeness has been developed for decision problems. These are the problems for which the answer is \\"yes\\" or \\"no\\"."
+    } ,
+    {
+        "concept": "Nondeterminism",
+        "definition": "A nondeterministic algorithm is an algorithm that can produce different outputs for the same input.",
+        "real_world_application": "Nondeterministic algorithms are often used to solve problems that are impossible to solve with deterministic algorithms, such as the Traveling Salesman problem.",
+        "latest_insight": "Nondeterministic algorithms can be very powerful, but they are also very difficult to work with. Because they can produce different outputs for the same input, they can be very hard to analyze and predict."
+    } ,
+    {
+        "concept": "P and NP",
+        "definition": "P is a class of decision problems that can be solved in polynomial time.",
+        "real_world_application": "NP is a class of decision problems that can be solved by a nondeterministic algorithm in polynomial time.",
+        "latest_insight": "It is not known if P is equal to NP, and this is one of the most famous open questions in computer science."
+    } ,
+    {
+        "concept": "Polynomial Reduction",
+        "definition": "A polynomial reduction is a transformation of one problem into another that preserves the answer.",
+        "real_world_application": "Polynomial reductions are used to prove that problems are NP-complete.",
+        "latest_insight": "A polynomial reduction is a function that takes an input for one problem and converts it into an input for another problem, such that the answer to the second problem is the same as the answer to the first problem."
+    } ,
+    {
+        "concept": "NP-complete",
+        "definition": "A problem L2 is NP-complete if: i) every problem L1 in NP is polynomially reducible to L2, and ii) L2 is not in P.",
+        "real_world_application": "NP-complete problems are the most difficult problems in the class of NP problems.",
+        "latest_insight": "To date, no one has been able to solve any of the NP-complete problems in polynomial time, and it is not known if any of them can be solved in polynomial time."
+    } ,
+    {
+        "concept": "Approximation Algorithms",
+        "definition": "An approximation algorithm is an algorithm that finds a solution that is not necessarily the optimal solution, but that is close to the optimal solution.",
+        "real_world_application": "Approximation algorithms are used to find near-optimal solutions to NP-complete problems, which cannot be solved optimally in a reasonable amount of time.",
+        "latest_insight": "One popular approximation algorithm is the greedy algorithm, which is an algorithm that always makes the decision that looks like it will give the best result at the time it is made."
+    } ,
+    {
+        "concept": "Vertex Cover Problem",
+        "definition": "The vertex cover problem asks for a subset of vertices that covers all the edges of the
+2025-06-11 23:14:25,590 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-06-11 23:15:48,321 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-06-11 23:15:48,322 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-08-19 21:52:00,282 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-08-19 21:52:00,954 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-08-19 21:54:05,994 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-12-08 12:45:48,523 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-12-08 12:45:48,955 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-12-08 12:47:00,338 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2025-12-08 12:47:00,338 - enhanced_learning_service - INFO - Sending request to Cohere API
+2025-12-08 12:47:00,768 - enhanced_learning_service - ERROR - Error generating learning content: API request failed with status 404: {"id":"7a86b9ad-e851-4741-abda-4c67b8d127bb","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+Traceback (most recent call last):
+  File "D:\new projects\Final summer project\clever-chapter-cards\backend\services\enhanced_learning_service.py", line 54, in generate_learning_content
+    response = await copilot_client.generate_chat_completion([{"content": message}])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\new projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 85, in generate_chat_completion
+    raise Exception(f"API request failed with status {response.status}: {error_text}")
+Exception: API request failed with status 404: {"id":"7a86b9ad-e851-4741-abda-4c67b8d127bb","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 11:33:20,361 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 11:33:30,377 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 14:54:53,867 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 14:54:54,123 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2026-03-15 14:54:54,124 - enhanced_learning_service - INFO - Querying RAG for enhanced learning concepts (doc_id: Amortize_Analysis.pptx.pdf)
+2026-03-15 14:54:54,145 - enhanced_learning_service - INFO - Sending request to Cohere API
+2026-03-15 14:54:54,657 - enhanced_learning_service - ERROR - Error generating learning content: API request failed with status 404: {"id":"d7bef41f-8c0f-4c94-83c3-786e7db7b065","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+Traceback (most recent call last):
+  File "D:\new projects\Final summer project\clever-chapter-cards\backend\services\enhanced_learning_service.py", line 68, in generate_learning_content
+    response = await copilot_client.generate_chat_completion([{"content": message}])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\new projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 85, in generate_chat_completion
+    raise Exception(f"API request failed with status {response.status}: {error_text}")
+Exception: API request failed with status 404: {"id":"d7bef41f-8c0f-4c94-83c3-786e7db7b065","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 14:55:06,167 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 14:56:42,972 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:03:47,900 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:03:58,679 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:04:10,039 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2026-03-15 15:04:10,039 - enhanced_learning_service - INFO - Querying RAG for enhanced learning concepts (doc_id: GreedyParadigmFractionalKnapsack_1.pdf)
+2026-03-15 15:04:10,054 - enhanced_learning_service - INFO - Preparing request to AI generation service
+2026-03-15 15:04:10,055 - enhanced_learning_service - INFO - Sending request to Groq API
+2026-03-15 15:04:10,130 - enhanced_learning_service - WARNING - Groq content generation failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:04:10,130 - enhanced_learning_service - INFO - Sending request to Cohere API (Fallback)
+2026-03-15 15:04:10,135 - enhanced_learning_service - ERROR - Error generating learning content: cannot schedule new futures after shutdown
+Traceback (most recent call last):
+  File "D:\new projects\Final summer project\clever-chapter-cards\backend\services\enhanced_learning_service.py", line 84, in generate_learning_content
+    response = await copilot_client.generate_chat_completion([{"role": "user", "content": message}])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\new projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 77, in generate_chat_completion
+    async with session.post(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 1194, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 578, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\connector.py", line 1173, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\connector.py", line 884, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 863, in run_in_executor
+    executor.submit(func, *args), loop=self)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 170, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+2026-03-15 15:04:21,713 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:05:38,806 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:08:36,541 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2026-03-15 15:08:36,541 - enhanced_learning_service - INFO - Querying RAG for enhanced learning concepts (doc_id: Amortize_Analysis.pptx.pdf)
+2026-03-15 15:08:36,574 - enhanced_learning_service - INFO - Preparing request to AI generation service
+2026-03-15 15:08:36,575 - enhanced_learning_service - INFO - Sending request to Groq API
+2026-03-15 15:08:36,652 - enhanced_learning_service - WARNING - Groq content generation failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:08:36,653 - enhanced_learning_service - INFO - Sending request to Cohere API (Fallback)
+2026-03-15 15:08:37,097 - enhanced_learning_service - ERROR - Error generating learning content: API request failed with status 404: {"id":"6dea8209-c949-4698-8608-32b15153ae1e","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+Traceback (most recent call last):
+  File "D:\new projects\Final summer project\clever-chapter-cards\backend\services\enhanced_learning_service.py", line 84, in generate_learning_content
+    response = await copilot_client.generate_chat_completion([{"role": "user", "content": message}])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\new projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 85, in generate_chat_completion
+    raise Exception(f"API request failed with status {response.status}: {error_text}")
+Exception: API request failed with status 404: {"id":"6dea8209-c949-4698-8608-32b15153ae1e","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:12:53,529 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:13:30,730 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2026-03-15 15:13:30,730 - enhanced_learning_service - INFO - Querying RAG for enhanced learning concepts (doc_id: Amortize_Analysis.pptx.pdf)
+2026-03-15 15:13:30,744 - enhanced_learning_service - INFO - Preparing request to AI generation service
+2026-03-15 15:13:30,744 - enhanced_learning_service - INFO - Sending request to Groq API
+2026-03-15 15:13:30,828 - enhanced_learning_service - WARNING - Groq content generation failed: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:13:30,828 - enhanced_learning_service - INFO - Sending request to Cohere API (Fallback)
+2026-03-15 15:13:31,262 - enhanced_learning_service - ERROR - Error generating learning content: API request failed with status 404: {"id":"83847d37-708f-410c-907d-b45d385479c7","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+Traceback (most recent call last):
+  File "D:\new projects\Final summer project\clever-chapter-cards\backend\services\enhanced_learning_service.py", line 84, in generate_learning_content
+    response = await copilot_client.generate_chat_completion([{"role": "user", "content": message}])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\new projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 85, in generate_chat_completion
+    raise Exception(f"API request failed with status {response.status}: {error_text}")
+Exception: API request failed with status 404: {"id":"83847d37-708f-410c-907d-b45d385479c7","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:14:29,569 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:15:28,642 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:15:37,872 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:16:25,079 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2026-03-15 15:16:25,080 - enhanced_learning_service - INFO - Querying RAG for enhanced learning concepts (doc_id: Amortize_Analysis.pptx.pdf)
+2026-03-15 15:16:25,099 - enhanced_learning_service - INFO - Preparing request to AI generation service
+2026-03-15 15:16:25,100 - enhanced_learning_service - INFO - Sending request to Groq API
+2026-03-15 15:16:27,324 - enhanced_learning_service - INFO - Received AI response
+2026-03-15 15:16:27,326 - enhanced_learning_service - WARNING - Received only 4 valid concepts, expected 7
+2026-03-15 15:16:28,842 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2026-03-15 15:21:45,759 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2026-03-15 15:21:45,759 - enhanced_learning_service - INFO - Querying RAG for enhanced learning concepts (doc_id: CP-DC.pdf)
+2026-03-15 15:21:45,775 - enhanced_learning_service - INFO - Preparing request to AI generation service
+2026-03-15 15:21:45,775 - enhanced_learning_service - INFO - Sending request to Groq API
+2026-03-15 15:21:48,078 - enhanced_learning_service - INFO - Received AI response
+2026-03-15 15:21:48,078 - enhanced_learning_service - ERROR - Failed to parse JSON response: Expecting ',' delimiter: line 7 column 209 (char 1186)
+2026-03-15 15:22:42,289 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:26:17,749 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2026-03-15 15:26:17,750 - enhanced_learning_service - INFO - Querying RAG for enhanced learning concepts (doc_id: GreedyParadigmFractionalKnapsack.pdf)
+2026-03-15 15:26:17,766 - enhanced_learning_service - INFO - Preparing request to AI generation service
+2026-03-15 15:26:17,766 - enhanced_learning_service - INFO - Sending request to Groq API
+2026-03-15 15:26:19,591 - enhanced_learning_service - INFO - Received AI response
+2026-03-15 15:26:19,591 - enhanced_learning_service - WARNING - Received only 3 valid concepts, expected 7
+2026-03-15 15:26:24,658 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2026-03-15 15:31:04,169 - enhanced_learning_service - INFO - Starting enhanced learning content generation
+2026-03-15 15:31:04,169 - enhanced_learning_service - INFO - Querying RAG for enhanced learning concepts (doc_id: GreedyParadigmFractionalKnapsack_1.pdf)
+2026-03-15 15:31:04,186 - enhanced_learning_service - INFO - Preparing request to AI generation service
+2026-03-15 15:31:04,187 - enhanced_learning_service - INFO - Sending request to Groq API
+2026-03-15 15:31:06,405 - enhanced_learning_service - INFO - Received AI response
+2026-03-15 15:31:06,405 - enhanced_learning_service - WARNING - Received only 3 valid concepts, expected 7
+2026-03-15 15:31:18,465 - enhanced_learning_service - INFO - Successfully generated 7 learning concepts
+2026-03-15 15:37:28,803 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:37:42,975 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:38:08,713 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:41:23,261 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:41:33,745 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:42:56,820 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:43:04,104 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:43:58,682 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:48:59,010 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:49:38,970 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:50:02,869 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:50:14,135 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:51:21,190 - enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2026-03-15 15:51:33,222 - enhanced_learning_service - INFO - Initialized EnhancedLearningService

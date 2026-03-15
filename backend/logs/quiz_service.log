@@ -1,0 +1,282 @@
+2025-06-08 21:42:27,155 - quiz_service - INFO - Initialized QuizService
+2025-06-08 21:42:27,817 - quiz_service - INFO - Initialized QuizService
+2025-06-08 21:43:52,866 - quiz_service - INFO - Starting quiz generation
+2025-06-08 21:43:52,866 - quiz_service - INFO - Sending request to Cohere API for quiz generation
+2025-06-08 21:44:29,535 - quiz_service - INFO - Received response from Cohere API
+2025-06-08 21:44:29,536 - quiz_service - INFO - Successfully generated 5 quiz questions
+2025-06-08 21:46:11,655 - quiz_service - INFO - Starting quiz generation
+2025-06-08 21:46:11,656 - quiz_service - INFO - Sending request to Cohere API for quiz generation
+2025-06-08 21:46:38,394 - quiz_service - INFO - Received response from Cohere API
+2025-06-08 21:46:38,395 - quiz_service - ERROR - Failed to parse JSON response: Expecting ',' delimiter: line 33 column 25 (char 2048)
+2025-06-08 21:46:38,395 - quiz_service - ERROR - Raw response: Here is a set of quiz questions based on the provided text:
+
+```json
+[
+    {
+        "question": "What is the complexity of the satisfiability problem?",
+        "options": ["O(n)", "O(nm)", "O(n^2)", "O(n!)"],
+        "correct_answer": "O(nm)",
+        "explanation": "The complexity of the satisfiability problem is O(nm) as stated in the text."
+    },
+    {
+        "question": "Which of these best describes the NP-complete problem?",
+        "options": ["(i) a deterministic algorithm that always returns the correct solution",
+                        "(ii) a problem that can be solved in polynomial time",
+                        "(iii) a problem that can be checked in polynomial time",
+                        "(iv) a problem that is at least as hard as any other problem in NP",
+                        "(v) a problem that is not solved by a non-deterministic algorithm"],
+        "correct_answer": "(iv)",
+        "explanation": "Answer (iv) best describes the property of NP-complete problems. They are at least as hard as any other problem in NP and are not solved by a non-deterministic algorithm."
+    },
+    {
+        "question": "Which of these is an example of an NP-complete problem?",
+        "options": ["(A) Prime factorization",
+                        "(B) Insertion Sort",
+                        "(C) Graph coloring",
+                        "(D) Halting problem"],
+        "correct_answer": "(D)",
+        "explanation": "The Halting problem is an example of an NP-complete problem. It is noted to be undecidable and unsolvable in the text."
+    },
+    {
+        "question": "Which of these best describes the Independent Set problem?",
+        "options": ["(A) a set of vertices in a graph that have at least one edge incident to each pair of vertices",
+                        "(B) a set of vertices in a graph that have no edges between them",
+                        "(C) a set of vertices in a graph that shares at least one edge with each pair of vertices",
+                        "(D) a set of vertices in a graph that do not share any edges between them.",
+        "correct_answer": "(D)",
+        "explanation": "Answer (D) best describes the Independent Set problem, where a set of vertices in a graph does not share any edges between them."
+    }
+]
+```
+2025-06-08 21:48:34,762 - quiz_service - INFO - Initialized QuizService
+2025-06-08 21:48:50,501 - quiz_service - INFO - Initialized QuizService
+2025-06-08 21:50:37,155 - quiz_service - INFO - Starting quiz generation
+2025-06-08 21:50:37,155 - quiz_service - INFO - Sending request to Cohere API for quiz generation
+2025-06-08 21:51:37,665 - quiz_service - ERROR - Error generating quiz: 
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\quiz_service.py", line 53, in generate_quiz
+    response = await copilot_client.generate_chat_completion([{"content": message}])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 77, in generate_chat_completion
+    async with session.post(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 1194, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 605, in _request
+    await resp.start(conn)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 961, in start
+    with self._timer:
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\helpers.py", line 735, in __exit__
+    raise asyncio.TimeoutError from None
+TimeoutError
+2025-06-08 21:52:34,921 - quiz_service - INFO - Initialized QuizService
+2025-06-08 21:53:10,782 - quiz_service - INFO - Initialized QuizService
+2025-06-08 21:57:27,982 - quiz_service - INFO - Initialized QuizService
+2025-06-08 22:12:10,381 - quiz_service - INFO - Initialized QuizService
+2025-06-08 22:12:11,026 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:09:16,252 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:09:17,037 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:16:13,313 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:39:24,746 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:46:04,117 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:48:56,973 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:48:57,817 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:49:53,169 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:50:33,161 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:52:09,545 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:52:10,397 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:55:04,793 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:55:50,425 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:55:51,339 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:57:27,039 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:58:01,220 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:59:43,232 - quiz_service - INFO - Initialized QuizService
+2025-06-10 00:59:44,094 - quiz_service - INFO - Initialized QuizService
+2025-06-10 01:00:47,544 - quiz_service - INFO - Initialized QuizService
+2025-06-10 01:07:11,939 - quiz_service - INFO - Initialized QuizService
+2025-06-10 01:07:12,788 - quiz_service - INFO - Initialized QuizService
+2025-06-11 22:45:58,503 - quiz_service - INFO - Initialized QuizService
+2025-06-11 22:45:59,151 - quiz_service - INFO - Initialized QuizService
+2025-06-11 22:51:18,700 - quiz_service - INFO - Initialized QuizService
+2025-06-11 22:53:41,396 - quiz_service - INFO - Initialized QuizService
+2025-06-11 22:55:09,719 - quiz_service - INFO - Initialized QuizService
+2025-06-11 22:57:20,859 - quiz_service - INFO - Starting quiz generation
+2025-06-11 22:57:20,859 - quiz_service - INFO - Input text length: 9755 characters
+2025-06-11 22:57:20,859 - quiz_service - INFO - Sending request to AI (attempt 1 of 3)
+2025-06-11 22:58:03,446 - quiz_service - INFO - Received response from AI (attempt 1)
+2025-06-11 22:58:03,447 - quiz_service - ERROR - Failed to parse JSON response: Unterminated string starting at: line 101 column 4 (char 3217)
+2025-06-11 22:58:03,447 - quiz_service - INFO - Sending request to AI (attempt 2 of 3)
+2025-06-11 22:58:46,902 - quiz_service - INFO - Received response from AI (attempt 2)
+2025-06-11 22:58:46,902 - quiz_service - ERROR - Failed to parse JSON response: Expecting property name enclosed in double quotes: line 68 column 4 (char 4724)
+2025-06-11 22:58:46,903 - quiz_service - INFO - Sending request to AI (attempt 3 of 3)
+2025-06-11 23:05:59,509 - quiz_service - INFO - Initialized QuizService
+2025-06-11 23:09:56,369 - quiz_service - INFO - Starting quiz generation
+2025-06-11 23:09:56,370 - quiz_service - INFO - Input text length: 9755 characters
+2025-06-11 23:09:56,370 - quiz_service - INFO - Sending request to AI (attempt 1 of 3)
+2025-06-11 23:10:57,251 - quiz_service - ERROR - Error in _generate_ai_questions: 
+2025-06-11 23:10:57,252 - quiz_service - INFO - Sending request to AI (attempt 2 of 3)
+2025-06-11 23:14:25,592 - quiz_service - INFO - Initialized QuizService
+2025-06-11 23:16:48,618 - quiz_service - INFO - Starting quiz generation
+2025-06-11 23:16:48,618 - quiz_service - INFO - Input text length: 9755 characters
+2025-06-11 23:16:48,618 - quiz_service - INFO - Sending request to AI (attempt 1 of 3)
+2025-06-11 23:17:35,462 - quiz_service - INFO - Received response from AI (attempt 1)
+2025-06-11 23:17:35,462 - quiz_service - ERROR - Failed to parse JSON response: Unterminated string starting at: line 65 column 17 (char 4008)
+2025-06-11 23:17:35,464 - quiz_service - INFO - Sending request to AI (attempt 2 of 3)
+2025-06-11 23:18:31,524 - quiz_service - INFO - Received response from AI (attempt 2)
+2025-06-11 23:18:31,525 - quiz_service - ERROR - Failed to parse JSON response: Unterminated string starting at: line 82 column 7 (char 4556)
+2025-06-11 23:18:31,525 - quiz_service - INFO - Sending request to AI (attempt 3 of 3)
+2025-08-19 21:52:00,285 - quiz_service - INFO - Initialized QuizService
+2025-08-19 21:52:00,956 - quiz_service - INFO - Initialized QuizService
+2025-08-19 21:54:05,995 - quiz_service - INFO - Initialized QuizService
+2025-12-08 12:45:48,525 - quiz_service - INFO - Initialized QuizService
+2025-12-08 12:45:48,956 - quiz_service - INFO - Initialized QuizService
+2025-12-08 12:47:00,874 - quiz_service - INFO - Starting quiz generation
+2025-12-08 12:47:00,874 - quiz_service - INFO - Input text length: 1325 characters
+2025-12-08 12:47:00,874 - quiz_service - INFO - Sending request to AI (attempt 1 of 3)
+2025-12-08 12:47:01,292 - quiz_service - ERROR - Error in _generate_ai_questions: API request failed with status 404: {"id":"b061f412-7f40-46d4-9654-d301f8303a45","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2025-12-08 12:47:01,292 - quiz_service - INFO - Sending request to AI (attempt 2 of 3)
+2025-12-08 12:47:01,712 - quiz_service - ERROR - Error in _generate_ai_questions: API request failed with status 404: {"id":"0e6712ef-b701-4545-8a8d-a1ca879e1cbb","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2025-12-08 12:47:01,712 - quiz_service - INFO - Sending request to AI (attempt 3 of 3)
+2025-12-08 12:47:02,142 - quiz_service - ERROR - Error in _generate_ai_questions: API request failed with status 404: {"id":"8a61bd40-c199-4301-9b33-a0288b17e435","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2025-12-08 12:47:02,584 - quiz_service - ERROR - Error in _generate_simple_questions: API request failed with status 404: {"id":"d4ce267f-dcbd-4ad1-8ad9-a96f4bdac84a","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2025-12-08 12:47:02,584 - quiz_service - INFO - Generating 10 fallback questions
+2025-12-08 12:47:02,585 - quiz_service - WARNING - Generating 10 fallback questions
+2025-12-08 12:47:02,586 - quiz_service - INFO - Returning 10 questions
+2026-03-15 11:33:20,367 - quiz_service - INFO - Initialized QuizService
+2026-03-15 11:33:30,379 - quiz_service - INFO - Initialized QuizService
+2026-03-15 14:54:53,869 - quiz_service - INFO - Initialized QuizService
+2026-03-15 14:54:54,871 - quiz_service - INFO - Starting quiz generation
+2026-03-15 14:54:54,888 - quiz_service - INFO - Sending request to AI (attempt 1)
+2026-03-15 14:54:54,888 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 14:54:55,328 - quiz_service - ERROR - Error in attempt 1: API request failed with status 404: {"id":"45fcdf96-8925-4dde-a921-7f5d7904eb54","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 14:54:55,330 - quiz_service - INFO - Sending request to AI (attempt 2)
+2026-03-15 14:54:55,330 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 14:54:55,335 - quiz_service - ERROR - Error in attempt 2: cannot schedule new futures after shutdown
+2026-03-15 14:54:55,335 - quiz_service - INFO - Sending request to AI (attempt 3)
+2026-03-15 14:54:55,335 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 14:54:55,339 - quiz_service - ERROR - Error in attempt 3: cannot schedule new futures after shutdown
+2026-03-15 14:55:06,169 - quiz_service - INFO - Initialized QuizService
+2026-03-15 14:56:42,977 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:03:47,901 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:03:58,681 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:04:21,714 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:04:22,100 - quiz_service - INFO - Starting quiz generation
+2026-03-15 15:04:22,122 - quiz_service - INFO - Sending request to AI (attempt 1)
+2026-03-15 15:04:22,122 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:04:22,511 - quiz_service - WARNING - Groq quiz generation attempt failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:04:22,511 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:04:22,995 - quiz_service - ERROR - Error in attempt 1: API request failed with status 404: {"id":"dab4d0e9-a3a9-4622-90c5-23b38f1c99fe","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:04:22,996 - quiz_service - INFO - Sending request to AI (attempt 2)
+2026-03-15 15:04:22,997 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:04:23,081 - quiz_service - WARNING - Groq quiz generation attempt failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:04:23,081 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:04:23,522 - quiz_service - ERROR - Error in attempt 2: API request failed with status 404: {"id":"b78da5ae-643b-477a-b217-19186ecf54c4","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:04:23,522 - quiz_service - INFO - Sending request to AI (attempt 3)
+2026-03-15 15:04:23,523 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:04:23,611 - quiz_service - WARNING - Groq quiz generation attempt failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:04:23,611 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:04:24,056 - quiz_service - ERROR - Error in attempt 3: API request failed with status 404: {"id":"b3ee1936-f1df-4fc9-8dac-2786ab262c1f","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:05:38,808 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:08:37,238 - quiz_service - INFO - Starting quiz generation
+2026-03-15 15:08:37,251 - quiz_service - INFO - Sending request to AI (attempt 1)
+2026-03-15 15:08:37,251 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:08:37,335 - quiz_service - WARNING - Groq quiz generation attempt failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:08:37,336 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:08:37,779 - quiz_service - ERROR - Error in attempt 1: API request failed with status 404: {"id":"4105084b-610f-4fca-b626-8572d19f53fc","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:08:37,779 - quiz_service - INFO - Sending request to AI (attempt 2)
+2026-03-15 15:08:37,779 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:08:37,863 - quiz_service - WARNING - Groq quiz generation attempt failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:08:37,864 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:08:38,306 - quiz_service - ERROR - Error in attempt 2: API request failed with status 404: {"id":"a014264a-9cbd-40f3-99d4-57182ac9baf9","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:08:38,306 - quiz_service - INFO - Sending request to AI (attempt 3)
+2026-03-15 15:08:38,308 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:08:38,383 - quiz_service - WARNING - Groq quiz generation attempt failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:08:38,383 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:08:38,803 - quiz_service - ERROR - Error in attempt 3: API request failed with status 404: {"id":"22a3e50f-aa54-4184-bac9-5f8b0575fd12","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:12:53,530 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:13:31,397 - quiz_service - INFO - Starting quiz generation
+2026-03-15 15:13:31,410 - quiz_service - INFO - Sending request to AI (attempt 1)
+2026-03-15 15:13:31,410 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:13:31,485 - quiz_service - WARNING - Groq quiz generation attempt failed: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:13:31,485 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:13:31,921 - quiz_service - ERROR - Error in attempt 1: API request failed with status 404: {"id":"65250969-f4ee-4acb-816c-26cdf5456d5e","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:13:31,921 - quiz_service - INFO - Sending request to AI (attempt 2)
+2026-03-15 15:13:31,922 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:13:32,002 - quiz_service - WARNING - Groq quiz generation attempt failed: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:13:32,003 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:13:32,439 - quiz_service - ERROR - Error in attempt 2: API request failed with status 404: {"id":"2a981750-5184-4ba1-a92f-85e598538289","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:13:32,439 - quiz_service - INFO - Sending request to AI (attempt 3)
+2026-03-15 15:13:32,441 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:13:32,517 - quiz_service - WARNING - Groq quiz generation attempt failed: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:13:32,517 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:13:32,972 - quiz_service - ERROR - Error in attempt 3: API request failed with status 404: {"id":"ec659d18-5f41-4202-a7c9-06126b222e9f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:14:29,570 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:15:28,643 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:15:37,873 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:16:28,997 - quiz_service - INFO - Starting quiz generation
+2026-03-15 15:16:29,011 - quiz_service - INFO - Sending request to AI (attempt 1)
+2026-03-15 15:16:29,011 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:16:33,720 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:16:34,222 - quiz_service - ERROR - Error in attempt 1: API request failed with status 404: {"id":"7854bc35-055c-4d88-b0a3-74a3adefcb8d","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:16:34,222 - quiz_service - INFO - Sending request to AI (attempt 2)
+2026-03-15 15:16:34,223 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:16:42,466 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:16:43,187 - quiz_service - ERROR - Error in attempt 2: API request failed with status 404: {"id":"e5f77887-3560-40eb-9dc2-10edc6f5a13e","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:16:43,188 - quiz_service - INFO - Sending request to AI (attempt 3)
+2026-03-15 15:16:43,188 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:16:51,688 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:16:52,118 - quiz_service - ERROR - Error in attempt 3: API request failed with status 404: {"id":"d76db751-8781-47de-b2ad-81318b33896b","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:21:48,429 - quiz_service - INFO - Starting quiz generation
+2026-03-15 15:21:48,445 - quiz_service - INFO - Sending request to AI (attempt 1)
+2026-03-15 15:21:48,445 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:21:54,491 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:21:54,495 - quiz_service - ERROR - Error in attempt 1: cannot schedule new futures after shutdown
+2026-03-15 15:21:54,495 - quiz_service - INFO - Sending request to AI (attempt 2)
+2026-03-15 15:21:54,496 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:22:12,906 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:22:12,911 - quiz_service - ERROR - Error in attempt 2: cannot schedule new futures after shutdown
+2026-03-15 15:22:12,911 - quiz_service - INFO - Sending request to AI (attempt 3)
+2026-03-15 15:22:12,911 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:22:31,150 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:22:31,154 - quiz_service - ERROR - Error in attempt 3: cannot schedule new futures after shutdown
+2026-03-15 15:22:42,291 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:26:24,972 - quiz_service - INFO - Starting quiz generation
+2026-03-15 15:26:24,987 - quiz_service - INFO - Sending request to AI (attempt 1)
+2026-03-15 15:26:24,987 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:26:45,901 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:26:46,535 - quiz_service - ERROR - Error in attempt 1: API request failed with status 404: {"id":"418f2afa-3793-454d-bc22-e260fe7cca7e","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:26:46,536 - quiz_service - INFO - Sending request to AI (attempt 2)
+2026-03-15 15:26:46,537 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:27:13,407 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:27:13,871 - quiz_service - ERROR - Error in attempt 2: API request failed with status 404: {"id":"e28a13a8-8237-4a38-8087-3928cbb64052","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:27:13,871 - quiz_service - INFO - Sending request to AI (attempt 3)
+2026-03-15 15:27:13,872 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:27:34,262 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:27:34,730 - quiz_service - ERROR - Error in attempt 3: API request failed with status 404: {"id":"4e425d20-031c-4b65-b616-18948062aafc","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:31:18,772 - quiz_service - INFO - Starting quiz generation
+2026-03-15 15:31:18,788 - quiz_service - INFO - Sending request to AI (attempt 1)
+2026-03-15 15:31:18,789 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:31:40,432 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:31:41,277 - quiz_service - ERROR - Error in attempt 1: API request failed with status 404: {"id":"15a6cc89-c427-4c20-a7db-b1cf21c2aa29","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:31:41,277 - quiz_service - INFO - Sending request to AI (attempt 2)
+2026-03-15 15:31:41,278 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:32:02,270 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:32:02,716 - quiz_service - ERROR - Error in attempt 2: API request failed with status 404: {"id":"9156e2b3-9b6d-4ad3-87d3-996d0ddf64a6","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:32:02,717 - quiz_service - INFO - Sending request to AI (attempt 3)
+2026-03-15 15:32:02,718 - quiz_service - INFO - Trying Groq for quiz generation
+2026-03-15 15:32:17,622 - quiz_service - INFO - Trying Cohere for quiz generation (fallback)
+2026-03-15 15:32:18,077 - quiz_service - ERROR - Error in attempt 3: API request failed with status 404: {"id":"e62f6f07-1110-454f-9ce5-d7d01ca4e078","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:37:28,806 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:37:42,976 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:38:08,715 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:41:23,262 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:41:33,747 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:42:56,822 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:43:04,105 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:43:58,686 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:48:59,012 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:49:38,971 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:50:02,871 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:50:14,138 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:51:21,192 - quiz_service - INFO - Initialized QuizService
+2026-03-15 15:51:33,223 - quiz_service - INFO - Initialized QuizService

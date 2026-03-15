@@ -1,0 +1,1178 @@
+2025-05-27 09:25:18,268 - services.pdf_service - INFO - Initialized PDFService
+2025-05-27 09:25:18,402 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-27 09:25:26,082 - services.text_processor - INFO - Initializing TextProcessor...
+2025-05-27 09:25:26,091 - services.text_processor - INFO - TextProcessor initialized successfully
+2025-05-27 09:25:26,092 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-27 09:25:26,092 - __main__ - INFO - Starting application...
+2025-05-27 09:25:26,093 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-27 09:25:26,093 - __main__ - INFO - Loading environment variables...
+2025-05-27 09:25:26,094 - __main__ - INFO - GitHub token found in environment variables
+2025-05-27 09:25:26,095 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-27 09:25:26,117 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-27 09:25:26,117 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-27 09:25:26,118 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 09:25:26,414 - services.pdf_service - INFO - Initialized PDFService
+2025-05-27 09:25:26,528 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-27 09:25:27,674 - services.text_processor - INFO - Initializing TextProcessor...
+2025-05-27 09:25:27,675 - services.text_processor - INFO - TextProcessor initialized successfully
+2025-05-27 09:25:27,675 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-27 09:25:27,676 - __main__ - INFO - Starting application...
+2025-05-27 09:25:27,677 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-27 09:25:27,677 - __main__ - INFO - Loading environment variables...
+2025-05-27 09:25:27,678 - __main__ - INFO - GitHub token found in environment variables
+2025-05-27 09:25:27,679 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-27 09:25:27,684 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 09:25:27,688 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-27 09:25:35,914 - __main__ - INFO - Received request to generate flashcards
+2025-05-27 09:25:35,927 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-27 09:25:35,928 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-27 09:25:36,183 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-27 09:25:36,183 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-27 09:25:36,184 - services.flashcard_service - INFO - Starting flashcard generation
+2025-05-27 09:25:36,184 - services.flashcard_service - ERROR - Error generating flashcards: 'TextProcessor' object has no attribute 'process_text'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 31, in generate_flashcards
+    processed_text = self.text_processor.process_text(text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TextProcessor' object has no attribute 'process_text'
+2025-05-27 09:25:36,185 - __main__ - ERROR - Error processing PDF: 'TextProcessor' object has no attribute 'process_text'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\app.py", line 93, in generate_flashcards
+    flashcards = await flashcard_service.generate_flashcards(text)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 31, in generate_flashcards
+    processed_text = self.text_processor.process_text(text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TextProcessor' object has no attribute 'process_text'
+2025-05-27 09:25:36,189 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 09:25:36] "[35m[1mPOST /api/flashcards/generate HTTP/1.1[0m" 500 -
+2025-05-27 09:26:01,876 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\services\\text_processor.py', reloading
+2025-05-27 09:26:02,102 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 09:26:02,402 - services.pdf_service - INFO - Initialized PDFService
+2025-05-27 09:26:02,521 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-27 09:26:03,709 - services.text_processor - INFO - Initializing TextProcessor...
+2025-05-27 09:26:03,710 - services.text_processor - INFO - TextProcessor initialized successfully
+2025-05-27 09:26:03,710 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-27 09:26:03,711 - __main__ - INFO - Starting application...
+2025-05-27 09:26:03,711 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-27 09:26:03,712 - __main__ - INFO - Loading environment variables...
+2025-05-27 09:26:03,712 - __main__ - INFO - GitHub token found in environment variables
+2025-05-27 09:26:03,714 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-27 09:26:03,720 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 09:26:03,722 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-27 09:26:16,608 - __main__ - INFO - Received request to generate flashcards
+2025-05-27 09:26:16,616 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-27 09:26:16,616 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-27 09:26:16,838 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-27 09:26:16,838 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-27 09:26:16,839 - services.flashcard_service - INFO - Starting flashcard generation
+2025-05-27 09:26:16,839 - services.flashcard_service - ERROR - Error generating flashcards: 'TextProcessor' object has no attribute 'process_text'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 31, in generate_flashcards
+    processed_text = self.text_processor.process_text(text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TextProcessor' object has no attribute 'process_text'
+2025-05-27 09:26:16,841 - __main__ - ERROR - Error processing PDF: 'TextProcessor' object has no attribute 'process_text'
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\app.py", line 93, in generate_flashcards
+    flashcards = await flashcard_service.generate_flashcards(text)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 31, in generate_flashcards
+    processed_text = self.text_processor.process_text(text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TextProcessor' object has no attribute 'process_text'
+2025-05-27 09:26:16,845 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 09:26:16] "[35m[1mPOST /api/flashcards/generate HTTP/1.1[0m" 500 -
+2025-05-27 09:26:36,947 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\services\\flashcard_service.py', reloading
+2025-05-27 09:26:37,175 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 09:26:37,468 - services.pdf_service - INFO - Initialized PDFService
+2025-05-27 09:26:37,585 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-27 09:26:37,589 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-27 09:26:37,589 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-27 09:26:37,591 - __main__ - INFO - Starting application...
+2025-05-27 09:26:37,591 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-27 09:26:37,591 - __main__ - INFO - Loading environment variables...
+2025-05-27 09:26:37,592 - __main__ - INFO - GitHub token found in environment variables
+2025-05-27 09:26:37,594 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-27 09:26:37,602 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 09:26:37,606 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-27 09:26:38,619 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\services\\flashcard_service.py', reloading
+2025-05-27 09:26:38,668 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 09:26:38,960 - services.pdf_service - INFO - Initialized PDFService
+2025-05-27 09:26:39,080 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-27 09:26:39,081 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-27 09:26:39,081 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-27 09:26:39,082 - __main__ - INFO - Starting application...
+2025-05-27 09:26:39,082 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-27 09:26:39,082 - __main__ - INFO - Loading environment variables...
+2025-05-27 09:26:39,083 - __main__ - INFO - GitHub token found in environment variables
+2025-05-27 09:26:39,084 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-27 09:26:39,092 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 09:26:39,094 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-27 09:27:17,709 - __main__ - INFO - Received request to generate flashcards
+2025-05-27 09:27:17,716 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-27 09:27:17,716 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-27 09:27:17,884 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-27 09:27:17,885 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-27 09:27:17,885 - services.flashcard_service - INFO - Starting flashcard generation
+2025-05-27 09:27:17,885 - services.text_processor - INFO - Starting text processing
+2025-05-27 09:27:17,886 - services.text_processor - INFO - Text processing completed. Final length: 8521 characters
+2025-05-27 09:27:17,887 - services.flashcard_service - INFO - Processed text length: 8521 characters
+2025-05-27 09:27:17,887 - services.text_processor - INFO - Starting content structuring
+2025-05-27 09:27:17,887 - services.text_processor - INFO - Content structuring completed
+2025-05-27 09:27:17,888 - services.flashcard_service - INFO - Content structured into categories
+2025-05-27 09:27:17,888 - services.flashcard_service - INFO - Sending request to Cohere API
+2025-05-27 09:27:17,888 - services.copilot_service - INFO - Starting chat completion request
+2025-05-27 09:27:18,971 - services.copilot_service - ERROR - API request failed with status 400: {"message":"invalid request: message must be at least 1 token long or tool results must be specified."}
+2025-05-27 09:27:18,973 - services.copilot_service - ERROR - Error in generate_chat_completion: API request failed: {"message":"invalid request: message must be at least 1 token long or tool results must be specified."}
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 74, in generate_chat_completion
+    raise Exception(f"API request failed: {error_text}")
+Exception: API request failed: {"message":"invalid request: message must be at least 1 token long or tool results must be specified."}
+2025-05-27 09:27:18,973 - services.flashcard_service - ERROR - Error generating flashcards: API request failed: {"message":"invalid request: message must be at least 1 token long or tool results must be specified."}
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 63, in generate_flashcards
+    response = await copilot_client.generate_chat_completion(messages)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 74, in generate_chat_completion
+    raise Exception(f"API request failed: {error_text}")
+Exception: API request failed: {"message":"invalid request: message must be at least 1 token long or tool results must be specified."}
+2025-05-27 09:27:18,974 - __main__ - ERROR - Error processing PDF: API request failed: {"message":"invalid request: message must be at least 1 token long or tool results must be specified."}
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\app.py", line 93, in generate_flashcards
+    flashcards = await flashcard_service.generate_flashcards(text)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 63, in generate_flashcards
+    response = await copilot_client.generate_chat_completion(messages)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 74, in generate_chat_completion
+    raise Exception(f"API request failed: {error_text}")
+Exception: API request failed: {"message":"invalid request: message must be at least 1 token long or tool results must be specified."}
+2025-05-27 09:27:18,978 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 09:27:18] "[35m[1mPOST /api/flashcards/generate HTTP/1.1[0m" 500 -
+2025-05-27 09:27:55,400 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\services\\copilot_service.py', reloading
+2025-05-27 09:27:55,448 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 09:27:55,732 - services.pdf_service - INFO - Initialized PDFService
+2025-05-27 09:27:55,847 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-27 09:27:55,848 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-27 09:27:55,848 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-27 09:27:55,849 - __main__ - INFO - Starting application...
+2025-05-27 09:27:55,849 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-27 09:27:55,850 - __main__ - INFO - Loading environment variables...
+2025-05-27 09:27:55,850 - __main__ - INFO - GitHub token found in environment variables
+2025-05-27 09:27:55,852 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-27 09:27:55,859 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 09:27:55,862 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-27 09:47:26,266 - __main__ - INFO - Received request to generate flashcards
+2025-05-27 09:47:26,273 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-27 09:47:26,274 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-27 09:47:26,482 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-27 09:47:26,483 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-27 09:47:26,483 - services.flashcard_service - INFO - Starting flashcard generation
+2025-05-27 09:47:26,483 - services.text_processor - INFO - Starting text processing
+2025-05-27 09:47:26,485 - services.text_processor - INFO - Text processing completed. Final length: 8521 characters
+2025-05-27 09:47:26,485 - services.flashcard_service - INFO - Processed text length: 8521 characters
+2025-05-27 09:47:26,485 - services.text_processor - INFO - Starting content structuring
+2025-05-27 09:47:26,486 - services.text_processor - INFO - Content structuring completed
+2025-05-27 09:47:26,486 - services.flashcard_service - INFO - Content structured into categories
+2025-05-27 09:47:26,487 - services.flashcard_service - INFO - Sending request to Cohere API
+2025-05-27 09:47:26,487 - services.copilot_service - INFO - Starting chat completion request
+2025-05-27 09:47:34,563 - services.copilot_service - INFO - Successfully parsed JSON response with 10 flashcards
+2025-05-27 09:47:34,564 - services.flashcard_service - INFO - Generated 10 valid flashcards
+2025-05-27 09:47:34,564 - __main__ - INFO - Generated 10 flashcards
+2025-05-27 09:47:34,565 - __main__ - INFO - Removed temporary file uploads\AmotizedAnalysis_1.pdf
+2025-05-27 09:47:34,568 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 09:47:34] "POST /api/flashcards/generate HTTP/1.1" 200 -
+2025-05-27 09:51:49,881 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\services\\copilot_service.py', reloading
+2025-05-27 09:51:49,924 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 09:51:50,245 - services.pdf_service - INFO - Initialized PDFService
+2025-05-27 09:51:50,371 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-27 09:51:50,373 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-27 09:51:50,374 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-27 09:51:50,376 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-27 09:51:50,376 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-27 09:51:50,377 - __main__ - INFO - Starting application...
+2025-05-27 09:51:50,377 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-27 09:51:50,377 - __main__ - INFO - Loading environment variables...
+2025-05-27 09:51:50,378 - __main__ - INFO - GitHub token found in environment variables
+2025-05-27 09:51:50,379 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-27 09:51:50,387 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 09:51:50,390 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-27 09:52:56,982 - __main__ - INFO - Received request to generate flashcards
+2025-05-27 09:52:56,987 - __main__ - INFO - Saved file to uploads\TheoryofNPCompleteness.pdf
+2025-05-27 09:52:56,987 - services.pdf_service - INFO - Extracting text from PDF: uploads\TheoryofNPCompleteness.pdf
+2025-05-27 09:52:57,133 - services.pdf_service - INFO - Successfully extracted 9501 characters from PDF
+2025-05-27 09:52:57,133 - __main__ - INFO - Extracted 9501 characters from PDF
+2025-05-27 09:52:57,133 - services.flashcard_service - INFO - Starting flashcard generation
+2025-05-27 09:52:57,134 - services.text_processor - INFO - Starting text processing
+2025-05-27 09:52:57,136 - services.text_processor - INFO - Text processing completed. Final length: 9146 characters
+2025-05-27 09:52:57,136 - services.flashcard_service - INFO - Processed text length: 9146 characters
+2025-05-27 09:52:57,136 - services.text_processor - INFO - Starting content structuring
+2025-05-27 09:52:57,137 - services.text_processor - INFO - Content structuring completed
+2025-05-27 09:52:57,137 - services.flashcard_service - INFO - Content structured into categories
+2025-05-27 09:52:57,137 - services.flashcard_service - INFO - Sending request to Cohere API
+2025-05-27 09:52:57,138 - services.copilot_service - INFO - Starting chat completion request
+2025-05-27 09:53:07,122 - services.copilot_service - INFO - Successfully parsed JSON response with 15 flashcards
+2025-05-27 09:53:07,123 - services.flashcard_service - INFO - Generated 15 valid flashcards
+2025-05-27 09:53:07,123 - __main__ - INFO - Generated 15 flashcards
+2025-05-27 09:53:07,125 - __main__ - INFO - Removed temporary file uploads\TheoryofNPCompleteness.pdf
+2025-05-27 09:53:07,126 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 09:53:07] "POST /api/flashcards/generate HTTP/1.1" 200 -
+2025-05-27 09:55:24,216 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\services\\copilot_service.py', reloading
+2025-05-27 09:55:24,262 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 09:55:24,554 - services.pdf_service - INFO - Initialized PDFService
+2025-05-27 09:55:24,682 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-27 09:55:24,683 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-27 09:55:24,684 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-27 09:55:24,684 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-27 09:55:24,686 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-27 09:55:24,686 - __main__ - INFO - Starting application...
+2025-05-27 09:55:24,686 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-27 09:55:24,687 - __main__ - INFO - Loading environment variables...
+2025-05-27 09:55:24,687 - __main__ - INFO - GitHub token found in environment variables
+2025-05-27 09:55:24,688 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-27 09:55:24,695 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 09:55:24,699 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-27 09:55:47,827 - __main__ - INFO - Received request to generate flashcards
+2025-05-27 09:55:47,830 - __main__ - INFO - Saved file to uploads\TheoryofNPCompleteness.pdf
+2025-05-27 09:55:47,830 - services.pdf_service - INFO - Extracting text from PDF: uploads\TheoryofNPCompleteness.pdf
+2025-05-27 09:55:47,977 - services.pdf_service - INFO - Successfully extracted 9501 characters from PDF
+2025-05-27 09:55:47,977 - __main__ - INFO - Extracted 9501 characters from PDF
+2025-05-27 09:55:47,979 - services.flashcard_service - INFO - Starting flashcard generation
+2025-05-27 09:55:47,979 - services.text_processor - INFO - Starting text processing
+2025-05-27 09:55:47,980 - services.text_processor - INFO - Text processing completed. Final length: 9146 characters
+2025-05-27 09:55:47,980 - services.flashcard_service - INFO - Processed text length: 9146 characters
+2025-05-27 09:55:47,980 - services.text_processor - INFO - Starting content structuring
+2025-05-27 09:55:47,981 - services.text_processor - INFO - Content structuring completed
+2025-05-27 09:55:47,981 - services.flashcard_service - INFO - Content structured into categories
+2025-05-27 09:55:47,981 - services.flashcard_service - INFO - Sending request to Cohere API
+2025-05-27 09:55:47,981 - services.copilot_service - INFO - Starting chat completion request
+2025-05-27 09:55:56,780 - services.copilot_service - INFO - Successfully parsed JSON response with 14 flashcards
+2025-05-27 09:55:56,780 - services.flashcard_service - INFO - Generated 14 valid flashcards
+2025-05-27 09:55:56,781 - __main__ - INFO - Generated 14 flashcards
+2025-05-27 09:55:56,782 - __main__ - INFO - Removed temporary file uploads\TheoryofNPCompleteness.pdf
+2025-05-27 09:55:56,783 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 09:55:56] "POST /api/flashcards/generate HTTP/1.1" 200 -
+2025-05-27 09:57:25,145 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\services\\copilot_service.py', reloading
+2025-05-27 09:57:25,189 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 09:57:25,475 - services.pdf_service - INFO - Initialized PDFService
+2025-05-27 09:57:25,592 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-27 09:57:25,593 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-27 09:57:25,594 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-27 09:57:25,595 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-27 09:57:25,595 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-27 09:57:25,595 - __main__ - INFO - Starting application...
+2025-05-27 09:57:25,597 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-27 09:57:25,597 - __main__ - INFO - Loading environment variables...
+2025-05-27 09:57:25,597 - __main__ - INFO - GitHub token found in environment variables
+2025-05-27 09:57:25,599 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-27 09:57:25,605 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 09:57:25,609 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-27 09:57:26,623 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\services\\copilot_service.py', reloading
+2025-05-27 09:57:26,666 - werkzeug - INFO -  * Restarting with stat
+2025-05-27 09:57:26,966 - services.pdf_service - INFO - Initialized PDFService
+2025-05-27 09:57:27,081 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-27 09:57:27,081 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-27 09:57:27,082 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-27 09:57:27,084 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-27 09:57:27,085 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-27 09:57:27,085 - __main__ - INFO - Starting application...
+2025-05-27 09:57:27,085 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-27 09:57:27,086 - __main__ - INFO - Loading environment variables...
+2025-05-27 09:57:27,086 - __main__ - INFO - GitHub token found in environment variables
+2025-05-27 09:57:27,087 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-27 09:57:27,094 - werkzeug - WARNING -  * Debugger is active!
+2025-05-27 09:57:27,097 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-27 09:57:45,121 - __main__ - INFO - Received request to generate flashcards
+2025-05-27 09:57:45,124 - __main__ - INFO - Saved file to uploads\TheoryofNPCompleteness.pdf
+2025-05-27 09:57:45,125 - services.pdf_service - INFO - Extracting text from PDF: uploads\TheoryofNPCompleteness.pdf
+2025-05-27 09:57:45,291 - services.pdf_service - INFO - Successfully extracted 9501 characters from PDF
+2025-05-27 09:57:45,292 - __main__ - INFO - Extracted 9501 characters from PDF
+2025-05-27 09:57:45,292 - services.flashcard_service - INFO - Starting flashcard generation
+2025-05-27 09:57:45,292 - services.text_processor - INFO - Starting text processing
+2025-05-27 09:57:45,294 - services.text_processor - INFO - Text processing completed. Final length: 9146 characters
+2025-05-27 09:57:45,295 - services.flashcard_service - INFO - Processed text length: 9146 characters
+2025-05-27 09:57:45,295 - services.text_processor - INFO - Starting content structuring
+2025-05-27 09:57:45,295 - services.text_processor - INFO - Content structuring completed
+2025-05-27 09:57:45,295 - services.flashcard_service - INFO - Content structured into categories
+2025-05-27 09:57:45,295 - services.flashcard_service - INFO - Sending request to Cohere API
+2025-05-27 09:57:45,295 - services.copilot_service - INFO - Starting chat completion request
+2025-05-27 09:57:54,441 - services.copilot_service - INFO - === Generated Flashcards ===
+2025-05-27 09:57:54,441 - services.copilot_service - INFO - 
+Flashcard 1:
+2025-05-27 09:57:54,442 - services.copilot_service - INFO - Question: What are Tractable problems?
+2025-05-27 09:57:54,442 - services.copilot_service - INFO - Answer: Problems with polynomial time complexity, i.e., algorithms with time complexity of the form O(nk), where k is a constant and n is the size of the input.
+2025-05-27 09:57:54,442 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,443 - services.copilot_service - INFO - 
+Flashcard 2:
+2025-05-27 09:57:54,443 - services.copilot_service - INFO - Question: What are Intractable problems?
+2025-05-27 09:57:54,443 - services.copilot_service - INFO - Answer: Problems with exponential time complexities, requiring high time for execution.
+2025-05-27 09:57:54,444 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,444 - services.copilot_service - INFO - 
+Flashcard 3:
+2025-05-27 09:57:54,444 - services.copilot_service - INFO - Question: What is a Decision problem?
+2025-05-27 09:57:54,445 - services.copilot_service - INFO - Answer: A problem for which the answer is yes or no, e.g., given a graph G, is there a coloring using at most k colors so that no two adjacent vertices have the same color?
+2025-05-27 09:57:54,445 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,445 - services.copilot_service - INFO - 
+Flashcard 4:
+2025-05-27 09:57:54,445 - services.copilot_service - INFO - Question: What is an Optimization problem?
+2025-05-27 09:57:54,445 - services.copilot_service - INFO - Answer: A problem that asks for the optimization of some measure, e.g., find the minimum number of colors required to color a graph such that no two adjacent vertices have the same color.
+2025-05-27 09:57:54,445 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,445 - services.copilot_service - INFO - 
+Flashcard 5:
+2025-05-27 09:57:54,445 - services.copilot_service - INFO - Question: What is Nondeterminism?
+2025-05-27 09:57:54,445 - services.copilot_service - INFO - Answer: A model where algorithms can guess correct solutions using functions like Guess(), Success(), and Failure().
+2025-05-27 09:57:54,445 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,445 - services.copilot_service - INFO - 
+Flashcard 6:
+2025-05-27 09:57:54,447 - services.copilot_service - INFO - Question: What is the P-class of decision problems?
+2025-05-27 09:57:54,447 - services.copilot_service - INFO - Answer: A decision problem belongs to P-class if a deterministic algorithm for its solution runs in polynomial time.
+2025-05-27 09:57:54,447 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,447 - services.copilot_service - INFO - 
+Flashcard 7:
+2025-05-27 09:57:54,447 - services.copilot_service - INFO - Question: What is the NP-class of decision problems?
+2025-05-27 09:57:54,448 - services.copilot_service - INFO - Answer: A decision problem belongs to NP-class if a nondeterministic algorithm for its solution runs in polynomial time.
+2025-05-27 09:57:54,448 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,448 - services.copilot_service - INFO - 
+Flashcard 8:
+2025-05-27 09:57:54,448 - services.copilot_service - INFO - Question: What is Satisfiability problem?
+2025-05-27 09:57:54,448 - services.copilot_service - INFO - Answer: Given a Boolean formula in Conjunctive Normal Form (CNF), determine if there exists an assignment of values to variables that makes the formula evaluate to True.
+2025-05-27 09:57:54,449 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,449 - services.copilot_service - INFO - 
+Flashcard 9:
+2025-05-27 09:57:54,449 - services.copilot_service - INFO - Question: What is Polynomial Reduction?
+2025-05-27 09:57:54,449 - services.copilot_service - INFO - Answer: Transforming one problem (L1) into another (L2) using a function T, where the answer to L1 can be derived from the answer to L2 in polynomial time.
+2025-05-27 09:57:54,449 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,450 - services.copilot_service - INFO - 
+Flashcard 10:
+2025-05-27 09:57:54,450 - services.copilot_service - INFO - Question: What is an NP-complete problem?
+2025-05-27 09:57:54,450 - services.copilot_service - INFO - Answer: A problem that is in NP and to which every problem in NP can be polynomially reduced.
+2025-05-27 09:57:54,450 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,450 - services.copilot_service - INFO - 
+Flashcard 11:
+2025-05-27 09:57:54,450 - services.copilot_service - INFO - Question: What is an NP-hard problem?
+2025-05-27 09:57:54,451 - services.copilot_service - INFO - Answer: A problem to which every problem in NP can be polynomially reduced, but it may not be in NP itself.
+2025-05-27 09:57:54,452 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,452 - services.copilot_service - INFO - 
+Flashcard 12:
+2025-05-27 09:57:54,453 - services.copilot_service - INFO - Question: What is an Approximation Algorithm?
+2025-05-27 09:57:54,453 - services.copilot_service - INFO - Answer: An algorithm that finds a solution close to the optimal solution in polynomial time, often used for NP-hard optimization problems.
+2025-05-27 09:57:54,453 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,454 - services.copilot_service - INFO - 
+Flashcard 13:
+2025-05-27 09:57:54,454 - services.copilot_service - INFO - Question: What is a Vertex Cover?
+2025-05-27 09:57:54,454 - services.copilot_service - INFO - Answer: A subset of vertices in a graph such that every edge has at least one endpoint in the subset.
+2025-05-27 09:57:54,454 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,455 - services.copilot_service - INFO - 
+Flashcard 14:
+2025-05-27 09:57:54,573 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-27 09:57:54,573 - services.copilot_service - INFO - 
+Total flashcards generated: 14
+2025-05-27 09:57:54,574 - services.flashcard_service - INFO - Generated 14 valid flashcards
+2025-05-27 09:57:54,574 - __main__ - INFO - Generated 14 flashcards
+2025-05-27 09:57:54,576 - __main__ - INFO - Removed temporary file uploads\TheoryofNPCompleteness.pdf
+2025-05-27 09:57:54,577 - werkzeug - INFO - 127.0.0.1 - - [27/May/2025 09:57:54] "POST /api/flashcards/generate HTTP/1.1" 200 -
+2025-05-29 18:15:11,247 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:15:11,622 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:15:11,623 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:15:11,633 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:15:11,637 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:15:11,638 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:15:11,639 - __main__ - INFO - Starting application...
+2025-05-29 18:15:11,639 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:15:11,641 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:15:11,642 - __main__ - ERROR - GITHUB_TOKEN environment variable is not set
+2025-05-29 18:16:46,745 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:16:46,864 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:16:46,872 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:16:46,873 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:16:46,875 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:16:46,875 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:16:46,876 - __main__ - INFO - Starting application...
+2025-05-29 18:16:46,876 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:16:46,877 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:16:46,877 - __main__ - ERROR - GITHUB_TOKEN environment variable is not set
+2025-05-29 18:17:56,907 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:17:57,026 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:17:57,029 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:17:57,030 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:17:57,032 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:17:57,033 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:17:57,034 - __main__ - INFO - Starting application...
+2025-05-29 18:17:57,034 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:17:57,035 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:17:57,035 - __main__ - ERROR - GITHUB_TOKEN environment variable is not set
+2025-05-29 18:18:54,986 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:18:55,110 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:18:55,110 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:18:55,112 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:18:55,113 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:18:55,113 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:18:55,114 - __main__ - INFO - Starting application...
+2025-05-29 18:18:55,114 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:18:55,114 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:18:55,116 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:18:55,133 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-29 18:18:55,133 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 18:18:55,135 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 18:18:55,416 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:18:55,535 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:18:55,536 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:18:55,537 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:18:55,539 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:18:55,539 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:18:55,540 - __main__ - INFO - Starting application...
+2025-05-29 18:18:55,541 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:18:55,541 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:18:55,543 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:18:55,551 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 18:18:55,555 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 18:20:09,787 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:20:09,908 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:20:09,917 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:20:09,918 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:20:09,919 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:20:09,920 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:20:09,920 - __main__ - INFO - Starting application...
+2025-05-29 18:20:09,921 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:20:09,921 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:20:09,923 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:20:09,939 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-29 18:20:09,939 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 18:20:09,940 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 18:20:10,212 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:20:10,331 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:20:10,332 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:20:10,333 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:20:10,335 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:20:10,335 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:20:10,336 - __main__ - INFO - Starting application...
+2025-05-29 18:20:10,336 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:20:10,336 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:20:10,338 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:20:10,346 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 18:20:10,349 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 18:21:30,460 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:21:30,576 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:21:30,577 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:21:30,578 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:21:30,579 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:21:30,580 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:21:30,580 - __main__ - INFO - Starting application...
+2025-05-29 18:21:30,581 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:21:30,581 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:21:30,583 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:21:30,600 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-29 18:21:30,600 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 18:21:30,602 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 18:21:30,887 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:21:30,990 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:21:30,990 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:21:30,991 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:21:30,992 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:21:30,993 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:21:30,993 - __main__ - INFO - Starting application...
+2025-05-29 18:21:30,994 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:21:30,994 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:21:30,996 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:21:31,005 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 18:21:31,008 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 18:22:30,875 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\app.py', reloading
+2025-05-29 18:22:30,973 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 18:22:31,267 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:22:31,391 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:22:31,392 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:22:31,393 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:22:31,394 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:22:31,395 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:22:31,395 - __main__ - INFO - Starting application...
+2025-05-29 18:22:31,397 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:22:31,397 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:22:31,398 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:22:31,407 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 18:22:31,411 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 18:22:31,423 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\app.py', reloading
+2025-05-29 18:22:31,470 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 18:22:31,783 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:22:31,896 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:22:31,897 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:22:31,897 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:22:31,899 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:22:31,899 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:22:31,900 - __main__ - INFO - Starting application...
+2025-05-29 18:22:31,900 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:22:31,901 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:22:31,903 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:22:31,911 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 18:22:31,915 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 18:23:53,697 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:23:53,816 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:23:53,825 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:23:53,826 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:23:53,828 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:23:53,828 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:23:53,829 - __main__ - INFO - Starting application...
+2025-05-29 18:23:53,829 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:23:53,830 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:23:53,832 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:23:53,870 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-29 18:23:53,870 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 18:23:53,871 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 18:23:54,163 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:23:54,272 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:23:54,273 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:23:54,274 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:23:54,274 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:23:54,275 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:23:54,275 - __main__ - INFO - Starting application...
+2025-05-29 18:23:54,275 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:23:54,277 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:23:54,279 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:23:54,292 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 18:23:54,295 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 18:24:52,503 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:24:52,626 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:24:52,635 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:24:52,636 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:24:52,637 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:24:52,638 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:24:52,639 - __main__ - INFO - Starting application...
+2025-05-29 18:24:52,639 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:24:52,640 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:24:52,643 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:24:52,674 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.10:5000
+2025-05-29 18:24:52,674 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 18:24:52,676 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 18:24:52,969 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:24:53,076 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:24:53,077 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:24:53,078 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:24:53,079 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:24:53,080 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:24:53,080 - __main__ - INFO - Starting application...
+2025-05-29 18:24:53,081 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:24:53,081 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:24:53,084 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:24:53,098 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 18:24:53,101 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 18:25:08,154 - werkzeug - INFO - 192.168.31.10 - - [29/May/2025 18:25:08] "GET / HTTP/1.1" 200 -
+2025-05-29 18:25:08,229 - werkzeug - INFO - 192.168.31.10 - - [29/May/2025 18:25:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-29 18:25:34,397 - werkzeug - INFO - 192.168.31.10 - - [29/May/2025 18:25:34] "GET / HTTP/1.1" 200 -
+2025-05-29 18:27:29,878 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:27:29,991 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:27:30,000 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:27:30,001 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:27:30,003 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:27:30,003 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:27:30,004 - __main__ - INFO - Starting application...
+2025-05-29 18:27:30,004 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:27:30,005 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:27:30,007 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:27:30,033 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-29 18:27:30,033 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 18:27:30,035 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 18:27:30,326 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:27:30,433 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:27:30,433 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:27:30,435 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:27:30,436 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:27:30,437 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:27:30,437 - __main__ - INFO - Starting application...
+2025-05-29 18:27:30,437 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:27:30,438 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:27:30,439 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:27:30,454 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 18:27:30,458 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 18:29:11,795 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:29:11,917 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:29:11,926 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:29:11,927 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:29:11,931 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:29:11,931 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:29:11,931 - __main__ - INFO - Starting application...
+2025-05-29 18:29:11,932 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:29:11,932 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:29:11,935 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:29:11,961 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.10:5000
+2025-05-29 18:29:11,961 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 18:29:11,963 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 18:29:12,274 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:29:12,385 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:29:12,385 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:29:12,387 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:29:12,388 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:29:12,389 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:29:12,390 - __main__ - INFO - Starting application...
+2025-05-29 18:29:12,390 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:29:12,390 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:29:12,392 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:29:12,407 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 18:29:12,410 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 18:29:22,060 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:29:22,175 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:29:22,175 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:29:22,177 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:29:22,178 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:29:22,178 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:29:22,179 - __main__ - INFO - Starting application...
+2025-05-29 18:29:22,179 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:29:22,179 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:29:22,182 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:29:22,206 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.10:5000
+2025-05-29 18:29:22,206 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 18:29:22,208 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 18:29:22,503 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 18:29:22,612 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 18:29:22,613 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 18:29:22,614 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 18:29:22,615 - services.text_processor - INFO - Initialized TextProcessor
+2025-05-29 18:29:22,616 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 18:29:22,616 - __main__ - INFO - Starting application...
+2025-05-29 18:29:22,616 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 18:29:22,617 - __main__ - INFO - Loading environment variables...
+2025-05-29 18:29:22,620 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 18:29:22,633 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 18:29:22,635 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 18:29:28,112 - __main__ - INFO - Received request to generate flashcards
+2025-05-29 18:29:28,121 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-29 18:29:28,121 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-29 18:29:28,310 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-29 18:29:28,310 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-29 18:29:28,310 - services.flashcard_service - INFO - Starting flashcard generation
+2025-05-29 18:29:28,310 - services.text_processor - INFO - Starting text processing
+2025-05-29 18:29:28,313 - services.text_processor - INFO - Text processing completed. Final length: 8521 characters
+2025-05-29 18:29:28,313 - services.flashcard_service - INFO - Processed text length: 8521 characters
+2025-05-29 18:29:28,314 - services.text_processor - INFO - Starting content structuring
+2025-05-29 18:29:28,314 - services.text_processor - INFO - Content structuring completed
+2025-05-29 18:29:28,314 - services.flashcard_service - INFO - Content structured into categories
+2025-05-29 18:29:28,314 - services.flashcard_service - INFO - Sending request to Cohere API
+2025-05-29 18:29:28,315 - services.copilot_service - INFO - Starting chat completion request
+2025-05-29 18:29:36,796 - services.copilot_service - INFO - === Generated Flashcards ===
+2025-05-29 18:29:36,796 - services.copilot_service - INFO - 
+Flashcard 1:
+2025-05-29 18:29:36,797 - services.copilot_service - INFO - Question: What is Amortized Analysis?
+2025-05-29 18:29:36,797 - services.copilot_service - INFO - Answer: A method to accurately compute the total time spent executing a sequence of operations on a data structure by averaging the time over all operations.
+2025-05-29 18:29:36,797 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 18:29:36,797 - services.copilot_service - INFO - 
+Flashcard 2:
+2025-05-29 18:29:36,798 - services.copilot_service - INFO - Question: What is the purpose of Amortized Analysis?
+2025-05-29 18:29:36,799 - services.copilot_service - INFO - Answer: To guarantee average performance of each operation in a sequence, even if some operations are expensive, without involving probability.
+2025-05-29 18:29:36,799 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 18:29:36,799 - services.copilot_service - INFO - 
+Flashcard 3:
+2025-05-29 18:29:36,799 - services.copilot_service - INFO - Question: What are the three methods of Amortized Analysis?
+2025-05-29 18:29:36,799 - services.copilot_service - INFO - Answer: Aggregate Method, Accounting Method, and Potential Method.
+2025-05-29 18:29:36,800 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 18:29:36,800 - services.copilot_service - INFO - 
+Flashcard 4:
+2025-05-29 18:29:36,800 - services.copilot_service - INFO - Question: How does the Aggregate Method work?
+2025-05-29 18:29:36,800 - services.copilot_service - INFO - Answer: It determines an upper bound T(n) on the total sequence of n operations. The amortized cost per operation is then T(n)/n.
+2025-05-29 18:29:36,800 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 18:29:36,801 - services.copilot_service - INFO - 
+Flashcard 5:
+2025-05-29 18:29:36,801 - services.copilot_service - INFO - Question: What is the Accounting Method in Amortized Analysis?
+2025-05-29 18:29:36,801 - services.copilot_service - INFO - Answer: A method where operations are assigned amortized costs, overcharging some early operations to pay for later ones, ensuring the total amortized cost is an upper bound on the actual cost.
+2025-05-29 18:29:36,801 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 18:29:36,801 - services.copilot_service - INFO - 
+Flashcard 6:
+2025-05-29 18:29:36,802 - services.copilot_service - INFO - Question: How does the Potential Method work?
+2025-05-29 18:29:36,802 - services.copilot_service - INFO - Answer: It uses a potential function to assign amortized costs based on the state of the data structure, ensuring the sum of amortized costs covers the actual costs.
+2025-05-29 18:29:36,802 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 18:29:36,802 - services.copilot_service - INFO - 
+Flashcard 7:
+2025-05-29 18:29:36,802 - services.copilot_service - INFO - Question: What is the amortized cost formula in the Potential Method?
+2025-05-29 18:29:36,935 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 18:29:36,936 - services.copilot_service - INFO - 
+Flashcard 8:
+2025-05-29 18:29:36,936 - services.copilot_service - INFO - Question: What is an example of amortized analysis in stack operations?
+2025-05-29 18:29:36,936 - services.copilot_service - INFO - Answer: Push and Pop operations have O(1) amortized time, while Multipop has O(1) amortized time per element popped, leading to O(n) total cost for n operations.
+2025-05-29 18:29:36,936 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 18:29:36,936 - services.copilot_service - INFO - 
+Flashcard 9:
+2025-05-29 18:29:36,937 - services.copilot_service - INFO - Question: How is amortized analysis applied to a k-bit counter?
+2025-05-29 18:29:36,937 - services.copilot_service - INFO - Answer: Each bit flip is charged Rs.2 amortized cost, with Rs.1 paying for the flip and Rs.1 stored for later resets, ensuring O(1) amortized cost per increment.
+2025-05-29 18:29:36,937 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 18:29:36,937 - services.copilot_service - INFO - 
+Flashcard 10:
+2025-05-29 18:29:36,938 - services.copilot_service - INFO - Question: What is the difference between Aggregate and Accounting Methods?
+2025-05-29 18:29:36,938 - services.copilot_service - INFO - Answer: Aggregate Method analyzes the entire sequence first, while Accounting Method assigns amortized costs per operation and then computes the total sequence cost.
+2025-05-29 18:29:36,938 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 18:29:36,938 - services.copilot_service - INFO - 
+Total flashcards generated: 10
+2025-05-29 18:29:36,939 - services.flashcard_service - INFO - Generated 10 valid flashcards
+2025-05-29 18:29:36,939 - __main__ - INFO - Generated 10 flashcards
+2025-05-29 18:29:36,940 - __main__ - INFO - Removed temporary file uploads\AmotizedAnalysis_1.pdf
+2025-05-29 18:29:36,943 - werkzeug - INFO - 192.168.31.10 - - [29/May/2025 18:29:36] "POST /api/flashcards/generate HTTP/1.1" 200 -
+2025-05-29 22:55:41,236 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 22:56:06,901 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 22:56:29,218 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 22:57:10,719 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 22:57:33,279 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 22:57:33,291 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 22:57:33,292 - __main__ - INFO - Starting application...
+2025-05-29 22:57:33,293 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 22:57:33,293 - __main__ - INFO - Loading environment variables...
+2025-05-29 22:57:33,309 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 22:57:33,374 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.31.10:5000
+2025-05-29 22:57:33,375 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 22:57:33,377 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 22:57:33,669 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 22:57:33,670 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 22:57:33,670 - __main__ - INFO - Starting application...
+2025-05-29 22:57:33,671 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 22:57:33,671 - __main__ - INFO - Loading environment variables...
+2025-05-29 22:57:33,673 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 22:57:33,690 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 22:57:33,695 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 22:57:43,480 - __main__ - INFO - Received request to generate flashcards
+2025-05-29 22:57:43,492 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-29 22:57:43,492 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-29 22:57:43,664 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-29 22:57:43,665 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-29 22:57:43,665 - services.flashcard_service - INFO - Generated 1 flashcards
+2025-05-29 22:57:43,666 - __main__ - INFO - Generated 1 flashcards
+2025-05-29 22:57:43,666 - __main__ - INFO - Removed temporary file uploads\AmotizedAnalysis_1.pdf
+2025-05-29 22:57:43,668 - werkzeug - INFO - 192.168.31.10 - - [29/May/2025 22:57:43] "POST /api/flashcards/generate HTTP/1.1" 200 -
+2025-05-29 22:57:50,453 - __main__ - INFO - Received request to generate flashcards
+2025-05-29 22:57:50,461 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-29 22:57:50,461 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-29 22:57:50,697 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-29 22:57:50,698 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-29 22:57:50,698 - services.flashcard_service - INFO - Generated 1 flashcards
+2025-05-29 22:57:50,708 - __main__ - INFO - Generated 1 flashcards
+2025-05-29 22:57:50,709 - __main__ - INFO - Removed temporary file uploads\AmotizedAnalysis_1.pdf
+2025-05-29 22:57:50,711 - werkzeug - INFO - 192.168.31.10 - - [29/May/2025 22:57:50] "POST /api/flashcards/generate HTTP/1.1" 200 -
+2025-05-29 22:58:31,946 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\services\\flashcard_service.py', reloading
+2025-05-29 22:58:31,988 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 22:58:32,304 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 22:58:32,307 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 22:58:32,308 - __main__ - INFO - Starting application...
+2025-05-29 22:58:32,308 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 22:58:32,308 - __main__ - INFO - Loading environment variables...
+2025-05-29 22:58:32,311 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 22:58:32,327 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 22:58:32,331 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 22:58:33,347 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\services\\flashcard_service.py', reloading
+2025-05-29 22:58:33,378 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 22:58:33,671 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 22:58:33,986 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 22:58:33,987 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 22:58:33,988 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 22:58:33,989 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 22:58:33,989 - __main__ - INFO - Starting application...
+2025-05-29 22:58:33,990 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 22:58:33,990 - __main__ - INFO - Loading environment variables...
+2025-05-29 22:58:33,992 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 22:58:34,006 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 22:58:34,010 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 22:58:47,130 - __main__ - INFO - Received request to generate flashcards
+2025-05-29 22:58:47,137 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-29 22:58:47,138 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-29 22:58:47,319 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-29 22:58:47,319 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-29 22:58:47,319 - services.copilot_service - INFO - Starting chat completion request
+2025-05-29 22:58:59,993 - services.copilot_service - INFO - === Generated Flashcards ===
+2025-05-29 22:58:59,994 - services.copilot_service - INFO - 
+Flashcard 1:
+2025-05-29 22:58:59,994 - services.copilot_service - INFO - Question: What is the purpose of amortized analysis in the context of data structures?
+2025-05-29 22:58:59,995 - services.copilot_service - INFO - Answer: Amortized analysis aims to accurately compute the total time spent executing a sequence of operations on a data structure by averaging the time required over all operations, ensuring a guaranteed average performance even for expensive operations, without involving probability.
+2025-05-29 22:58:59,995 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 22:58:59,995 - services.copilot_service - INFO - 
+Flashcard 2:
+2025-05-29 22:58:59,996 - services.copilot_service - INFO - Question: What are the three methods of amortized analysis?
+2025-05-29 22:58:59,997 - services.copilot_service - INFO - Answer: The three methods are: 1. **Aggregate Method**: Determines an upper bound on the total cost of a sequence of operations and divides it by the number of operations. 2. **Accounting Method**: Assigns amortized costs to operations, overcharging some to pay for others later. 3. **Potential Method**: Uses a potential function to track the state of the data structure and assigns amortized costs based on changes in potential.
+2025-05-29 22:58:59,997 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 22:58:59,998 - services.copilot_service - INFO - 
+Flashcard 3:
+2025-05-29 22:58:59,998 - services.copilot_service - INFO - Question: How does the Aggregate Method work in amortized analysis?
+2025-05-29 22:58:59,998 - services.copilot_service - INFO - Answer: The Aggregate Method calculates the total worst-case time for a sequence of operations, denoted as T(n), and then divides it by the number of operations, n, to get the amortized cost per operation. This ensures an upper bound on the average cost per operation.
+2025-05-29 22:58:59,999 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 22:58:59,999 - services.copilot_service - INFO - 
+Flashcard 4:
+2025-05-29 22:58:59,999 - services.copilot_service - INFO - Question: Explain the Accounting Method in amortized analysis.
+2025-05-29 22:59:00,000 - services.copilot_service - INFO - Answer: The Accounting Method assigns an amortized cost to each operation, ensuring the sum of amortized costs is at least the sum of actual costs. If an operation's amortized cost exceeds its actual cost, the difference is stored as credit. If the actual cost exceeds the amortized cost, stored credits are used to cover the difference.
+2025-05-29 22:59:00,000 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 22:59:00,001 - services.copilot_service - INFO - 
+Flashcard 5:
+2025-05-29 22:59:00,001 - services.copilot_service - INFO - Question: What is the Potential Method in amortized analysis?
+2025-05-29 22:59:00,125 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 22:59:00,125 - services.copilot_service - INFO - 
+Flashcard 6:
+2025-05-29 22:59:00,126 - services.copilot_service - INFO - Question: How is amortized analysis applied to stack operations?
+2025-05-29 22:59:00,126 - services.copilot_service - INFO - Answer: For stack operations (Push, Pop, Multipop), amortized analysis ensures that the average cost per operation is O(1). For example, using the Accounting Method, Push is assigned an amortized cost of 2, with 1 paying for the push and 1 prepaying for a future pop. This ensures the total amortized cost is O(n), an upper bound on the actual cost.
+2025-05-29 22:59:00,126 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 22:59:00,126 - services.copilot_service - INFO - 
+Flashcard 7:
+2025-05-29 22:59:00,126 - services.copilot_service - INFO - Question: How does amortized analysis handle a k-bit counter using the Aggregate Method?
+2025-05-29 22:59:00,127 - services.copilot_service - INFO - Answer: In a k-bit counter, the Aggregate Method calculates the total number of bit flips over n increments, which is less than 2n. Since each increment has a worst-case cost of O(k), the total cost is O(n), and the amortized cost per operation is O(1).
+2025-05-29 22:59:00,127 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 22:59:00,127 - services.copilot_service - INFO - 
+Flashcard 8:
+2025-05-29 22:59:00,127 - services.copilot_service - INFO - Question: How does the Accounting Method handle a k-bit counter?
+2025-05-29 22:59:00,127 - services.copilot_service - INFO - Answer: For a k-bit counter, the Accounting Method assigns an amortized cost of 2 every time a bit is set from 0 to 1. Rs.1 pays for the actual bit setting, and Rs.1 is stored for later resetting. This ensures the total amortized cost is O(n), covering all operations.
+2025-05-29 22:59:00,127 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 22:59:00,128 - services.copilot_service - INFO - 
+Flashcard 9:
+2025-05-29 22:59:00,128 - services.copilot_service - INFO - Question: What is the difference between the Aggregate and Accounting Methods?
+2025-05-29 22:59:00,128 - services.copilot_service - INFO - Answer: The **Aggregate Method** first analyzes the entire sequence of operations and then calculates the amortized cost per operation. The **Accounting Method** first assigns amortized costs to individual operations and then computes the total cost of the sequence, ensuring an upper bound on the actual cost.
+2025-05-29 22:59:00,129 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 22:59:00,129 - services.copilot_service - INFO - 
+Flashcard 10:
+2025-05-29 22:59:00,129 - services.copilot_service - INFO - Question: How does the Potential Method apply to a stack?
+2025-05-29 22:59:00,137 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 22:59:00,138 - services.copilot_service - INFO - 
+Total flashcards generated: 10
+2025-05-29 22:59:00,138 - services.flashcard_service - INFO - Generated 10 flashcards
+2025-05-29 22:59:00,138 - __main__ - INFO - Generated 10 flashcards
+2025-05-29 22:59:00,139 - __main__ - INFO - Removed temporary file uploads\AmotizedAnalysis_1.pdf
+2025-05-29 22:59:00,142 - werkzeug - INFO - 192.168.31.10 - - [29/May/2025 22:59:00] "POST /api/flashcards/generate HTTP/1.1" 200 -
+2025-05-29 23:04:25,024 - __main__ - INFO - Received request to generate flashcards
+2025-05-29 23:04:25,031 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-29 23:04:25,031 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-29 23:04:25,188 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-29 23:04:25,188 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-29 23:04:25,189 - services.copilot_service - INFO - Starting chat completion request
+2025-05-29 23:04:38,940 - services.copilot_service - INFO - === Generated Flashcards ===
+2025-05-29 23:04:38,940 - services.copilot_service - INFO - 
+Flashcard 1:
+2025-05-29 23:04:38,941 - services.copilot_service - INFO - Question: What is the purpose of amortized analysis in the context of data structures?
+2025-05-29 23:04:38,941 - services.copilot_service - INFO - Answer: Amortized analysis aims to accurately compute the total time spent executing a sequence of operations on a data structure by averaging the time required over all operations, ensuring a guaranteed average performance even for expensive operations, without involving probability.
+2025-05-29 23:04:38,942 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:04:38,942 - services.copilot_service - INFO - 
+Flashcard 2:
+2025-05-29 23:04:38,942 - services.copilot_service - INFO - Question: What are the three methods of amortized analysis?
+2025-05-29 23:04:38,943 - services.copilot_service - INFO - Answer: The three methods are: 1. **Aggregate Method**: Determines an upper bound on the total cost of a sequence of operations and divides it by the number of operations. 2. **Accounting Method**: Assigns amortized costs to operations, overcharging some to pay for others later. 3. **Potential Method**: Uses a potential function to track the state of the data structure and assigns amortized costs based on changes in potential.
+2025-05-29 23:04:38,943 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:04:38,943 - services.copilot_service - INFO - 
+Flashcard 3:
+2025-05-29 23:04:38,944 - services.copilot_service - INFO - Question: How does the Aggregate Method work in amortized analysis?
+2025-05-29 23:04:38,944 - services.copilot_service - INFO - Answer: The Aggregate Method calculates the total worst-case time for a sequence of operations, denoted as T(n), and then divides it by the number of operations, n, to get the amortized cost per operation. This ensures an upper bound on the average cost per operation.
+2025-05-29 23:04:38,944 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:04:38,944 - services.copilot_service - INFO - 
+Flashcard 4:
+2025-05-29 23:04:38,945 - services.copilot_service - INFO - Question: Explain the Accounting Method in amortized analysis with an example.
+2025-05-29 23:04:38,945 - services.copilot_service - INFO - Answer: The Accounting Method assigns an amortized cost to each operation, ensuring the sum of amortized costs is at least the sum of actual costs. For example, in a stack, a Push operation is assigned an amortized cost of 2: 1 for the actual push and 1 as a credit for a future Pop. This credit is used when the element is popped, ensuring the total amortized cost is an upper bound on the actual cost.
+2025-05-29 23:04:38,945 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:04:38,945 - services.copilot_service - INFO - 
+Flashcard 5:
+2025-05-29 23:04:38,945 - services.copilot_service - INFO - Question: What is the Potential Method in amortized analysis, and how is it applied to a stack?
+2025-05-29 23:04:38,952 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:04:38,952 - services.copilot_service - INFO - 
+Flashcard 6:
+2025-05-29 23:04:38,953 - services.copilot_service - INFO - Question: How does amortized analysis handle the running time of heap sort?
+2025-05-29 23:04:38,953 - services.copilot_service - INFO - Answer: Amortized analysis considers the repeated insertions and deletions in heap sort. While each insertion into a heap of size n takes O(log n) time, the total time for n insertions is O(n log n). However, this might be an overestimate since many insertions occur on smaller heaps. Amortized analysis averages the cost over all operations to provide a more accurate total time.
+2025-05-29 23:04:38,953 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:04:38,953 - services.copilot_service - INFO - 
+Flashcard 7:
+2025-05-29 23:04:38,954 - services.copilot_service - INFO - Question: What is the amortized cost per operation for a k-bit counter using the Aggregate Method?
+2025-05-29 23:04:38,954 - services.copilot_service - INFO - Answer: For a k-bit counter, the total number of bit flips in n increment operations is n + n/2 + n/4 + ... + n/2^k, which is less than 2n. Thus, the total cost is O(n), and the amortized cost per operation is O(n)/n = O(1).
+2025-05-29 23:04:38,954 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:04:38,954 - services.copilot_service - INFO - 
+Flashcard 8:
+2025-05-29 23:04:38,954 - services.copilot_service - INFO - Question: How does the Accounting Method differ from the Aggregate Method?
+2025-05-29 23:04:38,955 - services.copilot_service - INFO - Answer: The Aggregate Method first analyzes the entire sequence of operations and then calculates the amortized cost per operation. In contrast, the Accounting Method assigns amortized costs to individual operations upfront and then computes the total cost of the sequence, providing the per-operation cost.
+2025-05-29 23:04:38,955 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:04:38,955 - services.copilot_service - INFO - 
+Flashcard 9:
+2025-05-29 23:04:38,969 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:04:38,969 - services.copilot_service - INFO - 
+Flashcard 10:
+2025-05-29 23:04:38,969 - services.copilot_service - INFO - Question: Why is amortized analysis useful for analyzing algorithms with repeated calls to data structures?
+2025-05-29 23:04:38,970 - services.copilot_service - INFO - Answer: Amortized analysis is useful because it provides a more accurate estimate of the total running time by averaging the cost of operations, even when individual operations have varying costs. This is particularly important for algorithms like heap sort, where the cost of insertions and deletions can differ significantly depending on the heap size.
+2025-05-29 23:04:38,970 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:04:38,970 - services.copilot_service - INFO - 
+Total flashcards generated: 10
+2025-05-29 23:04:38,971 - services.flashcard_service - INFO - Generated 10 flashcards
+2025-05-29 23:04:38,971 - __main__ - INFO - Generated 10 flashcards
+2025-05-29 23:04:38,972 - __main__ - INFO - Removed temporary file uploads\AmotizedAnalysis_1.pdf
+2025-05-29 23:04:38,974 - werkzeug - INFO - 192.168.31.10 - - [29/May/2025 23:04:38] "POST /api/flashcards/generate HTTP/1.1" 200 -
+2025-05-29 23:54:22,169 - __main__ - INFO - Received request to generate flashcards
+2025-05-29 23:54:22,178 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-29 23:54:22,178 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-29 23:54:22,517 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-29 23:54:22,517 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-29 23:54:22,518 - services.copilot_service - INFO - Starting chat completion request
+2025-05-29 23:54:32,669 - __main__ - INFO - Received request to generate flashcards
+2025-05-29 23:54:32,678 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-29 23:54:32,678 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-29 23:54:32,941 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-29 23:54:32,942 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-29 23:54:32,943 - services.copilot_service - INFO - Starting chat completion request
+2025-05-29 23:54:35,895 - services.copilot_service - INFO - === Generated Flashcards ===
+2025-05-29 23:54:35,896 - services.copilot_service - INFO - 
+Flashcard 1:
+2025-05-29 23:54:35,896 - services.copilot_service - INFO - Question: What is the purpose of amortized analysis in the context of data structures?
+2025-05-29 23:54:35,897 - services.copilot_service - INFO - Answer: Amortized analysis aims to accurately compute the total time spent executing a sequence of operations on a data structure by averaging the time required over all operations, ensuring a guaranteed average performance even for expensive operations, without involving probability.
+2025-05-29 23:54:35,897 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:54:35,898 - services.copilot_service - INFO - 
+Flashcard 2:
+2025-05-29 23:54:35,898 - services.copilot_service - INFO - Question: What are the three methods of amortized analysis?
+2025-05-29 23:54:35,900 - services.copilot_service - INFO - Answer: The three methods are: 1. **Aggregate Method**: Determines an upper bound on the total cost of a sequence of operations and divides it by the number of operations. 2. **Accounting Method**: Assigns amortized costs to operations, overcharging some to pay for others later. 3. **Potential Method**: Uses a potential function to track the state of the data structure and assigns amortized costs based on changes in potential.
+2025-05-29 23:54:35,900 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:54:35,901 - services.copilot_service - INFO - 
+Flashcard 3:
+2025-05-29 23:54:35,901 - services.copilot_service - INFO - Question: How does the Aggregate Method work in amortized analysis?
+2025-05-29 23:54:35,901 - services.copilot_service - INFO - Answer: The Aggregate Method calculates the total worst-case time for a sequence of *n* operations, denoted as *T(n)*, and then determines the amortized cost per operation as *T(n)/n*. This method applies even when the sequence includes multiple types of operations.
+2025-05-29 23:54:35,902 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:54:35,902 - services.copilot_service - INFO - 
+Flashcard 4:
+2025-05-29 23:54:35,902 - services.copilot_service - INFO - Question: Explain the Accounting Method in amortized analysis.
+2025-05-29 23:54:35,902 - services.copilot_service - INFO - Answer: The Accounting Method assigns an amortized cost to each operation, ensuring the sum of amortized costs is at least the sum of actual costs. If an operation's amortized cost exceeds its actual cost, the difference is stored as credit. If the actual cost exceeds the amortized cost, stored credits are used to cover the difference.
+2025-05-29 23:54:35,903 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:54:35,903 - services.copilot_service - INFO - 
+Flashcard 5:
+2025-05-29 23:54:35,903 - services.copilot_service - INFO - Question: What is the Potential Method in amortized analysis?
+2025-05-29 23:54:35,911 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:54:35,911 - services.copilot_service - INFO - 
+Flashcard 6:
+2025-05-29 23:54:35,911 - services.copilot_service - INFO - Question: How does amortized analysis handle operations with varying costs, like in a heap sort example?
+2025-05-29 23:54:35,912 - services.copilot_service - INFO - Answer: Amortized analysis averages the cost of operations over a sequence, even if individual operations have different costs. For example, in heap sort, while inserting into a heap takes *O(log n)* time, amortized analysis considers the average cost across all insertions, often leading to a more accurate total time estimate than worst-case analysis.
+2025-05-29 23:54:35,912 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:54:35,912 - services.copilot_service - INFO - 
+Flashcard 7:
+2025-05-29 23:54:35,912 - services.copilot_service - INFO - Question: What is the amortized cost per operation for a sequence of *n* stack operations (push, pop, multipop) using the Aggregate Method?
+2025-05-29 23:54:35,913 - services.copilot_service - INFO - Answer: The amortized cost per operation is *O(1)*. While the worst-case cost of a multipop operation is *O(n)*, each element can be popped only once per push, leading to a total sequence cost of *O(n)*. Averaged over *n* operations, the cost is *O(1)* per operation.
+2025-05-29 23:54:35,913 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:54:35,913 - services.copilot_service - INFO - 
+Flashcard 8:
+2025-05-29 23:54:35,913 - services.copilot_service - INFO - Question: How does the Accounting Method handle stack operations?
+2025-05-29 23:54:35,913 - services.copilot_service - INFO - Answer: The Accounting Method assigns an amortized cost of 2 to push operations, 0 to pop, and 0 to multipop. The extra 1 unit of cost for push is stored as credit and used to pay for later pops, ensuring the total amortized cost is an upper bound on the actual cost.
+2025-05-29 23:54:35,914 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:54:35,914 - services.copilot_service - INFO - 
+Flashcard 9:
+2025-05-29 23:54:35,914 - services.copilot_service - INFO - Question: What is the amortized cost per increment operation for a k-bit counter using the Aggregate Method?
+2025-05-29 23:54:35,914 - services.copilot_service - INFO - Answer: The amortized cost per increment operation is *O(1)*. While the worst-case time for an increment is *O(k)*, the total number of bit flips in *n* increments is less than *2n*, making the total cost *O(n)*. Thus, the amortized cost per operation is *O(n)/n = O(1)*.
+2025-05-29 23:54:35,915 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:54:35,915 - services.copilot_service - INFO - 
+Flashcard 10:
+2025-05-29 23:54:35,915 - services.copilot_service - INFO - Question: How does the Potential Method apply to a k-bit counter?
+2025-05-29 23:54:35,924 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:54:35,924 - services.copilot_service - INFO - 
+Total flashcards generated: 10
+2025-05-29 23:54:35,925 - services.flashcard_service - INFO - Generated 10 flashcards
+2025-05-29 23:54:35,925 - __main__ - INFO - Generated 10 flashcards
+2025-05-29 23:54:35,926 - __main__ - INFO - Removed temporary file uploads\AmotizedAnalysis_1.pdf
+2025-05-29 23:54:35,932 - werkzeug - INFO - 192.168.31.10 - - [29/May/2025 23:54:35] "POST /api/flashcards/generate HTTP/1.1" 200 -
+2025-05-29 23:56:05,524 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\services\\enhanced_learning_service.py', reloading
+2025-05-29 23:59:33,462 - services.copilot_service - ERROR - Error in generate_chat_completion: 
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 85, in generate_chat_completion
+    async with session.post(self.endpoint, json=payload, headers=headers) as response:
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 1194, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 605, in _request
+    await resp.start(conn)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 961, in start
+    with self._timer:
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\helpers.py", line 735, in __exit__
+    raise asyncio.TimeoutError from None
+TimeoutError
+2025-05-29 23:59:33,518 - services.flashcard_service - ERROR - Error generating flashcards: 
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 35, in generate_flashcards
+    response = await copilot_client.generate_chat_completion([{"content": message}])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 85, in generate_chat_completion
+    async with session.post(self.endpoint, json=payload, headers=headers) as response:
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 1194, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 605, in _request
+    await resp.start(conn)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 961, in start
+    with self._timer:
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\helpers.py", line 735, in __exit__
+    raise asyncio.TimeoutError from None
+TimeoutError
+2025-05-29 23:59:33,519 - __main__ - ERROR - Error processing PDF: 
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\app.py", line 104, in generate_flashcards
+    # Generate flashcards
+                 ^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 35, in generate_flashcards
+    response = await copilot_client.generate_chat_completion([{"content": message}])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 85, in generate_chat_completion
+    async with session.post(self.endpoint, json=payload, headers=headers) as response:
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 1194, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 605, in _request
+    await resp.start(conn)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 961, in start
+    with self._timer:
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\helpers.py", line 735, in __exit__
+    raise asyncio.TimeoutError from None
+TimeoutError
+2025-05-29 23:59:33,595 - werkzeug - INFO -  * Restarting with stat
+2025-05-29 23:59:33,972 - services.pdf_service - INFO - Initialized PDFService
+2025-05-29 23:59:34,304 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-29 23:59:34,304 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-29 23:59:34,307 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-29 23:59:34,307 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-29 23:59:34,309 - services.enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-05-29 23:59:34,311 - __main__ - INFO - Starting application...
+2025-05-29 23:59:34,311 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-29 23:59:34,311 - __main__ - INFO - Loading environment variables...
+2025-05-29 23:59:34,313 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-29 23:59:34,329 - werkzeug - WARNING -  * Debugger is active!
+2025-05-29 23:59:34,332 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-29 23:59:34,355 - __main__ - INFO - Received request to generate flashcards
+2025-05-29 23:59:34,361 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-29 23:59:34,362 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-29 23:59:34,537 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-29 23:59:34,537 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-29 23:59:34,537 - services.copilot_service - INFO - Starting chat completion request
+2025-05-29 23:59:46,804 - services.copilot_service - INFO - === Generated Flashcards ===
+2025-05-29 23:59:46,804 - services.copilot_service - INFO - 
+Flashcard 1:
+2025-05-29 23:59:46,805 - services.copilot_service - INFO - Question: What is the purpose of amortized analysis in the context of data structures?
+2025-05-29 23:59:46,805 - services.copilot_service - INFO - Answer: Amortized analysis aims to accurately compute the total time spent executing a sequence of operations on a data structure by averaging the time required over all operations. It guarantees average performance, even if some operations are expensive, without involving probability.
+2025-05-29 23:59:46,806 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:59:46,806 - services.copilot_service - INFO - 
+Flashcard 2:
+2025-05-29 23:59:46,806 - services.copilot_service - INFO - Question: What are the three methods of amortized analysis?
+2025-05-29 23:59:46,806 - services.copilot_service - INFO - Answer: The three methods of amortized analysis are: 1. **Aggregate Method**: Determines an upper bound on the total cost of a sequence of operations and divides it by the number of operations. 2. **Accounting Method**: Assigns amortized costs to operations, overcharging some to pay for others later. 3. **Potential Method**: Uses a potential function to track the state of the data structure and assigns amortized costs based on changes in potential.
+2025-05-29 23:59:46,807 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:59:46,807 - services.copilot_service - INFO - 
+Flashcard 3:
+2025-05-29 23:59:46,807 - services.copilot_service - INFO - Question: How does the Aggregate Method work in amortized analysis?
+2025-05-29 23:59:46,807 - services.copilot_service - INFO - Answer: The Aggregate Method determines an upper bound T(n) on the total cost of a sequence of n operations. The amortized cost per operation is then T(n)/n. This method applies even when there are multiple types of operations in the sequence.
+2025-05-29 23:59:46,807 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:59:46,807 - services.copilot_service - INFO - 
+Flashcard 4:
+2025-05-29 23:59:46,807 - services.copilot_service - INFO - Question: Explain the Accounting Method in amortized analysis.
+2025-05-29 23:59:46,808 - services.copilot_service - INFO - Answer: The Accounting Method assigns an amortized cost to each operation, ensuring the sum of amortized costs is at least the sum of actual costs. If the amortized cost exceeds the actual cost, the extra is stored as credit. If the actual cost exceeds the amortized cost, stored credits are used to cover the difference.
+2025-05-29 23:59:46,808 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:59:46,808 - services.copilot_service - INFO - 
+Flashcard 5:
+2025-05-29 23:59:46,808 - services.copilot_service - INFO - Question: What is the Potential Method in amortized analysis?
+2025-05-29 23:59:46,900 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:59:46,900 - services.copilot_service - INFO - 
+Flashcard 6:
+2025-05-29 23:59:46,900 - services.copilot_service - INFO - Question: How does amortized analysis handle heap sort operations?
+2025-05-29 23:59:46,900 - services.copilot_service - INFO - Answer: In heap sort, each insertion into a heap takes O(log n) time. For n insertions, the total time is O(n log n). Amortized analysis considers that many insertions occur on smaller heaps, potentially reducing the total time below O(n log n).
+2025-05-29 23:59:46,900 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:59:46,900 - services.copilot_service - INFO - 
+Flashcard 7:
+2025-05-29 23:59:46,900 - services.copilot_service - INFO - Question: What is the amortized cost per operation for a sequence of n stack operations (push, pop, multipop)?
+2025-05-29 23:59:46,900 - services.copilot_service - INFO - Answer: Using the Aggregate Method, the amortized cost per stack operation is O(1), as the total cost of the sequence is O(n) and there are n operations. This is because each element can be popped only once per push, limiting the total cost.
+2025-05-29 23:59:46,901 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:59:46,901 - services.copilot_service - INFO - 
+Flashcard 8:
+2025-05-29 23:59:46,901 - services.copilot_service - INFO - Question: How does the Accounting Method handle a k-bit counter?
+2025-05-29 23:59:46,901 - services.copilot_service - INFO - Answer: The Accounting Method assigns an amortized cost of Rs. 2 for each bit set from 0 to 1. Rs. 1 pays for the actual bit setting, and Rs. 1 is stored for later resetting. This ensures the total amortized cost is O(n) for n increments.
+2025-05-29 23:59:46,901 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:59:46,901 - services.copilot_service - INFO - 
+Flashcard 9:
+2025-05-29 23:59:46,901 - services.copilot_service - INFO - Question: What is the amortized cost per increment operation for a k-bit counter using the Aggregate Method?
+2025-05-29 23:59:46,902 - services.copilot_service - INFO - Answer: The amortized cost per increment operation is O(1). The total number of bit flips in n increments is less than 2n, so the total cost is O(n), and the amortized cost per operation is O(n)/n = O(1).
+2025-05-29 23:59:46,902 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:59:46,902 - services.copilot_service - INFO - 
+Flashcard 10:
+2025-05-29 23:59:46,902 - services.copilot_service - INFO - Question: How does the Potential Method differ from the Accounting Method?
+2025-05-29 23:59:46,902 - services.copilot_service - INFO - Answer: The Potential Method assigns amortized costs based on a potential function and the state of the data structure, while the Accounting Method assigns costs directly and uses credits. Both ensure the sum of amortized costs is an upper bound on the sum of actual costs.
+2025-05-29 23:59:46,902 - services.copilot_service - INFO - --------------------------------------------------
+2025-05-29 23:59:46,902 - services.copilot_service - INFO - 
+Total flashcards generated: 10
+2025-05-29 23:59:46,903 - services.flashcard_service - INFO - Generated 10 flashcards
+2025-05-29 23:59:46,903 - __main__ - INFO - Generated 10 flashcards
+2025-05-29 23:59:46,904 - __main__ - INFO - Removed temporary file uploads\AmotizedAnalysis_1.pdf
+2025-05-29 23:59:46,906 - werkzeug - INFO - 192.168.31.10 - - [29/May/2025 23:59:46] "POST /api/flashcards/generate HTTP/1.1" 200 -
+2025-05-30 00:01:09,716 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\app.py', reloading
+2025-05-30 00:01:09,766 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 00:01:10,082 - services.pdf_service - INFO - Initialized PDFService
+2025-05-30 00:01:10,212 - services.copilot_service - INFO - Initializing CopilotClient logging...
+2025-05-30 00:01:10,213 - services.copilot_service - INFO - CopilotClient logs will be saved to logs/copilot.log
+2025-05-30 00:01:10,216 - services.copilot_service - INFO - Initialized CopilotClient with model: command-a-03-2025
+2025-05-30 00:01:10,216 - services.flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:01:10,218 - services.enhanced_learning_service - INFO - Initialized EnhancedLearningService
+2025-05-30 00:01:10,219 - __main__ - INFO - Starting application...
+2025-05-30 00:01:10,220 - __main__ - INFO - Logs will be saved to logs/app.log
+2025-05-30 00:01:10,220 - __main__ - INFO - Loading environment variables...
+2025-05-30 00:01:10,223 - __main__ - INFO - Starting Flask application on port 5000
+2025-05-30 00:01:10,239 - werkzeug - WARNING -  * Debugger is active!
+2025-05-30 00:01:10,243 - werkzeug - INFO -  * Debugger PIN: 146-008-665
+2025-05-30 00:04:20,821 - __main__ - INFO - Received request to generate flashcards
+2025-05-30 00:04:20,830 - __main__ - INFO - Saved file to uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:04:20,830 - services.pdf_service - INFO - Extracting text from PDF: uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:04:21,079 - services.pdf_service - INFO - Successfully extracted 8955 characters from PDF
+2025-05-30 00:04:21,080 - __main__ - INFO - Extracted 8955 characters from PDF
+2025-05-30 00:04:21,080 - services.copilot_service - INFO - Starting chat completion request
+2025-05-30 00:05:13,602 - werkzeug - INFO - 192.168.31.10 - - [30/May/2025 00:05:13] "[31m[1mGET /api/flashcards/generate HTTP/1.1[0m" 405 -
+2025-05-30 00:05:13,651 - werkzeug - INFO - 192.168.31.10 - - [30/May/2025 00:05:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-30 00:07:01,842 - werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\Projects\\Final summer project\\clever-chapter-cards\\backend\\utils\\logger_config.py', reloading
+2025-05-30 00:09:23,589 - services.copilot_service - ERROR - Error in generate_chat_completion: 
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 85, in generate_chat_completion
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 1194, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 605, in _request
+    await resp.start(conn)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 961, in start
+    with self._timer:
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\helpers.py", line 735, in __exit__
+    raise asyncio.TimeoutError from None
+TimeoutError
+2025-05-30 00:09:23,592 - services.flashcard_service - ERROR - Error generating flashcards: 
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 35, in generate_flashcards
+    Text:
+          
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 85, in generate_chat_completion
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 1194, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 605, in _request
+    await resp.start(conn)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 961, in start
+    with self._timer:
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\helpers.py", line 735, in __exit__
+    raise asyncio.TimeoutError from None
+TimeoutError
+2025-05-30 00:09:23,593 - __main__ - ERROR - Error processing PDF: 
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\app.py", line 105, in generate_flashcards
+    flashcards = await asyncio.wait_for(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 35, in generate_flashcards
+    Text:
+          
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\copilot_service.py", line 85, in generate_chat_completion
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 1194, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client.py", line 605, in _request
+    await resp.start(conn)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\client_reqrep.py", line 961, in start
+    with self._timer:
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\helpers.py", line 735, in __exit__
+    raise asyncio.TimeoutError from None
+TimeoutError
+2025-05-30 00:09:23,596 - werkzeug - INFO - 192.168.31.10 - - [30/May/2025 00:09:23] "[35m[1mPOST /api/flashcards/generate HTTP/1.1[0m" 500 -
+2025-05-30 00:09:23,661 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 00:12:51,384 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 00:12:53,412 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 00:14:08,001 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 00:15:59,909 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 00:16:12,002 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 00:16:13,980 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 00:18:35,220 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 00:18:49,239 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 00:39:11,147 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 00:39:13,196 - werkzeug - INFO -  * Restarting with stat
+2025-05-30 00:42:48,156 - werkzeug - INFO -  * Restarting with stat

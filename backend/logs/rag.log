@@ -1,0 +1,154 @@
+2026-03-15 11:24:14,483 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 11:33:20,032 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 11:33:26,562 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 11:33:30,194 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 14:54:35,933 - rag_service - INFO - Indexing document Amortize_Analysis.pptx.pdf (size: 1325)
+2026-03-15 14:54:36,427 - rag_service - INFO - Successfully indexed 2 chunks for document Amortize_Analysis.pptx.pdf
+2026-03-15 14:54:36,437 - rag_service - INFO - Querying RAG system for: 'key concepts definitions important points...'
+2026-03-15 14:54:36,478 - rag_service - INFO - Retrieved 2 relevant chunks
+2026-03-15 14:54:50,208 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 14:54:53,644 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 14:54:54,012 - rag_service - INFO - Indexing document Amortize_Analysis.pptx.pdf (size: 1325)
+2026-03-15 14:54:54,118 - rag_service - INFO - Successfully indexed 2 chunks for document Amortize_Analysis.pptx.pdf
+2026-03-15 14:54:54,124 - rag_service - INFO - Querying RAG system for: 'core concepts definitions theories formulas applic...'
+2026-03-15 14:54:54,144 - rag_service - INFO - Retrieved 2 relevant chunks
+2026-03-15 14:54:54,793 - rag_service - INFO - Indexing document Amortize_Analysis.pptx.pdf (size: 1325)
+2026-03-15 14:54:54,866 - rag_service - INFO - Successfully indexed 2 chunks for document Amortize_Analysis.pptx.pdf
+2026-03-15 14:54:54,872 - rag_service - INFO - Querying RAG system for: 'major themes key concepts overall summary importan...'
+2026-03-15 14:54:54,888 - rag_service - INFO - Retrieved 2 relevant chunks
+2026-03-15 14:55:02,643 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 14:55:05,994 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 14:56:39,637 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 14:56:42,849 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:03:43,985 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:03:47,290 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:03:54,483 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:03:57,878 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:04:08,040 - rag_service - INFO - Indexing document GreedyParadigmFractionalKnapsack_1.pdf (size: 3512)
+2026-03-15 15:04:08,250 - rag_service - INFO - Successfully indexed 5 chunks for document GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:04:08,253 - rag_service - INFO - Querying RAG system for: 'highly detailed explanations key concepts comprehe...'
+2026-03-15 15:04:08,282 - rag_service - INFO - Retrieved 5 relevant chunks
+2026-03-15 15:04:09,894 - rag_service - INFO - Indexing document GreedyParadigmFractionalKnapsack_1.pdf (size: 3512)
+2026-03-15 15:04:10,037 - rag_service - INFO - Successfully indexed 5 chunks for document GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:04:10,039 - rag_service - INFO - Querying RAG system for: 'core concepts definitions theories formulas applic...'
+2026-03-15 15:04:10,054 - rag_service - INFO - Retrieved 5 relevant chunks
+2026-03-15 15:04:17,524 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:04:20,869 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:04:21,895 - rag_service - INFO - Indexing document GreedyParadigmFractionalKnapsack_1.pdf (size: 3512)
+2026-03-15 15:04:22,094 - rag_service - INFO - Successfully indexed 5 chunks for document GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:04:22,101 - rag_service - INFO - Querying RAG system for: 'major themes key concepts overall summary importan...'
+2026-03-15 15:04:22,121 - rag_service - INFO - Retrieved 5 relevant chunks
+2026-03-15 15:05:35,061 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:05:38,296 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:08:34,820 - rag_service - INFO - Indexing document Amortize_Analysis.pptx.pdf (size: 1282)
+2026-03-15 15:08:34,932 - rag_service - INFO - Successfully indexed 2 chunks for document Amortize_Analysis.pptx.pdf
+2026-03-15 15:08:34,937 - rag_service - INFO - Querying RAG system for: 'highly detailed explanations key concepts comprehe...'
+2026-03-15 15:08:34,961 - rag_service - INFO - Retrieved 2 relevant chunks
+2026-03-15 15:08:36,474 - rag_service - INFO - Indexing document Amortize_Analysis.pptx.pdf (size: 1282)
+2026-03-15 15:08:36,537 - rag_service - INFO - Successfully indexed 2 chunks for document Amortize_Analysis.pptx.pdf
+2026-03-15 15:08:36,542 - rag_service - INFO - Querying RAG system for: 'core concepts definitions theories formulas applic...'
+2026-03-15 15:08:36,574 - rag_service - INFO - Retrieved 2 relevant chunks
+2026-03-15 15:08:37,183 - rag_service - INFO - Indexing document Amortize_Analysis.pptx.pdf (size: 1282)
+2026-03-15 15:08:37,233 - rag_service - INFO - Successfully indexed 2 chunks for document Amortize_Analysis.pptx.pdf
+2026-03-15 15:08:37,238 - rag_service - INFO - Querying RAG system for: 'major themes key concepts overall summary importan...'
+2026-03-15 15:08:37,251 - rag_service - INFO - Retrieved 2 relevant chunks
+2026-03-15 15:12:49,754 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:12:53,009 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:13:28,950 - rag_service - INFO - Indexing document Amortize_Analysis.pptx.pdf (size: 1282)
+2026-03-15 15:13:29,071 - rag_service - INFO - Successfully indexed 2 chunks for document Amortize_Analysis.pptx.pdf
+2026-03-15 15:13:29,077 - rag_service - INFO - Querying RAG system for: 'highly detailed explanations key concepts comprehe...'
+2026-03-15 15:13:29,101 - rag_service - INFO - Retrieved 2 relevant chunks
+2026-03-15 15:13:30,663 - rag_service - INFO - Indexing document Amortize_Analysis.pptx.pdf (size: 1282)
+2026-03-15 15:13:30,720 - rag_service - INFO - Successfully indexed 2 chunks for document Amortize_Analysis.pptx.pdf
+2026-03-15 15:13:30,731 - rag_service - INFO - Querying RAG system for: 'core concepts definitions theories formulas applic...'
+2026-03-15 15:13:30,744 - rag_service - INFO - Retrieved 2 relevant chunks
+2026-03-15 15:13:31,344 - rag_service - INFO - Indexing document Amortize_Analysis.pptx.pdf (size: 1282)
+2026-03-15 15:13:31,392 - rag_service - INFO - Successfully indexed 2 chunks for document Amortize_Analysis.pptx.pdf
+2026-03-15 15:13:31,397 - rag_service - INFO - Querying RAG system for: 'major themes key concepts overall summary importan...'
+2026-03-15 15:13:31,410 - rag_service - INFO - Retrieved 2 relevant chunks
+2026-03-15 15:14:24,920 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:14:29,053 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:15:23,922 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:15:28,132 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:15:33,830 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:15:37,364 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:16:22,568 - rag_service - INFO - Indexing document Amortize_Analysis.pptx.pdf (size: 1282)
+2026-03-15 15:16:22,698 - rag_service - INFO - Successfully indexed 2 chunks for document Amortize_Analysis.pptx.pdf
+2026-03-15 15:16:22,703 - rag_service - INFO - Querying RAG system for: 'highly detailed explanations key concepts comprehe...'
+2026-03-15 15:16:22,730 - rag_service - INFO - Retrieved 2 relevant chunks
+2026-03-15 15:16:25,022 - rag_service - INFO - Indexing document Amortize_Analysis.pptx.pdf (size: 1282)
+2026-03-15 15:16:25,074 - rag_service - INFO - Successfully indexed 2 chunks for document Amortize_Analysis.pptx.pdf
+2026-03-15 15:16:25,080 - rag_service - INFO - Querying RAG system for: 'core concepts definitions theories formulas applic...'
+2026-03-15 15:16:25,098 - rag_service - INFO - Retrieved 2 relevant chunks
+2026-03-15 15:16:28,934 - rag_service - INFO - Indexing document Amortize_Analysis.pptx.pdf (size: 1282)
+2026-03-15 15:16:28,993 - rag_service - INFO - Successfully indexed 2 chunks for document Amortize_Analysis.pptx.pdf
+2026-03-15 15:16:28,998 - rag_service - INFO - Querying RAG system for: 'major themes key concepts overall summary importan...'
+2026-03-15 15:16:29,010 - rag_service - INFO - Retrieved 2 relevant chunks
+2026-03-15 15:21:42,698 - rag_service - INFO - Indexing document CP-DC.pdf (size: 3005)
+2026-03-15 15:21:42,831 - rag_service - INFO - Successfully indexed 4 chunks for document CP-DC.pdf
+2026-03-15 15:21:42,837 - rag_service - INFO - Querying RAG system for: 'highly detailed explanations key concepts comprehe...'
+2026-03-15 15:21:42,898 - rag_service - INFO - Retrieved 4 relevant chunks
+2026-03-15 15:21:45,633 - rag_service - INFO - Indexing document CP-DC.pdf (size: 3005)
+2026-03-15 15:21:45,753 - rag_service - INFO - Successfully indexed 4 chunks for document CP-DC.pdf
+2026-03-15 15:21:45,760 - rag_service - INFO - Querying RAG system for: 'core concepts definitions theories formulas applic...'
+2026-03-15 15:21:45,775 - rag_service - INFO - Retrieved 4 relevant chunks
+2026-03-15 15:21:48,288 - rag_service - INFO - Indexing document CP-DC.pdf (size: 3005)
+2026-03-15 15:21:48,422 - rag_service - INFO - Successfully indexed 4 chunks for document CP-DC.pdf
+2026-03-15 15:21:48,429 - rag_service - INFO - Querying RAG system for: 'major themes key concepts overall summary importan...'
+2026-03-15 15:21:48,445 - rag_service - INFO - Retrieved 4 relevant chunks
+2026-03-15 15:22:38,258 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:22:41,526 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:26:15,022 - rag_service - INFO - Indexing document GreedyParadigmFractionalKnapsack.pdf (size: 3355)
+2026-03-15 15:26:15,231 - rag_service - INFO - Successfully indexed 5 chunks for document GreedyParadigmFractionalKnapsack.pdf
+2026-03-15 15:26:15,236 - rag_service - INFO - Querying RAG system for: 'highly detailed explanations key concepts comprehe...'
+2026-03-15 15:26:15,257 - rag_service - INFO - Retrieved 5 relevant chunks
+2026-03-15 15:26:17,595 - rag_service - INFO - Indexing document GreedyParadigmFractionalKnapsack.pdf (size: 3355)
+2026-03-15 15:26:17,744 - rag_service - INFO - Successfully indexed 5 chunks for document GreedyParadigmFractionalKnapsack.pdf
+2026-03-15 15:26:17,751 - rag_service - INFO - Querying RAG system for: 'core concepts definitions theories formulas applic...'
+2026-03-15 15:26:17,766 - rag_service - INFO - Retrieved 5 relevant chunks
+2026-03-15 15:26:24,815 - rag_service - INFO - Indexing document GreedyParadigmFractionalKnapsack.pdf (size: 3355)
+2026-03-15 15:26:24,965 - rag_service - INFO - Successfully indexed 5 chunks for document GreedyParadigmFractionalKnapsack.pdf
+2026-03-15 15:26:24,972 - rag_service - INFO - Querying RAG system for: 'major themes key concepts overall summary importan...'
+2026-03-15 15:26:24,987 - rag_service - INFO - Retrieved 5 relevant chunks
+2026-03-15 15:31:01,353 - rag_service - INFO - Indexing document GreedyParadigmFractionalKnapsack_1.pdf (size: 3355)
+2026-03-15 15:31:01,506 - rag_service - INFO - Successfully indexed 5 chunks for document GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:31:01,510 - rag_service - INFO - Querying RAG system for: 'highly detailed explanations key concepts comprehe...'
+2026-03-15 15:31:01,525 - rag_service - INFO - Retrieved 5 relevant chunks
+2026-03-15 15:31:04,021 - rag_service - INFO - Indexing document GreedyParadigmFractionalKnapsack_1.pdf (size: 3355)
+2026-03-15 15:31:04,164 - rag_service - INFO - Successfully indexed 5 chunks for document GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:31:04,170 - rag_service - INFO - Querying RAG system for: 'core concepts definitions theories formulas applic...'
+2026-03-15 15:31:04,186 - rag_service - INFO - Retrieved 5 relevant chunks
+2026-03-15 15:31:18,607 - rag_service - INFO - Indexing document GreedyParadigmFractionalKnapsack_1.pdf (size: 3355)
+2026-03-15 15:31:18,766 - rag_service - INFO - Successfully indexed 5 chunks for document GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:31:18,772 - rag_service - INFO - Querying RAG system for: 'major themes key concepts overall summary importan...'
+2026-03-15 15:31:18,788 - rag_service - INFO - Retrieved 5 relevant chunks
+2026-03-15 15:37:24,238 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:37:28,296 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:37:38,839 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:37:42,156 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:37:48,884 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:38:04,838 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:38:08,153 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:41:19,534 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:41:22,753 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:41:29,562 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:41:32,934 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:42:51,048 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:42:56,217 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:43:00,063 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:43:03,591 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:43:54,474 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:43:57,858 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:48:55,074 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:48:58,470 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:49:35,331 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:49:38,466 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:49:59,132 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:50:02,351 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:50:09,927 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:50:13,318 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:51:17,428 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:51:20,663 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:51:29,514 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 15:51:32,703 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 15:51:38,649 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2

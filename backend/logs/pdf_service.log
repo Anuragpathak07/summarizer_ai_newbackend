@@ -1,0 +1,981 @@
+2025-05-30 00:09:23,994 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:11:58,126 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:11:58,127 - pdf_service - INFO - Text extraction completed successfully
+2025-05-30 00:12:51,966 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:12:53,999 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:13:07,491 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:13:07,491 - pdf_service - INFO - Text extraction completed successfully
+2025-05-30 00:14:08,683 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:14:22,067 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:14:22,068 - pdf_service - INFO - Text extraction completed successfully
+2025-05-30 00:16:00,552 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:16:12,607 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:16:14,569 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:16:26,783 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:16:26,805 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:16:27,132 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:18:35,787 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:18:49,869 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:19:11,226 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:19:11,251 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:19:11,764 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:25:55,207 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:25:55,233 - pdf_service - ERROR - Error extracting text from PDF: Stream has ended unexpectedly
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\pdf_service.py", line 37, in extract_text
+    total_pages = len(reader.pages)
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyPDF2\_page.py", line 2063, in __len__
+    return self.length_function()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyPDF2\_reader.py", line 448, in _get_num_pages
+    self._flatten()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyPDF2\_reader.py", line 1117, in _flatten
+    self._flatten(page.get_object(), inherit, **addt)
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyPDF2\generic\_base.py", line 259, in get_object
+    obj = self.pdf.get_object(self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyPDF2\_reader.py", line 1260, in get_object
+    retval = read_object(self.stream, self)  # type: ignore
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyPDF2\generic\_data_structures.py", line 1077, in read_object
+    return NumberObject.read_from_stream(stream)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyPDF2\generic\_base.py", line 405, in read_from_stream
+    num = read_until_regex(stream, NumberObject.NumberPattern)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyPDF2\_utils.py", line 160, in read_until_regex
+    raise PdfStreamError(STREAM_TRUNCATED_PREMATURELY)
+PyPDF2.errors.PdfStreamError: Stream has ended unexpectedly
+2025-05-30 00:25:55,239 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:25:55,359 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:25:55,774 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:27:55,150 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:27:55,172 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:27:55,501 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:28:05,561 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:28:05,589 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:28:05,901 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:30:26,917 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:30:26,941 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:30:27,345 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:30:37,313 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:30:37,344 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:30:37,788 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:32:13,225 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:32:13,249 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:32:13,557 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:32:23,406 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:32:23,427 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:32:23,741 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:34:34,467 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:34:34,489 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:34:34,906 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:34:44,535 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:34:44,559 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:34:45,008 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:37:54,760 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:37:54,787 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:37:55,166 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:38:05,950 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:38:05,978 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:38:06,354 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:39:11,805 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:39:13,742 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:39:30,928 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:39:30,954 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:39:31,433 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:39:41,615 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:39:41,644 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:39:42,061 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:41:46,767 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:41:46,790 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:41:47,066 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:41:56,639 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:41:56,669 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:41:56,959 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:42:48,766 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:43:11,667 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:43:11,688 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:43:12,151 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:43:21,982 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:43:22,009 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:43:22,450 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:57:18,390 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:57:19,525 - pdf_service - INFO - Initialized PDFService
+2025-05-30 00:57:27,604 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack_1.pdf
+2025-05-30 00:57:27,625 - pdf_service - INFO - PDF has 11 pages
+2025-05-30 00:57:27,749 - pdf_service - INFO - Successfully extracted 3512 characters from PDF
+2025-05-30 00:58:39,546 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:58:39,569 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:58:39,998 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:58:50,223 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-30 00:58:50,248 - pdf_service - INFO - PDF has 30 pages
+2025-05-30 00:58:50,660 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-30 00:59:34,622 - pdf_service - INFO - Starting text extraction from uploads\MSS-DC_1.pdf
+2025-05-30 00:59:34,641 - pdf_service - INFO - PDF has 11 pages
+2025-05-30 00:59:34,823 - pdf_service - INFO - Successfully extracted 4743 characters from PDF
+2025-05-30 00:59:44,074 - pdf_service - INFO - Starting text extraction from uploads\MSS-DC_1.pdf
+2025-05-30 00:59:44,091 - pdf_service - INFO - PDF has 11 pages
+2025-05-30 00:59:44,307 - pdf_service - INFO - Successfully extracted 4743 characters from PDF
+2025-05-30 01:00:38,416 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-05-30 01:00:38,453 - pdf_service - INFO - PDF has 23 pages
+2025-05-30 01:00:38,703 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-05-30 01:00:47,455 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-05-30 01:00:47,491 - pdf_service - INFO - PDF has 23 pages
+2025-05-30 01:00:47,787 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-05-30 09:20:12,581 - pdf_service - INFO - Starting text extraction from uploads\NPComplete-02.pdf
+2025-05-30 09:20:12,602 - pdf_service - INFO - PDF has 13 pages
+2025-05-30 09:20:17,763 - pdf_service - INFO - Successfully extracted 22622 characters from PDF
+2025-05-30 09:20:27,276 - pdf_service - INFO - Starting text extraction from uploads\NPComplete-02.pdf
+2025-05-30 09:20:27,291 - pdf_service - INFO - PDF has 13 pages
+2025-05-30 09:20:30,600 - pdf_service - INFO - Successfully extracted 22622 characters from PDF
+2025-05-31 15:17:31,347 - pdf_service - INFO - Initialized PDFService
+2025-05-31 15:17:31,981 - pdf_service - INFO - Initialized PDFService
+2025-05-31 15:17:43,624 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-31 15:17:43,639 - pdf_service - INFO - PDF has 30 pages
+2025-05-31 15:17:43,857 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-05-31 15:17:55,253 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-05-31 15:17:55,269 - pdf_service - INFO - PDF has 30 pages
+2025-05-31 15:17:55,515 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-01 11:31:26,823 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:31:27,489 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:36:25,293 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:38:48,280 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:39:07,111 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:39:07,132 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:39:07,265 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:39:18,797 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:39:18,824 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:39:18,942 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:41:11,358 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:41:12,822 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:41:59,636 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:41:59,654 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:41:59,753 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:42:08,703 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:42:08,719 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:42:08,808 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:43:15,788 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:44:23,069 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:44:23,091 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:44:23,226 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:44:32,317 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:44:32,339 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:44:32,449 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:46:38,144 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:46:50,320 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:46:50,339 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:46:50,469 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:46:58,658 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:46:58,677 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:46:58,789 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:47:49,922 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:47:51,359 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:48:13,529 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:48:13,549 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:48:13,675 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:48:23,786 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:48:23,808 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:48:23,918 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:48:42,083 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:48:42,102 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:48:42,238 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:49:23,324 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:49:24,774 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:49:36,064 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:49:36,081 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:49:36,186 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:49:44,805 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:49:44,827 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:49:44,963 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:50:03,455 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:50:03,478 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:50:03,600 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:51:46,868 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:52:07,973 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:52:07,993 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:52:08,135 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:52:16,659 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:52:16,682 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:52:16,793 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:52:36,263 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:52:36,285 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:52:36,410 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:55:00,372 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:55:01,849 - pdf_service - INFO - Initialized PDFService
+2025-06-01 11:55:14,832 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:55:14,851 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:55:14,960 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:55:23,544 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:55:23,573 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:55:23,683 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:55:42,504 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:55:42,523 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:55:42,660 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:57:45,050 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:57:45,070 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:57:45,189 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:57:53,662 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:57:53,689 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:57:53,816 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:58:10,343 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:58:10,366 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:58:10,477 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:59:25,110 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:59:25,131 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:59:25,252 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:59:33,749 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:59:33,770 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:59:33,912 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 11:59:49,863 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 11:59:49,889 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 11:59:50,000 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 12:39:30,536 - pdf_service - INFO - Initialized PDFService
+2025-06-01 12:39:31,143 - pdf_service - INFO - Initialized PDFService
+2025-06-01 12:42:12,221 - pdf_service - INFO - Initialized PDFService
+2025-06-01 12:42:15,722 - pdf_service - INFO - Initialized PDFService
+2025-06-01 12:43:06,206 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 12:43:06,224 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 12:43:06,326 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 12:43:14,890 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 12:43:14,909 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 12:43:15,000 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 12:43:30,481 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-01 12:43:30,499 - pdf_service - INFO - PDF has 23 pages
+2025-06-01 12:43:30,600 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-01 12:46:34,191 - pdf_service - INFO - Initialized PDFService
+2025-06-01 12:46:35,640 - pdf_service - INFO - Initialized PDFService
+2025-06-01 12:56:15,277 - pdf_service - INFO - Initialized PDFService
+2025-06-01 12:56:16,794 - pdf_service - INFO - Initialized PDFService
+2025-06-01 13:00:42,313 - pdf_service - INFO - Initialized PDFService
+2025-06-01 13:00:43,807 - pdf_service - INFO - Initialized PDFService
+2025-06-01 13:02:55,869 - pdf_service - INFO - Initialized PDFService
+2025-06-01 13:02:58,371 - pdf_service - INFO - Initialized PDFService
+2025-06-01 14:00:25,080 - pdf_service - INFO - Initialized PDFService
+2025-06-01 14:00:25,557 - pdf_service - INFO - Initialized PDFService
+2025-06-01 14:18:41,924 - pdf_service - INFO - Initialized PDFService
+2025-06-01 14:18:42,341 - pdf_service - INFO - Initialized PDFService
+2025-06-01 14:19:07,925 - pdf_service - INFO - Initialized PDFService
+2025-06-03 23:07:50,042 - pdf_service - INFO - Initialized PDFService
+2025-06-03 23:07:50,767 - pdf_service - INFO - Initialized PDFService
+2025-06-03 23:46:07,718 - pdf_service - INFO - Initialized PDFService
+2025-06-03 23:46:08,192 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:33:24,848 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:33:25,497 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:41:10,535 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:47:04,702 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:49:05,727 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:49:06,309 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:52:40,112 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:53:07,419 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:53:08,034 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:54:43,447 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:54:54,152 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:55:07,679 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:55:08,269 - pdf_service - INFO - Initialized PDFService
+2025-06-08 20:59:13,618 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-06-08 20:59:13,643 - pdf_service - INFO - PDF has 30 pages
+2025-06-08 20:59:13,950 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-08 21:01:45,611 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:01:45,611 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:02:19,567 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-06-08 21:02:19,588 - pdf_service - INFO - PDF has 30 pages
+2025-06-08 21:02:19,962 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-08 21:02:52,661 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-06-08 21:02:52,689 - pdf_service - INFO - PDF has 30 pages
+2025-06-08 21:02:53,042 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-08 21:04:54,577 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:04:54,582 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:05:29,458 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:05:29,459 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:07:07,713 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-06-08 21:07:07,734 - pdf_service - INFO - PDF has 30 pages
+2025-06-08 21:07:08,032 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-08 21:10:45,888 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:10:46,544 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:10:49,430 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-06-08 21:10:49,449 - pdf_service - INFO - PDF has 30 pages
+2025-06-08 21:10:49,682 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-08 21:11:41,352 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-06-08 21:11:41,382 - pdf_service - INFO - PDF has 30 pages
+2025-06-08 21:11:41,722 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-08 21:13:59,382 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:42:26,868 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:42:27,652 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:42:36,733 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-06-08 21:42:36,756 - pdf_service - INFO - PDF has 30 pages
+2025-06-08 21:42:37,107 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-08 21:43:04,649 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-06-08 21:43:04,671 - pdf_service - INFO - PDF has 30 pages
+2025-06-08 21:43:04,973 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-08 21:43:52,519 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-06-08 21:43:52,544 - pdf_service - INFO - PDF has 30 pages
+2025-06-08 21:43:52,862 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-08 21:44:52,048 - pdf_service - INFO - Starting text extraction from uploads\NPComplete-02.pdf
+2025-06-08 21:44:52,074 - pdf_service - INFO - PDF has 13 pages
+2025-06-08 21:44:57,316 - pdf_service - INFO - Successfully extracted 22622 characters from PDF
+2025-06-08 21:45:26,945 - pdf_service - INFO - Starting text extraction from uploads\NPComplete-02.pdf
+2025-06-08 21:45:26,973 - pdf_service - INFO - PDF has 13 pages
+2025-06-08 21:45:32,558 - pdf_service - INFO - Successfully extracted 22622 characters from PDF
+2025-06-08 21:46:05,924 - pdf_service - INFO - Starting text extraction from uploads\NPComplete-02.pdf
+2025-06-08 21:46:05,959 - pdf_service - INFO - PDF has 13 pages
+2025-06-08 21:46:11,653 - pdf_service - INFO - Successfully extracted 22622 characters from PDF
+2025-06-08 21:48:34,597 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:48:50,330 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:49:11,167 - pdf_service - INFO - Starting text extraction from uploads\NPComplete-02.pdf
+2025-06-08 21:49:11,192 - pdf_service - INFO - PDF has 13 pages
+2025-06-08 21:49:16,486 - pdf_service - INFO - Successfully extracted 22622 characters from PDF
+2025-06-08 21:49:42,376 - pdf_service - INFO - Starting text extraction from uploads\NPComplete-02.pdf
+2025-06-08 21:49:42,402 - pdf_service - INFO - PDF has 13 pages
+2025-06-08 21:49:47,436 - pdf_service - INFO - Successfully extracted 22622 characters from PDF
+2025-06-08 21:50:31,531 - pdf_service - INFO - Starting text extraction from uploads\NPComplete-02.pdf
+2025-06-08 21:50:31,560 - pdf_service - INFO - PDF has 13 pages
+2025-06-08 21:50:37,151 - pdf_service - INFO - Successfully extracted 22622 characters from PDF
+2025-06-08 21:52:34,745 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:53:10,620 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:53:43,122 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-06-08 21:53:43,142 - pdf_service - INFO - PDF has 30 pages
+2025-06-08 21:53:43,458 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-08 21:53:49,891 - pdf_service - INFO - Starting text extraction from uploads\NPComplete-02.pdf
+2025-06-08 21:53:49,913 - pdf_service - INFO - PDF has 13 pages
+2025-06-08 21:53:55,088 - pdf_service - INFO - Successfully extracted 22622 characters from PDF
+2025-06-08 21:54:25,111 - pdf_service - INFO - Starting text extraction from uploads\NPComplete-02.pdf
+2025-06-08 21:54:25,142 - pdf_service - INFO - PDF has 13 pages
+2025-06-08 21:54:30,136 - pdf_service - INFO - Successfully extracted 22622 characters from PDF
+2025-06-08 21:57:27,805 - pdf_service - INFO - Initialized PDFService
+2025-06-08 21:57:50,778 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack_1.pdf
+2025-06-08 21:57:50,797 - pdf_service - INFO - PDF has 11 pages
+2025-06-08 21:57:50,888 - pdf_service - INFO - Successfully extracted 3512 characters from PDF
+2025-06-08 21:58:16,427 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack_1.pdf
+2025-06-08 21:58:16,448 - pdf_service - INFO - PDF has 11 pages
+2025-06-08 21:58:16,561 - pdf_service - INFO - Successfully extracted 3512 characters from PDF
+2025-06-08 22:01:27,162 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-08 22:01:27,197 - pdf_service - INFO - PDF has 23 pages
+2025-06-08 22:01:27,375 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-08 22:02:22,791 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-08 22:02:22,827 - pdf_service - INFO - PDF has 23 pages
+2025-06-08 22:02:23,060 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-08 22:06:22,270 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-06-08 22:06:22,291 - pdf_service - INFO - PDF has 30 pages
+2025-06-08 22:06:22,621 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-08 22:06:49,218 - pdf_service - INFO - Starting text extraction from uploads\AmotizedAnalysis_1.pdf
+2025-06-08 22:06:49,252 - pdf_service - INFO - PDF has 30 pages
+2025-06-08 22:06:49,546 - pdf_service - INFO - Successfully extracted 9317 characters from PDF
+2025-06-08 22:10:09,158 - pdf_service - INFO - Initialized PDFService
+2025-06-08 22:12:10,206 - pdf_service - INFO - Initialized PDFService
+2025-06-08 22:12:10,834 - pdf_service - INFO - Initialized PDFService
+2025-06-08 22:12:14,152 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-08 22:12:14,180 - pdf_service - INFO - PDF has 23 pages
+2025-06-08 22:12:14,328 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-08 22:13:26,526 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-08 22:13:26,575 - pdf_service - INFO - PDF has 23 pages
+2025-06-08 22:13:26,782 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-08 22:19:54,850 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-08 22:19:54,881 - pdf_service - INFO - PDF has 23 pages
+2025-06-08 22:19:55,082 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-08 22:20:24,923 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-08 22:20:24,963 - pdf_service - INFO - PDF has 23 pages
+2025-06-08 22:20:25,180 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-10 00:09:15,735 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:09:16,841 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:09:47,310 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack_1.pdf
+2025-06-10 00:09:47,332 - pdf_service - INFO - PDF has 11 pages
+2025-06-10 00:09:47,445 - pdf_service - INFO - Successfully extracted 3512 characters from PDF
+2025-06-10 00:10:59,048 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack_1.pdf
+2025-06-10 00:10:59,068 - pdf_service - INFO - PDF has 11 pages
+2025-06-10 00:10:59,221 - pdf_service - INFO - Successfully extracted 3512 characters from PDF
+2025-06-10 00:16:12,956 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:17:59,196 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-10 00:17:59,229 - pdf_service - INFO - PDF has 23 pages
+2025-06-10 00:17:59,410 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-10 00:18:19,170 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-10 00:18:19,204 - pdf_service - INFO - PDF has 23 pages
+2025-06-10 00:18:19,372 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-10 00:27:55,364 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-10 00:27:55,403 - pdf_service - INFO - PDF has 23 pages
+2025-06-10 00:27:55,655 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-10 00:28:37,337 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-10 00:28:37,370 - pdf_service - INFO - PDF has 23 pages
+2025-06-10 00:28:37,584 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-10 00:39:24,241 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:46:03,873 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:48:56,728 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:48:57,606 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:49:52,943 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:50:32,914 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:52:09,315 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:52:10,191 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:55:04,562 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:55:50,188 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:55:51,156 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:57:26,816 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:58:00,993 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:59:42,922 - pdf_service - INFO - Initialized PDFService
+2025-06-10 00:59:43,882 - pdf_service - INFO - Initialized PDFService
+2025-06-10 01:00:47,329 - pdf_service - INFO - Initialized PDFService
+2025-06-10 01:07:11,696 - pdf_service - INFO - Initialized PDFService
+2025-06-10 01:07:12,580 - pdf_service - INFO - Initialized PDFService
+2025-06-11 22:45:58,056 - pdf_service - INFO - Initialized PDFService
+2025-06-11 22:45:59,000 - pdf_service - INFO - Initialized PDFService
+2025-06-11 22:48:26,195 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 22:48:26,231 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 22:48:26,383 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 22:48:32,677 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 22:48:32,721 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 22:48:32,937 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 22:50:11,019 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 22:50:11,049 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 22:50:11,189 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 22:51:18,533 - pdf_service - INFO - Initialized PDFService
+2025-06-11 22:51:29,727 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 22:51:29,754 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 22:51:29,906 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 22:51:29,941 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 22:51:29,966 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 22:51:30,100 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 22:53:41,214 - pdf_service - INFO - Initialized PDFService
+2025-06-11 22:54:25,253 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 22:54:25,277 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 22:54:25,436 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 22:54:25,477 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 22:54:25,504 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 22:54:25,638 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 22:55:09,532 - pdf_service - INFO - Initialized PDFService
+2025-06-11 22:56:26,464 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 22:56:26,499 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 22:56:26,723 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 22:56:39,361 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 22:56:39,391 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 22:56:39,535 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 22:57:20,688 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 22:57:20,720 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 22:57:20,856 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 23:05:59,312 - pdf_service - INFO - Initialized PDFService
+2025-06-11 23:08:27,716 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 23:08:27,740 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 23:08:27,958 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 23:09:07,551 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 23:09:07,581 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 23:09:07,846 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 23:09:56,105 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 23:09:56,142 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 23:09:56,365 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 23:14:25,197 - pdf_service - INFO - Initialized PDFService
+2025-06-11 23:15:08,908 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 23:15:08,937 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 23:15:09,164 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 23:15:48,023 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 23:15:48,056 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 23:15:48,318 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-06-11 23:16:48,379 - pdf_service - INFO - Starting text extraction from uploads\TheoryofNPCompleteness.pdf
+2025-06-11 23:16:48,415 - pdf_service - INFO - PDF has 23 pages
+2025-06-11 23:16:48,615 - pdf_service - INFO - Successfully extracted 9755 characters from PDF
+2025-08-19 21:52:00,096 - pdf_service - INFO - Initialized PDFService
+2025-08-19 21:52:00,783 - pdf_service - INFO - Initialized PDFService
+2025-08-19 21:54:05,800 - pdf_service - INFO - Initialized PDFService
+2025-12-08 12:45:48,333 - pdf_service - INFO - Initialized PDFService
+2025-12-08 12:45:48,848 - pdf_service - INFO - Initialized PDFService
+2025-12-08 12:46:57,268 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf
+2025-12-08 12:46:57,296 - pdf_service - INFO - PDF has 26 pages
+2025-12-08 12:46:57,320 - pdf_service - WARNING - No text could be extracted from page 4
+2025-12-08 12:46:57,323 - pdf_service - WARNING - No text could be extracted from page 5
+2025-12-08 12:46:57,324 - pdf_service - WARNING - No text could be extracted from page 6
+2025-12-08 12:46:57,327 - pdf_service - WARNING - No text could be extracted from page 7
+2025-12-08 12:46:57,329 - pdf_service - WARNING - No text could be extracted from page 8
+2025-12-08 12:46:57,331 - pdf_service - WARNING - No text could be extracted from page 9
+2025-12-08 12:46:57,332 - pdf_service - WARNING - No text could be extracted from page 10
+2025-12-08 12:46:57,335 - pdf_service - WARNING - No text could be extracted from page 11
+2025-12-08 12:46:57,337 - pdf_service - WARNING - No text could be extracted from page 12
+2025-12-08 12:46:57,340 - pdf_service - WARNING - No text could be extracted from page 13
+2025-12-08 12:46:57,341 - pdf_service - WARNING - No text could be extracted from page 14
+2025-12-08 12:46:57,344 - pdf_service - WARNING - No text could be extracted from page 15
+2025-12-08 12:46:57,345 - pdf_service - WARNING - No text could be extracted from page 16
+2025-12-08 12:46:57,348 - pdf_service - WARNING - No text could be extracted from page 17
+2025-12-08 12:46:57,349 - pdf_service - WARNING - No text could be extracted from page 18
+2025-12-08 12:46:57,352 - pdf_service - WARNING - No text could be extracted from page 19
+2025-12-08 12:46:57,354 - pdf_service - WARNING - No text could be extracted from page 20
+2025-12-08 12:46:57,356 - pdf_service - WARNING - No text could be extracted from page 21
+2025-12-08 12:46:57,358 - pdf_service - WARNING - No text could be extracted from page 22
+2025-12-08 12:46:57,361 - pdf_service - WARNING - No text could be extracted from page 23
+2025-12-08 12:46:57,362 - pdf_service - WARNING - No text could be extracted from page 24
+2025-12-08 12:46:57,365 - pdf_service - WARNING - No text could be extracted from page 25
+2025-12-08 12:46:57,366 - pdf_service - WARNING - No text could be extracted from page 26
+2025-12-08 12:46:57,367 - pdf_service - INFO - Successfully extracted 1325 characters from PDF
+2025-12-08 12:47:00,263 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf
+2025-12-08 12:47:00,285 - pdf_service - INFO - PDF has 26 pages
+2025-12-08 12:47:00,302 - pdf_service - WARNING - No text could be extracted from page 4
+2025-12-08 12:47:00,303 - pdf_service - WARNING - No text could be extracted from page 5
+2025-12-08 12:47:00,305 - pdf_service - WARNING - No text could be extracted from page 6
+2025-12-08 12:47:00,307 - pdf_service - WARNING - No text could be extracted from page 7
+2025-12-08 12:47:00,308 - pdf_service - WARNING - No text could be extracted from page 8
+2025-12-08 12:47:00,310 - pdf_service - WARNING - No text could be extracted from page 9
+2025-12-08 12:47:00,311 - pdf_service - WARNING - No text could be extracted from page 10
+2025-12-08 12:47:00,313 - pdf_service - WARNING - No text could be extracted from page 11
+2025-12-08 12:47:00,314 - pdf_service - WARNING - No text could be extracted from page 12
+2025-12-08 12:47:00,316 - pdf_service - WARNING - No text could be extracted from page 13
+2025-12-08 12:47:00,318 - pdf_service - WARNING - No text could be extracted from page 14
+2025-12-08 12:47:00,319 - pdf_service - WARNING - No text could be extracted from page 15
+2025-12-08 12:47:00,320 - pdf_service - WARNING - No text could be extracted from page 16
+2025-12-08 12:47:00,321 - pdf_service - WARNING - No text could be extracted from page 17
+2025-12-08 12:47:00,324 - pdf_service - WARNING - No text could be extracted from page 18
+2025-12-08 12:47:00,325 - pdf_service - WARNING - No text could be extracted from page 19
+2025-12-08 12:47:00,326 - pdf_service - WARNING - No text could be extracted from page 20
+2025-12-08 12:47:00,327 - pdf_service - WARNING - No text could be extracted from page 21
+2025-12-08 12:47:00,329 - pdf_service - WARNING - No text could be extracted from page 22
+2025-12-08 12:47:00,331 - pdf_service - WARNING - No text could be extracted from page 23
+2025-12-08 12:47:00,332 - pdf_service - WARNING - No text could be extracted from page 24
+2025-12-08 12:47:00,334 - pdf_service - WARNING - No text could be extracted from page 25
+2025-12-08 12:47:00,335 - pdf_service - WARNING - No text could be extracted from page 26
+2025-12-08 12:47:00,335 - pdf_service - INFO - Successfully extracted 1325 characters from PDF
+2025-12-08 12:47:00,810 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf
+2025-12-08 12:47:00,825 - pdf_service - INFO - PDF has 26 pages
+2025-12-08 12:47:00,839 - pdf_service - WARNING - No text could be extracted from page 4
+2025-12-08 12:47:00,842 - pdf_service - WARNING - No text could be extracted from page 5
+2025-12-08 12:47:00,843 - pdf_service - WARNING - No text could be extracted from page 6
+2025-12-08 12:47:00,845 - pdf_service - WARNING - No text could be extracted from page 7
+2025-12-08 12:47:00,845 - pdf_service - WARNING - No text could be extracted from page 8
+2025-12-08 12:47:00,847 - pdf_service - WARNING - No text could be extracted from page 9
+2025-12-08 12:47:00,848 - pdf_service - WARNING - No text could be extracted from page 10
+2025-12-08 12:47:00,850 - pdf_service - WARNING - No text could be extracted from page 11
+2025-12-08 12:47:00,852 - pdf_service - WARNING - No text could be extracted from page 12
+2025-12-08 12:47:00,854 - pdf_service - WARNING - No text could be extracted from page 13
+2025-12-08 12:47:00,854 - pdf_service - WARNING - No text could be extracted from page 14
+2025-12-08 12:47:00,856 - pdf_service - WARNING - No text could be extracted from page 15
+2025-12-08 12:47:00,857 - pdf_service - WARNING - No text could be extracted from page 16
+2025-12-08 12:47:00,858 - pdf_service - WARNING - No text could be extracted from page 17
+2025-12-08 12:47:00,859 - pdf_service - WARNING - No text could be extracted from page 18
+2025-12-08 12:47:00,861 - pdf_service - WARNING - No text could be extracted from page 19
+2025-12-08 12:47:00,861 - pdf_service - WARNING - No text could be extracted from page 20
+2025-12-08 12:47:00,864 - pdf_service - WARNING - No text could be extracted from page 21
+2025-12-08 12:47:00,865 - pdf_service - WARNING - No text could be extracted from page 22
+2025-12-08 12:47:00,866 - pdf_service - WARNING - No text could be extracted from page 23
+2025-12-08 12:47:00,868 - pdf_service - WARNING - No text could be extracted from page 24
+2025-12-08 12:47:00,870 - pdf_service - WARNING - No text could be extracted from page 25
+2025-12-08 12:47:00,871 - pdf_service - WARNING - No text could be extracted from page 26
+2025-12-08 12:47:00,871 - pdf_service - INFO - Successfully extracted 1325 characters from PDF
+2026-03-15 11:33:20,034 - pdf_service - INFO - Initialized PDFService
+2026-03-15 11:33:30,195 - pdf_service - INFO - Initialized PDFService
+2026-03-15 14:54:35,806 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf_Amortize_Analysis.pptx.pdf
+2026-03-15 14:54:35,843 - pdf_service - INFO - PDF has 26 pages
+2026-03-15 14:54:35,883 - pdf_service - WARNING - No text could be extracted from page 4
+2026-03-15 14:54:35,884 - pdf_service - WARNING - No text could be extracted from page 5
+2026-03-15 14:54:35,888 - pdf_service - WARNING - No text could be extracted from page 6
+2026-03-15 14:54:35,889 - pdf_service - WARNING - No text could be extracted from page 7
+2026-03-15 14:54:35,891 - pdf_service - WARNING - No text could be extracted from page 8
+2026-03-15 14:54:35,894 - pdf_service - WARNING - No text could be extracted from page 9
+2026-03-15 14:54:35,897 - pdf_service - WARNING - No text could be extracted from page 10
+2026-03-15 14:54:35,899 - pdf_service - WARNING - No text could be extracted from page 11
+2026-03-15 14:54:35,901 - pdf_service - WARNING - No text could be extracted from page 12
+2026-03-15 14:54:35,902 - pdf_service - WARNING - No text could be extracted from page 13
+2026-03-15 14:54:35,905 - pdf_service - WARNING - No text could be extracted from page 14
+2026-03-15 14:54:35,906 - pdf_service - WARNING - No text could be extracted from page 15
+2026-03-15 14:54:35,909 - pdf_service - WARNING - No text could be extracted from page 16
+2026-03-15 14:54:35,911 - pdf_service - WARNING - No text could be extracted from page 17
+2026-03-15 14:54:35,914 - pdf_service - WARNING - No text could be extracted from page 18
+2026-03-15 14:54:35,915 - pdf_service - WARNING - No text could be extracted from page 19
+2026-03-15 14:54:35,918 - pdf_service - WARNING - No text could be extracted from page 20
+2026-03-15 14:54:35,918 - pdf_service - WARNING - No text could be extracted from page 21
+2026-03-15 14:54:35,922 - pdf_service - WARNING - No text could be extracted from page 22
+2026-03-15 14:54:35,923 - pdf_service - WARNING - No text could be extracted from page 23
+2026-03-15 14:54:35,926 - pdf_service - WARNING - No text could be extracted from page 24
+2026-03-15 14:54:35,927 - pdf_service - WARNING - No text could be extracted from page 25
+2026-03-15 14:54:35,930 - pdf_service - WARNING - No text could be extracted from page 26
+2026-03-15 14:54:35,930 - pdf_service - INFO - Successfully extracted 1325 characters from PDF
+2026-03-15 14:54:35,931 - pdf_service - INFO - Indexing document Amortize_Analysis.pptx.pdf into RAG database
+2026-03-15 14:54:36,428 - pdf_service - INFO - Successfully indexed document Amortize_Analysis.pptx.pdf
+2026-03-15 14:54:53,646 - pdf_service - INFO - Initialized PDFService
+2026-03-15 14:54:53,947 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf_Amortize_Analysis.pptx.pdf
+2026-03-15 14:54:53,964 - pdf_service - INFO - PDF has 26 pages
+2026-03-15 14:54:53,979 - pdf_service - WARNING - No text could be extracted from page 4
+2026-03-15 14:54:53,981 - pdf_service - WARNING - No text could be extracted from page 5
+2026-03-15 14:54:53,982 - pdf_service - WARNING - No text could be extracted from page 6
+2026-03-15 14:54:53,984 - pdf_service - WARNING - No text could be extracted from page 7
+2026-03-15 14:54:53,985 - pdf_service - WARNING - No text could be extracted from page 8
+2026-03-15 14:54:53,987 - pdf_service - WARNING - No text could be extracted from page 9
+2026-03-15 14:54:53,987 - pdf_service - WARNING - No text could be extracted from page 10
+2026-03-15 14:54:53,989 - pdf_service - WARNING - No text could be extracted from page 11
+2026-03-15 14:54:53,990 - pdf_service - WARNING - No text could be extracted from page 12
+2026-03-15 14:54:53,992 - pdf_service - WARNING - No text could be extracted from page 13
+2026-03-15 14:54:53,993 - pdf_service - WARNING - No text could be extracted from page 14
+2026-03-15 14:54:53,994 - pdf_service - WARNING - No text could be extracted from page 15
+2026-03-15 14:54:53,994 - pdf_service - WARNING - No text could be extracted from page 16
+2026-03-15 14:54:53,996 - pdf_service - WARNING - No text could be extracted from page 17
+2026-03-15 14:54:53,997 - pdf_service - WARNING - No text could be extracted from page 18
+2026-03-15 14:54:54,000 - pdf_service - WARNING - No text could be extracted from page 19
+2026-03-15 14:54:54,001 - pdf_service - WARNING - No text could be extracted from page 20
+2026-03-15 14:54:54,002 - pdf_service - WARNING - No text could be extracted from page 21
+2026-03-15 14:54:54,003 - pdf_service - WARNING - No text could be extracted from page 22
+2026-03-15 14:54:54,006 - pdf_service - WARNING - No text could be extracted from page 23
+2026-03-15 14:54:54,006 - pdf_service - WARNING - No text could be extracted from page 24
+2026-03-15 14:54:54,009 - pdf_service - WARNING - No text could be extracted from page 25
+2026-03-15 14:54:54,010 - pdf_service - WARNING - No text could be extracted from page 26
+2026-03-15 14:54:54,011 - pdf_service - INFO - Successfully extracted 1325 characters from PDF
+2026-03-15 14:54:54,011 - pdf_service - INFO - Indexing document Amortize_Analysis.pptx.pdf into RAG database
+2026-03-15 14:54:54,119 - pdf_service - INFO - Successfully indexed document Amortize_Analysis.pptx.pdf
+2026-03-15 14:54:54,695 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf_Amortize_Analysis.pptx.pdf
+2026-03-15 14:54:54,715 - pdf_service - INFO - PDF has 26 pages
+2026-03-15 14:54:54,742 - pdf_service - WARNING - No text could be extracted from page 4
+2026-03-15 14:54:54,746 - pdf_service - WARNING - No text could be extracted from page 5
+2026-03-15 14:54:54,749 - pdf_service - WARNING - No text could be extracted from page 6
+2026-03-15 14:54:54,752 - pdf_service - WARNING - No text could be extracted from page 7
+2026-03-15 14:54:54,754 - pdf_service - WARNING - No text could be extracted from page 8
+2026-03-15 14:54:54,756 - pdf_service - WARNING - No text could be extracted from page 9
+2026-03-15 14:54:54,758 - pdf_service - WARNING - No text could be extracted from page 10
+2026-03-15 14:54:54,760 - pdf_service - WARNING - No text could be extracted from page 11
+2026-03-15 14:54:54,761 - pdf_service - WARNING - No text could be extracted from page 12
+2026-03-15 14:54:54,763 - pdf_service - WARNING - No text could be extracted from page 13
+2026-03-15 14:54:54,765 - pdf_service - WARNING - No text could be extracted from page 14
+2026-03-15 14:54:54,767 - pdf_service - WARNING - No text could be extracted from page 15
+2026-03-15 14:54:54,772 - pdf_service - WARNING - No text could be extracted from page 16
+2026-03-15 14:54:54,773 - pdf_service - WARNING - No text could be extracted from page 17
+2026-03-15 14:54:54,776 - pdf_service - WARNING - No text could be extracted from page 18
+2026-03-15 14:54:54,777 - pdf_service - WARNING - No text could be extracted from page 19
+2026-03-15 14:54:54,779 - pdf_service - WARNING - No text could be extracted from page 20
+2026-03-15 14:54:54,781 - pdf_service - WARNING - No text could be extracted from page 21
+2026-03-15 14:54:54,783 - pdf_service - WARNING - No text could be extracted from page 22
+2026-03-15 14:54:54,785 - pdf_service - WARNING - No text could be extracted from page 23
+2026-03-15 14:54:54,787 - pdf_service - WARNING - No text could be extracted from page 24
+2026-03-15 14:54:54,788 - pdf_service - WARNING - No text could be extracted from page 25
+2026-03-15 14:54:54,791 - pdf_service - WARNING - No text could be extracted from page 26
+2026-03-15 14:54:54,791 - pdf_service - INFO - Successfully extracted 1325 characters from PDF
+2026-03-15 14:54:54,792 - pdf_service - INFO - Indexing document Amortize_Analysis.pptx.pdf into RAG database
+2026-03-15 14:54:54,867 - pdf_service - INFO - Successfully indexed document Amortize_Analysis.pptx.pdf
+2026-03-15 14:55:05,997 - pdf_service - INFO - Initialized PDFService
+2026-03-15 14:56:42,850 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:03:47,291 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:03:57,880 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:04:07,917 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack_1.pdf_GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:04:07,938 - pdf_service - INFO - PDF has 11 pages
+2026-03-15 15:04:08,038 - pdf_service - INFO - Successfully extracted 3512 characters from PDF
+2026-03-15 15:04:08,039 - pdf_service - INFO - Indexing document GreedyParadigmFractionalKnapsack_1.pdf into RAG database
+2026-03-15 15:04:08,251 - pdf_service - INFO - Successfully indexed document GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:04:09,776 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack_1.pdf_GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:04:09,794 - pdf_service - INFO - PDF has 11 pages
+2026-03-15 15:04:09,892 - pdf_service - INFO - Successfully extracted 3512 characters from PDF
+2026-03-15 15:04:09,893 - pdf_service - INFO - Indexing document GreedyParadigmFractionalKnapsack_1.pdf into RAG database
+2026-03-15 15:04:10,037 - pdf_service - INFO - Successfully indexed document GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:04:20,871 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:04:21,781 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack_1.pdf_GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:04:21,798 - pdf_service - INFO - PDF has 11 pages
+2026-03-15 15:04:21,892 - pdf_service - INFO - Successfully extracted 3512 characters from PDF
+2026-03-15 15:04:21,894 - pdf_service - INFO - Indexing document GreedyParadigmFractionalKnapsack_1.pdf into RAG database
+2026-03-15 15:04:22,094 - pdf_service - INFO - Successfully indexed document GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:05:38,298 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:08:34,727 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf_Amortize_Analysis.pptx.pdf
+2026-03-15 15:08:34,752 - pdf_service - INFO - PDF has 26 pages
+2026-03-15 15:08:34,776 - pdf_service - WARNING - No text could be extracted from page 4
+2026-03-15 15:08:34,778 - pdf_service - WARNING - No text could be extracted from page 5
+2026-03-15 15:08:34,779 - pdf_service - WARNING - No text could be extracted from page 6
+2026-03-15 15:08:34,782 - pdf_service - WARNING - No text could be extracted from page 7
+2026-03-15 15:08:34,783 - pdf_service - WARNING - No text could be extracted from page 8
+2026-03-15 15:08:34,785 - pdf_service - WARNING - No text could be extracted from page 9
+2026-03-15 15:08:34,787 - pdf_service - WARNING - No text could be extracted from page 10
+2026-03-15 15:08:34,789 - pdf_service - WARNING - No text could be extracted from page 11
+2026-03-15 15:08:34,791 - pdf_service - WARNING - No text could be extracted from page 12
+2026-03-15 15:08:34,793 - pdf_service - WARNING - No text could be extracted from page 13
+2026-03-15 15:08:34,794 - pdf_service - WARNING - No text could be extracted from page 14
+2026-03-15 15:08:34,796 - pdf_service - WARNING - No text could be extracted from page 15
+2026-03-15 15:08:34,798 - pdf_service - WARNING - No text could be extracted from page 16
+2026-03-15 15:08:34,800 - pdf_service - WARNING - No text could be extracted from page 17
+2026-03-15 15:08:34,802 - pdf_service - WARNING - No text could be extracted from page 18
+2026-03-15 15:08:34,803 - pdf_service - WARNING - No text could be extracted from page 19
+2026-03-15 15:08:34,806 - pdf_service - WARNING - No text could be extracted from page 20
+2026-03-15 15:08:34,807 - pdf_service - WARNING - No text could be extracted from page 21
+2026-03-15 15:08:34,810 - pdf_service - WARNING - No text could be extracted from page 22
+2026-03-15 15:08:34,811 - pdf_service - WARNING - No text could be extracted from page 23
+2026-03-15 15:08:34,814 - pdf_service - WARNING - No text could be extracted from page 24
+2026-03-15 15:08:34,815 - pdf_service - WARNING - No text could be extracted from page 25
+2026-03-15 15:08:34,819 - pdf_service - WARNING - No text could be extracted from page 26
+2026-03-15 15:08:34,819 - pdf_service - INFO - Successfully extracted 1282 characters from PDF
+2026-03-15 15:08:34,820 - pdf_service - INFO - Indexing document Amortize_Analysis.pptx.pdf into RAG database
+2026-03-15 15:08:34,933 - pdf_service - INFO - Successfully indexed document Amortize_Analysis.pptx.pdf
+2026-03-15 15:08:36,394 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf_Amortize_Analysis.pptx.pdf
+2026-03-15 15:08:36,411 - pdf_service - INFO - PDF has 26 pages
+2026-03-15 15:08:36,429 - pdf_service - WARNING - No text could be extracted from page 4
+2026-03-15 15:08:36,432 - pdf_service - WARNING - No text could be extracted from page 5
+2026-03-15 15:08:36,433 - pdf_service - WARNING - No text could be extracted from page 6
+2026-03-15 15:08:36,435 - pdf_service - WARNING - No text could be extracted from page 7
+2026-03-15 15:08:36,436 - pdf_service - WARNING - No text could be extracted from page 8
+2026-03-15 15:08:36,439 - pdf_service - WARNING - No text could be extracted from page 9
+2026-03-15 15:08:36,440 - pdf_service - WARNING - No text could be extracted from page 10
+2026-03-15 15:08:36,442 - pdf_service - WARNING - No text could be extracted from page 11
+2026-03-15 15:08:36,444 - pdf_service - WARNING - No text could be extracted from page 12
+2026-03-15 15:08:36,446 - pdf_service - WARNING - No text could be extracted from page 13
+2026-03-15 15:08:36,447 - pdf_service - WARNING - No text could be extracted from page 14
+2026-03-15 15:08:36,450 - pdf_service - WARNING - No text could be extracted from page 15
+2026-03-15 15:08:36,452 - pdf_service - WARNING - No text could be extracted from page 16
+2026-03-15 15:08:36,454 - pdf_service - WARNING - No text could be extracted from page 17
+2026-03-15 15:08:36,456 - pdf_service - WARNING - No text could be extracted from page 18
+2026-03-15 15:08:36,458 - pdf_service - WARNING - No text could be extracted from page 19
+2026-03-15 15:08:36,460 - pdf_service - WARNING - No text could be extracted from page 20
+2026-03-15 15:08:36,462 - pdf_service - WARNING - No text could be extracted from page 21
+2026-03-15 15:08:36,463 - pdf_service - WARNING - No text could be extracted from page 22
+2026-03-15 15:08:36,466 - pdf_service - WARNING - No text could be extracted from page 23
+2026-03-15 15:08:36,467 - pdf_service - WARNING - No text could be extracted from page 24
+2026-03-15 15:08:36,470 - pdf_service - WARNING - No text could be extracted from page 25
+2026-03-15 15:08:36,471 - pdf_service - WARNING - No text could be extracted from page 26
+2026-03-15 15:08:36,472 - pdf_service - INFO - Successfully extracted 1282 characters from PDF
+2026-03-15 15:08:36,473 - pdf_service - INFO - Indexing document Amortize_Analysis.pptx.pdf into RAG database
+2026-03-15 15:08:36,538 - pdf_service - INFO - Successfully indexed document Amortize_Analysis.pptx.pdf
+2026-03-15 15:08:37,126 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf_Amortize_Analysis.pptx.pdf
+2026-03-15 15:08:37,138 - pdf_service - INFO - PDF has 26 pages
+2026-03-15 15:08:37,151 - pdf_service - WARNING - No text could be extracted from page 4
+2026-03-15 15:08:37,153 - pdf_service - WARNING - No text could be extracted from page 5
+2026-03-15 15:08:37,154 - pdf_service - WARNING - No text could be extracted from page 6
+2026-03-15 15:08:37,156 - pdf_service - WARNING - No text could be extracted from page 7
+2026-03-15 15:08:37,157 - pdf_service - WARNING - No text could be extracted from page 8
+2026-03-15 15:08:37,158 - pdf_service - WARNING - No text could be extracted from page 9
+2026-03-15 15:08:37,158 - pdf_service - WARNING - No text could be extracted from page 10
+2026-03-15 15:08:37,160 - pdf_service - WARNING - No text could be extracted from page 11
+2026-03-15 15:08:37,162 - pdf_service - WARNING - No text could be extracted from page 12
+2026-03-15 15:08:37,163 - pdf_service - WARNING - No text could be extracted from page 13
+2026-03-15 15:08:37,164 - pdf_service - WARNING - No text could be extracted from page 14
+2026-03-15 15:08:37,166 - pdf_service - WARNING - No text could be extracted from page 15
+2026-03-15 15:08:37,167 - pdf_service - WARNING - No text could be extracted from page 16
+2026-03-15 15:08:37,168 - pdf_service - WARNING - No text could be extracted from page 17
+2026-03-15 15:08:37,170 - pdf_service - WARNING - No text could be extracted from page 18
+2026-03-15 15:08:37,172 - pdf_service - WARNING - No text could be extracted from page 19
+2026-03-15 15:08:37,173 - pdf_service - WARNING - No text could be extracted from page 20
+2026-03-15 15:08:37,175 - pdf_service - WARNING - No text could be extracted from page 21
+2026-03-15 15:08:37,176 - pdf_service - WARNING - No text could be extracted from page 22
+2026-03-15 15:08:37,178 - pdf_service - WARNING - No text could be extracted from page 23
+2026-03-15 15:08:37,178 - pdf_service - WARNING - No text could be extracted from page 24
+2026-03-15 15:08:37,180 - pdf_service - WARNING - No text could be extracted from page 25
+2026-03-15 15:08:37,181 - pdf_service - WARNING - No text could be extracted from page 26
+2026-03-15 15:08:37,182 - pdf_service - INFO - Successfully extracted 1282 characters from PDF
+2026-03-15 15:08:37,182 - pdf_service - INFO - Indexing document Amortize_Analysis.pptx.pdf into RAG database
+2026-03-15 15:08:37,234 - pdf_service - INFO - Successfully indexed document Amortize_Analysis.pptx.pdf
+2026-03-15 15:12:53,010 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:13:28,855 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf_Amortize_Analysis.pptx.pdf
+2026-03-15 15:13:28,880 - pdf_service - INFO - PDF has 26 pages
+2026-03-15 15:13:28,904 - pdf_service - WARNING - No text could be extracted from page 4
+2026-03-15 15:13:28,906 - pdf_service - WARNING - No text could be extracted from page 5
+2026-03-15 15:13:28,908 - pdf_service - WARNING - No text could be extracted from page 6
+2026-03-15 15:13:28,910 - pdf_service - WARNING - No text could be extracted from page 7
+2026-03-15 15:13:28,912 - pdf_service - WARNING - No text could be extracted from page 8
+2026-03-15 15:13:28,915 - pdf_service - WARNING - No text could be extracted from page 9
+2026-03-15 15:13:28,915 - pdf_service - WARNING - No text could be extracted from page 10
+2026-03-15 15:13:28,919 - pdf_service - WARNING - No text could be extracted from page 11
+2026-03-15 15:13:28,920 - pdf_service - WARNING - No text could be extracted from page 12
+2026-03-15 15:13:28,923 - pdf_service - WARNING - No text could be extracted from page 13
+2026-03-15 15:13:28,924 - pdf_service - WARNING - No text could be extracted from page 14
+2026-03-15 15:13:28,927 - pdf_service - WARNING - No text could be extracted from page 15
+2026-03-15 15:13:28,928 - pdf_service - WARNING - No text could be extracted from page 16
+2026-03-15 15:13:28,930 - pdf_service - WARNING - No text could be extracted from page 17
+2026-03-15 15:13:28,933 - pdf_service - WARNING - No text could be extracted from page 18
+2026-03-15 15:13:28,934 - pdf_service - WARNING - No text could be extracted from page 19
+2026-03-15 15:13:28,936 - pdf_service - WARNING - No text could be extracted from page 20
+2026-03-15 15:13:28,939 - pdf_service - WARNING - No text could be extracted from page 21
+2026-03-15 15:13:28,940 - pdf_service - WARNING - No text could be extracted from page 22
+2026-03-15 15:13:28,943 - pdf_service - WARNING - No text could be extracted from page 23
+2026-03-15 15:13:28,944 - pdf_service - WARNING - No text could be extracted from page 24
+2026-03-15 15:13:28,947 - pdf_service - WARNING - No text could be extracted from page 25
+2026-03-15 15:13:28,948 - pdf_service - WARNING - No text could be extracted from page 26
+2026-03-15 15:13:28,949 - pdf_service - INFO - Successfully extracted 1282 characters from PDF
+2026-03-15 15:13:28,950 - pdf_service - INFO - Indexing document Amortize_Analysis.pptx.pdf into RAG database
+2026-03-15 15:13:29,072 - pdf_service - INFO - Successfully indexed document Amortize_Analysis.pptx.pdf
+2026-03-15 15:13:30,594 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf_Amortize_Analysis.pptx.pdf
+2026-03-15 15:13:30,612 - pdf_service - INFO - PDF has 26 pages
+2026-03-15 15:13:30,626 - pdf_service - WARNING - No text could be extracted from page 4
+2026-03-15 15:13:30,627 - pdf_service - WARNING - No text could be extracted from page 5
+2026-03-15 15:13:30,628 - pdf_service - WARNING - No text could be extracted from page 6
+2026-03-15 15:13:30,630 - pdf_service - WARNING - No text could be extracted from page 7
+2026-03-15 15:13:30,631 - pdf_service - WARNING - No text could be extracted from page 8
+2026-03-15 15:13:30,632 - pdf_service - WARNING - No text could be extracted from page 9
+2026-03-15 15:13:30,634 - pdf_service - WARNING - No text could be extracted from page 10
+2026-03-15 15:13:30,635 - pdf_service - WARNING - No text could be extracted from page 11
+2026-03-15 15:13:30,637 - pdf_service - WARNING - No text could be extracted from page 12
+2026-03-15 15:13:30,638 - pdf_service - WARNING - No text could be extracted from page 13
+2026-03-15 15:13:30,640 - pdf_service - WARNING - No text could be extracted from page 14
+2026-03-15 15:13:30,641 - pdf_service - WARNING - No text could be extracted from page 15
+2026-03-15 15:13:30,642 - pdf_service - WARNING - No text could be extracted from page 16
+2026-03-15 15:13:30,644 - pdf_service - WARNING - No text could be extracted from page 17
+2026-03-15 15:13:30,646 - pdf_service - WARNING - No text could be extracted from page 18
+2026-03-15 15:13:30,647 - pdf_service - WARNING - No text could be extracted from page 19
+2026-03-15 15:13:30,650 - pdf_service - WARNING - No text could be extracted from page 20
+2026-03-15 15:13:30,652 - pdf_service - WARNING - No text could be extracted from page 21
+2026-03-15 15:13:30,654 - pdf_service - WARNING - No text could be extracted from page 22
+2026-03-15 15:13:30,655 - pdf_service - WARNING - No text could be extracted from page 23
+2026-03-15 15:13:30,658 - pdf_service - WARNING - No text could be extracted from page 24
+2026-03-15 15:13:30,659 - pdf_service - WARNING - No text could be extracted from page 25
+2026-03-15 15:13:30,662 - pdf_service - WARNING - No text could be extracted from page 26
+2026-03-15 15:13:30,662 - pdf_service - INFO - Successfully extracted 1282 characters from PDF
+2026-03-15 15:13:30,663 - pdf_service - INFO - Indexing document Amortize_Analysis.pptx.pdf into RAG database
+2026-03-15 15:13:30,722 - pdf_service - INFO - Successfully indexed document Amortize_Analysis.pptx.pdf
+2026-03-15 15:13:31,289 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf_Amortize_Analysis.pptx.pdf
+2026-03-15 15:13:31,303 - pdf_service - INFO - PDF has 26 pages
+2026-03-15 15:13:31,317 - pdf_service - WARNING - No text could be extracted from page 4
+2026-03-15 15:13:31,317 - pdf_service - WARNING - No text could be extracted from page 5
+2026-03-15 15:13:31,320 - pdf_service - WARNING - No text could be extracted from page 6
+2026-03-15 15:13:31,320 - pdf_service - WARNING - No text could be extracted from page 7
+2026-03-15 15:13:31,322 - pdf_service - WARNING - No text could be extracted from page 8
+2026-03-15 15:13:31,322 - pdf_service - WARNING - No text could be extracted from page 9
+2026-03-15 15:13:31,324 - pdf_service - WARNING - No text could be extracted from page 10
+2026-03-15 15:13:31,324 - pdf_service - WARNING - No text could be extracted from page 11
+2026-03-15 15:13:31,327 - pdf_service - WARNING - No text could be extracted from page 12
+2026-03-15 15:13:31,328 - pdf_service - WARNING - No text could be extracted from page 13
+2026-03-15 15:13:31,329 - pdf_service - WARNING - No text could be extracted from page 14
+2026-03-15 15:13:31,330 - pdf_service - WARNING - No text could be extracted from page 15
+2026-03-15 15:13:31,331 - pdf_service - WARNING - No text could be extracted from page 16
+2026-03-15 15:13:31,332 - pdf_service - WARNING - No text could be extracted from page 17
+2026-03-15 15:13:31,334 - pdf_service - WARNING - No text could be extracted from page 18
+2026-03-15 15:13:31,335 - pdf_service - WARNING - No text could be extracted from page 19
+2026-03-15 15:13:31,336 - pdf_service - WARNING - No text could be extracted from page 20
+2026-03-15 15:13:31,337 - pdf_service - WARNING - No text could be extracted from page 21
+2026-03-15 15:13:31,338 - pdf_service - WARNING - No text could be extracted from page 22
+2026-03-15 15:13:31,339 - pdf_service - WARNING - No text could be extracted from page 23
+2026-03-15 15:13:31,340 - pdf_service - WARNING - No text could be extracted from page 24
+2026-03-15 15:13:31,341 - pdf_service - WARNING - No text could be extracted from page 25
+2026-03-15 15:13:31,342 - pdf_service - WARNING - No text could be extracted from page 26
+2026-03-15 15:13:31,342 - pdf_service - INFO - Successfully extracted 1282 characters from PDF
+2026-03-15 15:13:31,344 - pdf_service - INFO - Indexing document Amortize_Analysis.pptx.pdf into RAG database
+2026-03-15 15:13:31,394 - pdf_service - INFO - Successfully indexed document Amortize_Analysis.pptx.pdf
+2026-03-15 15:14:29,055 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:15:28,133 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:15:37,365 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:16:22,466 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf_Amortize_Analysis.pptx.pdf
+2026-03-15 15:16:22,494 - pdf_service - INFO - PDF has 26 pages
+2026-03-15 15:16:22,522 - pdf_service - WARNING - No text could be extracted from page 4
+2026-03-15 15:16:22,524 - pdf_service - WARNING - No text could be extracted from page 5
+2026-03-15 15:16:22,526 - pdf_service - WARNING - No text could be extracted from page 6
+2026-03-15 15:16:22,528 - pdf_service - WARNING - No text could be extracted from page 7
+2026-03-15 15:16:22,530 - pdf_service - WARNING - No text could be extracted from page 8
+2026-03-15 15:16:22,532 - pdf_service - WARNING - No text could be extracted from page 9
+2026-03-15 15:16:22,534 - pdf_service - WARNING - No text could be extracted from page 10
+2026-03-15 15:16:22,535 - pdf_service - WARNING - No text could be extracted from page 11
+2026-03-15 15:16:22,538 - pdf_service - WARNING - No text could be extracted from page 12
+2026-03-15 15:16:22,539 - pdf_service - WARNING - No text could be extracted from page 13
+2026-03-15 15:16:22,542 - pdf_service - WARNING - No text could be extracted from page 14
+2026-03-15 15:16:22,544 - pdf_service - WARNING - No text could be extracted from page 15
+2026-03-15 15:16:22,546 - pdf_service - WARNING - No text could be extracted from page 16
+2026-03-15 15:16:22,547 - pdf_service - WARNING - No text could be extracted from page 17
+2026-03-15 15:16:22,551 - pdf_service - WARNING - No text could be extracted from page 18
+2026-03-15 15:16:22,552 - pdf_service - WARNING - No text could be extracted from page 19
+2026-03-15 15:16:22,555 - pdf_service - WARNING - No text could be extracted from page 20
+2026-03-15 15:16:22,556 - pdf_service - WARNING - No text could be extracted from page 21
+2026-03-15 15:16:22,558 - pdf_service - WARNING - No text could be extracted from page 22
+2026-03-15 15:16:22,560 - pdf_service - WARNING - No text could be extracted from page 23
+2026-03-15 15:16:22,562 - pdf_service - WARNING - No text could be extracted from page 24
+2026-03-15 15:16:22,563 - pdf_service - WARNING - No text could be extracted from page 25
+2026-03-15 15:16:22,566 - pdf_service - WARNING - No text could be extracted from page 26
+2026-03-15 15:16:22,567 - pdf_service - INFO - Successfully extracted 1282 characters from PDF
+2026-03-15 15:16:22,567 - pdf_service - INFO - Indexing document Amortize_Analysis.pptx.pdf into RAG database
+2026-03-15 15:16:22,699 - pdf_service - INFO - Successfully indexed document Amortize_Analysis.pptx.pdf
+2026-03-15 15:16:24,961 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf_Amortize_Analysis.pptx.pdf
+2026-03-15 15:16:24,975 - pdf_service - INFO - PDF has 26 pages
+2026-03-15 15:16:24,988 - pdf_service - WARNING - No text could be extracted from page 4
+2026-03-15 15:16:24,990 - pdf_service - WARNING - No text could be extracted from page 5
+2026-03-15 15:16:24,991 - pdf_service - WARNING - No text could be extracted from page 6
+2026-03-15 15:16:24,992 - pdf_service - WARNING - No text could be extracted from page 7
+2026-03-15 15:16:24,994 - pdf_service - WARNING - No text could be extracted from page 8
+2026-03-15 15:16:24,995 - pdf_service - WARNING - No text could be extracted from page 9
+2026-03-15 15:16:24,996 - pdf_service - WARNING - No text could be extracted from page 10
+2026-03-15 15:16:24,998 - pdf_service - WARNING - No text could be extracted from page 11
+2026-03-15 15:16:24,999 - pdf_service - WARNING - No text could be extracted from page 12
+2026-03-15 15:16:25,001 - pdf_service - WARNING - No text could be extracted from page 13
+2026-03-15 15:16:25,002 - pdf_service - WARNING - No text could be extracted from page 14
+2026-03-15 15:16:25,004 - pdf_service - WARNING - No text could be extracted from page 15
+2026-03-15 15:16:25,005 - pdf_service - WARNING - No text could be extracted from page 16
+2026-03-15 15:16:25,006 - pdf_service - WARNING - No text could be extracted from page 17
+2026-03-15 15:16:25,007 - pdf_service - WARNING - No text could be extracted from page 18
+2026-03-15 15:16:25,008 - pdf_service - WARNING - No text could be extracted from page 19
+2026-03-15 15:16:25,010 - pdf_service - WARNING - No text could be extracted from page 20
+2026-03-15 15:16:25,013 - pdf_service - WARNING - No text could be extracted from page 21
+2026-03-15 15:16:25,015 - pdf_service - WARNING - No text could be extracted from page 22
+2026-03-15 15:16:25,016 - pdf_service - WARNING - No text could be extracted from page 23
+2026-03-15 15:16:25,017 - pdf_service - WARNING - No text could be extracted from page 24
+2026-03-15 15:16:25,018 - pdf_service - WARNING - No text could be extracted from page 25
+2026-03-15 15:16:25,021 - pdf_service - WARNING - No text could be extracted from page 26
+2026-03-15 15:16:25,021 - pdf_service - INFO - Successfully extracted 1282 characters from PDF
+2026-03-15 15:16:25,022 - pdf_service - INFO - Indexing document Amortize_Analysis.pptx.pdf into RAG database
+2026-03-15 15:16:25,076 - pdf_service - INFO - Successfully indexed document Amortize_Analysis.pptx.pdf
+2026-03-15 15:16:28,870 - pdf_service - INFO - Starting text extraction from uploads\Amortize_Analysis.pptx.pdf_Amortize_Analysis.pptx.pdf
+2026-03-15 15:16:28,884 - pdf_service - INFO - PDF has 26 pages
+2026-03-15 15:16:28,898 - pdf_service - WARNING - No text could be extracted from page 4
+2026-03-15 15:16:28,900 - pdf_service - WARNING - No text could be extracted from page 5
+2026-03-15 15:16:28,901 - pdf_service - WARNING - No text could be extracted from page 6
+2026-03-15 15:16:28,903 - pdf_service - WARNING - No text could be extracted from page 7
+2026-03-15 15:16:28,906 - pdf_service - WARNING - No text could be extracted from page 8
+2026-03-15 15:16:28,908 - pdf_service - WARNING - No text could be extracted from page 9
+2026-03-15 15:16:28,909 - pdf_service - WARNING - No text could be extracted from page 10
+2026-03-15 15:16:28,911 - pdf_service - WARNING - No text could be extracted from page 11
+2026-03-15 15:16:28,912 - pdf_service - WARNING - No text could be extracted from page 12
+2026-03-15 15:16:28,914 - pdf_service - WARNING - No text could be extracted from page 13
+2026-03-15 15:16:28,914 - pdf_service - WARNING - No text could be extracted from page 14
+2026-03-15 15:16:28,917 - pdf_service - WARNING - No text could be extracted from page 15
+2026-03-15 15:16:28,917 - pdf_service - WARNING - No text could be extracted from page 16
+2026-03-15 15:16:28,920 - pdf_service - WARNING - No text could be extracted from page 17
+2026-03-15 15:16:28,922 - pdf_service - WARNING - No text could be extracted from page 18
+2026-03-15 15:16:28,924 - pdf_service - WARNING - No text could be extracted from page 19
+2026-03-15 15:16:28,924 - pdf_service - WARNING - No text could be extracted from page 20
+2026-03-15 15:16:28,926 - pdf_service - WARNING - No text could be extracted from page 21
+2026-03-15 15:16:28,927 - pdf_service - WARNING - No text could be extracted from page 22
+2026-03-15 15:16:28,928 - pdf_service - WARNING - No text could be extracted from page 23
+2026-03-15 15:16:28,930 - pdf_service - WARNING - No text could be extracted from page 24
+2026-03-15 15:16:28,932 - pdf_service - WARNING - No text could be extracted from page 25
+2026-03-15 15:16:28,933 - pdf_service - WARNING - No text could be extracted from page 26
+2026-03-15 15:16:28,933 - pdf_service - INFO - Successfully extracted 1282 characters from PDF
+2026-03-15 15:16:28,934 - pdf_service - INFO - Indexing document Amortize_Analysis.pptx.pdf into RAG database
+2026-03-15 15:16:28,994 - pdf_service - INFO - Successfully indexed document Amortize_Analysis.pptx.pdf
+2026-03-15 15:21:42,545 - pdf_service - INFO - Starting text extraction from uploads\CP-DC.pdf_CP-DC.pdf
+2026-03-15 15:21:42,563 - pdf_service - INFO - PDF has 8 pages
+2026-03-15 15:21:42,697 - pdf_service - INFO - Successfully extracted 3005 characters from PDF
+2026-03-15 15:21:42,698 - pdf_service - INFO - Indexing document CP-DC.pdf into RAG database
+2026-03-15 15:21:42,833 - pdf_service - INFO - Successfully indexed document CP-DC.pdf
+2026-03-15 15:21:45,503 - pdf_service - INFO - Starting text extraction from uploads\CP-DC.pdf_CP-DC.pdf
+2026-03-15 15:21:45,522 - pdf_service - INFO - PDF has 8 pages
+2026-03-15 15:21:45,631 - pdf_service - INFO - Successfully extracted 3005 characters from PDF
+2026-03-15 15:21:45,632 - pdf_service - INFO - Indexing document CP-DC.pdf into RAG database
+2026-03-15 15:21:45,755 - pdf_service - INFO - Successfully indexed document CP-DC.pdf
+2026-03-15 15:21:48,132 - pdf_service - INFO - Starting text extraction from uploads\CP-DC.pdf_CP-DC.pdf
+2026-03-15 15:21:48,147 - pdf_service - INFO - PDF has 8 pages
+2026-03-15 15:21:48,286 - pdf_service - INFO - Successfully extracted 3005 characters from PDF
+2026-03-15 15:21:48,288 - pdf_service - INFO - Indexing document CP-DC.pdf into RAG database
+2026-03-15 15:21:48,423 - pdf_service - INFO - Successfully indexed document CP-DC.pdf
+2026-03-15 15:22:41,527 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:26:14,895 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack.pdf_GreedyParadigmFractionalKnapsack.pdf
+2026-03-15 15:26:14,916 - pdf_service - INFO - PDF has 11 pages
+2026-03-15 15:26:15,020 - pdf_service - INFO - Successfully extracted 3355 characters from PDF
+2026-03-15 15:26:15,021 - pdf_service - INFO - Indexing document GreedyParadigmFractionalKnapsack.pdf into RAG database
+2026-03-15 15:26:15,233 - pdf_service - INFO - Successfully indexed document GreedyParadigmFractionalKnapsack.pdf
+2026-03-15 15:26:17,476 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack.pdf_GreedyParadigmFractionalKnapsack.pdf
+2026-03-15 15:26:17,493 - pdf_service - INFO - PDF has 11 pages
+2026-03-15 15:26:17,594 - pdf_service - INFO - Successfully extracted 3355 characters from PDF
+2026-03-15 15:26:17,595 - pdf_service - INFO - Indexing document GreedyParadigmFractionalKnapsack.pdf into RAG database
+2026-03-15 15:26:17,746 - pdf_service - INFO - Successfully indexed document GreedyParadigmFractionalKnapsack.pdf
+2026-03-15 15:26:24,696 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack.pdf_GreedyParadigmFractionalKnapsack.pdf
+2026-03-15 15:26:24,714 - pdf_service - INFO - PDF has 11 pages
+2026-03-15 15:26:24,814 - pdf_service - INFO - Successfully extracted 3355 characters from PDF
+2026-03-15 15:26:24,815 - pdf_service - INFO - Indexing document GreedyParadigmFractionalKnapsack.pdf into RAG database
+2026-03-15 15:26:24,967 - pdf_service - INFO - Successfully indexed document GreedyParadigmFractionalKnapsack.pdf
+2026-03-15 15:31:01,228 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack_1.pdf_GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:31:01,248 - pdf_service - INFO - PDF has 11 pages
+2026-03-15 15:31:01,351 - pdf_service - INFO - Successfully extracted 3355 characters from PDF
+2026-03-15 15:31:01,352 - pdf_service - INFO - Indexing document GreedyParadigmFractionalKnapsack_1.pdf into RAG database
+2026-03-15 15:31:01,507 - pdf_service - INFO - Successfully indexed document GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:31:03,916 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack_1.pdf_GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:31:03,933 - pdf_service - INFO - PDF has 11 pages
+2026-03-15 15:31:04,020 - pdf_service - INFO - Successfully extracted 3355 characters from PDF
+2026-03-15 15:31:04,021 - pdf_service - INFO - Indexing document GreedyParadigmFractionalKnapsack_1.pdf into RAG database
+2026-03-15 15:31:04,165 - pdf_service - INFO - Successfully indexed document GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:31:18,497 - pdf_service - INFO - Starting text extraction from uploads\GreedyParadigmFractionalKnapsack_1.pdf_GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:31:18,510 - pdf_service - INFO - PDF has 11 pages
+2026-03-15 15:31:18,605 - pdf_service - INFO - Successfully extracted 3355 characters from PDF
+2026-03-15 15:31:18,606 - pdf_service - INFO - Indexing document GreedyParadigmFractionalKnapsack_1.pdf into RAG database
+2026-03-15 15:31:18,767 - pdf_service - INFO - Successfully indexed document GreedyParadigmFractionalKnapsack_1.pdf
+2026-03-15 15:37:28,298 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:37:42,158 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:38:08,156 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:41:22,754 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:41:32,935 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:42:56,219 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:43:03,593 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:43:57,860 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:48:58,473 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:49:38,466 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:50:02,351 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:50:13,321 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:51:20,664 - pdf_service - INFO - Initialized PDFService
+2026-03-15 15:51:32,705 - pdf_service - INFO - Initialized PDFService

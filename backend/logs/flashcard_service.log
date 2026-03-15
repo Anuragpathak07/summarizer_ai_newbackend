@@ -1,0 +1,564 @@
+2025-05-30 00:09:24,130 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:11:58,129 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:11:58,130 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:12:00,952 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:12:00,953 - flashcard_service - INFO - Successfully generated 3 flashcards
+2025-05-30 00:12:52,201 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:12:54,223 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:13:07,502 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:13:07,503 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:13:15,517 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:13:15,518 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 00:14:08,899 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:14:22,071 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:14:22,071 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:16:00,770 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:16:12,820 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:16:14,792 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:16:27,135 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:16:27,136 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:16:37,655 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:16:37,655 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 00:18:35,999 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:18:50,072 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:19:11,768 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:19:11,769 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:19:21,538 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:19:21,539 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 00:27:55,506 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:27:55,506 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:28:05,505 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:28:05,506 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 00:30:27,349 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:30:27,349 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:30:37,277 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:30:37,278 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 00:32:13,562 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:32:13,565 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:32:23,340 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:32:23,340 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 00:34:34,912 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:34:34,912 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:34:44,501 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:34:44,501 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 00:37:55,169 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:37:55,169 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:38:05,911 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:38:05,911 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 00:39:12,038 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:39:13,938 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:39:31,436 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:39:31,437 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:39:41,575 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:39:41,576 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 00:41:47,069 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:41:47,070 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:41:56,597 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:41:56,598 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 00:42:48,984 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:43:12,154 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:43:12,155 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:43:21,952 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:43:21,953 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 00:57:18,616 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:57:19,742 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-30 00:57:27,753 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:57:27,754 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:58:40,002 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:58:40,003 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:58:50,186 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:58:50,187 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 00:59:34,826 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 00:59:34,827 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 00:59:44,023 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 00:59:44,024 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 01:00:38,706 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 01:00:38,707 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 01:00:47,433 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 01:00:47,434 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-30 09:20:17,766 - flashcard_service - INFO - Starting flashcard generation
+2025-05-30 09:20:17,767 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-30 09:20:27,264 - flashcard_service - INFO - Received response from Cohere API
+2025-05-30 09:20:27,264 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-05-31 15:17:31,659 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-31 15:17:32,090 - flashcard_service - INFO - Initialized FlashcardService
+2025-05-31 15:17:43,859 - flashcard_service - INFO - Starting flashcard generation
+2025-05-31 15:17:43,860 - flashcard_service - INFO - Sending request to Cohere API
+2025-05-31 15:17:55,219 - flashcard_service - INFO - Received response from Cohere API
+2025-05-31 15:17:55,220 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 11:31:27,148 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:31:27,597 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:36:25,405 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:38:48,387 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:39:07,267 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 11:39:07,268 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 11:39:18,778 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 11:39:18,779 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 11:41:11,476 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:41:12,935 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:41:59,755 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 11:41:59,755 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 11:42:08,690 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 11:42:08,690 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 11:43:15,899 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:44:23,229 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 11:44:23,229 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 11:44:32,304 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 11:44:32,304 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 11:46:38,253 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:46:50,470 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 11:46:50,471 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 11:46:58,643 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 11:46:58,644 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 11:47:50,037 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:47:51,464 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:48:13,677 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 11:48:13,678 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 11:48:23,773 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 11:48:23,773 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 11:49:23,434 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:49:24,881 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:49:36,188 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 11:49:36,188 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 11:49:44,792 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 11:49:44,793 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 11:51:46,984 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:52:08,137 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 11:52:08,138 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 11:52:16,646 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 11:52:16,647 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 11:55:00,487 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:55:01,956 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 11:55:14,962 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 11:55:14,963 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 11:55:23,527 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 11:55:23,528 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 11:57:45,191 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 11:57:45,192 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 11:57:53,648 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 11:57:53,649 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 11:59:25,254 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 11:59:25,255 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 11:59:33,736 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 11:59:33,736 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 12:39:30,810 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 12:39:31,246 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 12:42:12,332 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 12:42:15,844 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 12:43:06,328 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 12:43:06,328 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 12:43:14,880 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 12:43:14,880 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 12:46:34,304 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 12:46:35,747 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 12:53:00,537 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 12:53:00,537 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 12:53:09,137 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 12:53:09,137 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 12:53:09,188 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 12:53:09,189 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 12:53:16,981 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 12:53:16,981 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 12:53:17,044 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 12:53:17,045 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 12:53:26,542 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 12:53:26,542 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 12:53:26,594 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 12:53:26,594 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 12:53:35,885 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 12:53:35,885 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 12:53:35,937 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 12:53:35,938 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 12:53:43,664 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 12:53:43,664 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 12:56:15,430 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 12:56:16,900 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 12:56:57,471 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 12:56:57,471 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 12:57:08,736 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 12:57:08,736 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 12:58:50,088 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 12:58:50,089 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 12:59:01,134 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 12:59:01,134 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 13:00:42,465 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 13:00:43,914 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 13:01:22,835 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 13:01:22,836 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 13:01:34,039 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 13:01:34,039 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 13:02:56,021 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 13:02:58,481 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 13:03:17,496 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 13:03:17,497 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 13:03:27,861 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 13:03:27,862 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 14:00:25,237 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 14:00:25,667 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 14:05:15,270 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 14:05:15,270 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 14:05:25,925 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 14:05:25,925 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 14:08:23,029 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 14:08:23,029 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 14:08:31,753 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 14:08:31,753 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 14:12:11,880 - flashcard_service - INFO - Starting flashcard generation
+2025-06-01 14:12:11,881 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-01 14:12:20,488 - flashcard_service - INFO - Received response from Cohere API
+2025-06-01 14:12:20,488 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-01 14:18:42,048 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 14:18:42,444 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-01 14:19:08,040 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-03 23:07:50,429 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-03 23:07:50,874 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-03 23:08:54,275 - flashcard_service - INFO - Starting flashcard generation
+2025-06-03 23:08:54,276 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-03 23:09:04,415 - flashcard_service - INFO - Received response from Cohere API
+2025-06-03 23:09:04,416 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-03 23:11:59,449 - flashcard_service - INFO - Starting flashcard generation
+2025-06-03 23:11:59,449 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-03 23:12:09,624 - flashcard_service - INFO - Received response from Cohere API
+2025-06-03 23:12:09,625 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-03 23:13:20,740 - flashcard_service - INFO - Starting flashcard generation
+2025-06-03 23:13:20,741 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-03 23:13:30,009 - flashcard_service - INFO - Received response from Cohere API
+2025-06-03 23:13:30,010 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-03 23:46:07,873 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-03 23:46:08,302 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-03 23:46:41,896 - flashcard_service - INFO - Starting flashcard generation
+2025-06-03 23:46:41,897 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-03 23:46:51,001 - flashcard_service - INFO - Received response from Cohere API
+2025-06-03 23:46:51,001 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-08 20:33:25,048 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 20:33:25,647 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 20:49:05,894 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 20:49:06,455 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 20:52:40,272 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 20:53:07,577 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 20:53:08,187 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 20:54:43,610 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 20:54:54,312 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 20:55:07,832 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 20:55:08,416 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 20:59:13,953 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 20:59:13,953 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 21:00:04,591 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 21:00:04,591 - flashcard_service - ERROR - Error generating flashcards: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 51, in generate_flashcards
+    response_data = json.loads(response)
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-06-08 21:01:45,787 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:01:45,789 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:02:19,964 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 21:02:19,965 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 21:02:52,619 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 21:02:52,621 - flashcard_service - ERROR - Failed to parse response as JSON: Expecting value: line 1 column 1 (char 0)
+2025-06-08 21:02:52,621 - flashcard_service - INFO - Successfully generated 1 flashcards
+2025-06-08 21:04:54,754 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:04:54,755 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:05:29,625 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:05:29,632 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:07:08,036 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 21:07:08,036 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 21:10:46,059 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:10:46,749 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:10:49,684 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 21:10:49,684 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 21:11:28,058 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 21:11:28,059 - flashcard_service - WARNING - Received only 9 valid flashcards, expected 10
+2025-06-08 21:11:41,311 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-08 21:13:59,545 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:42:27,142 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:42:27,813 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:42:37,110 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 21:42:37,110 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 21:43:04,616 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 21:43:04,617 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-08 21:44:57,320 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 21:44:57,321 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 21:45:19,784 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 21:45:19,785 - flashcard_service - WARNING - Received only 9 valid flashcards, expected 10
+2025-06-08 21:45:26,913 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-08 21:48:34,757 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:48:50,495 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:49:16,489 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 21:49:16,490 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 21:49:42,349 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 21:49:42,350 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-08 21:52:34,915 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:53:10,781 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:53:43,461 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 21:53:43,461 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 21:53:55,093 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 21:53:55,095 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 21:54:11,744 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 21:54:11,745 - flashcard_service - WARNING - Received only 9 valid flashcards, expected 10
+2025-06-08 21:54:21,119 - flashcard_service - WARNING - Failed to generate additional flashcards: Extra data: line 12 column 1 (char 935)
+2025-06-08 21:54:21,120 - flashcard_service - INFO - Successfully generated 9 flashcards
+2025-06-08 21:54:21,121 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 21:54:21,121 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 21:54:22,376 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 21:54:22,377 - flashcard_service - WARNING - Received only 9 valid flashcards, expected 10
+2025-06-08 21:54:25,089 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-08 21:54:42,944 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 21:54:42,945 - flashcard_service - WARNING - Received only 7 valid flashcards, expected 10
+2025-06-08 21:54:55,380 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-08 21:57:27,976 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 21:57:50,892 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 21:57:50,893 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 21:58:11,144 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 21:58:11,145 - flashcard_service - WARNING - Received only 8 valid flashcards, expected 10
+2025-06-08 21:58:16,405 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-08 22:01:27,379 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 22:01:27,379 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 22:02:22,758 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 22:02:22,760 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-08 22:06:22,624 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 22:06:22,624 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 22:06:45,466 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 22:06:45,468 - flashcard_service - WARNING - Received only 8 valid flashcards, expected 10
+2025-06-08 22:06:49,181 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-08 22:10:09,320 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 22:12:10,374 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 22:12:11,022 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-08 22:12:14,331 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 22:12:14,331 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 22:12:38,244 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 22:12:38,245 - flashcard_service - WARNING - Received only 9 valid flashcards, expected 10
+2025-06-08 22:12:59,484 - flashcard_service - WARNING - Failed to generate additional flashcards: Extra data: line 24 column 1 (char 1699)
+2025-06-08 22:12:59,484 - flashcard_service - INFO - Successfully generated 9 flashcards
+2025-06-08 22:12:59,485 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 22:12:59,486 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 22:13:26,493 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 22:13:26,494 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-08 22:19:55,085 - flashcard_service - INFO - Starting flashcard generation
+2025-06-08 22:19:55,085 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-08 22:20:21,571 - flashcard_service - INFO - Received response from Cohere API
+2025-06-08 22:20:21,572 - flashcard_service - WARNING - Received only 9 valid flashcards, expected 10
+2025-06-08 22:20:24,901 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-10 00:09:16,246 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:09:17,034 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:09:47,449 - flashcard_service - INFO - Starting flashcard generation
+2025-06-10 00:09:47,449 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-10 00:10:10,462 - flashcard_service - INFO - Received response from Cohere API
+2025-06-10 00:10:10,462 - flashcard_service - WARNING - Received only 9 valid flashcards, expected 10
+2025-06-10 00:10:23,572 - flashcard_service - WARNING - Failed to generate additional flashcards: Extra data: line 16 column 1 (char 1366)
+2025-06-10 00:10:23,573 - flashcard_service - INFO - Successfully generated 9 flashcards
+2025-06-10 00:10:23,575 - flashcard_service - INFO - Starting flashcard generation
+2025-06-10 00:10:23,575 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-10 00:10:44,966 - flashcard_service - INFO - Received response from Cohere API
+2025-06-10 00:10:44,968 - flashcard_service - WARNING - Received only 9 valid flashcards, expected 10
+2025-06-10 00:10:59,006 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-10 00:16:13,295 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:17:59,413 - flashcard_service - INFO - Starting flashcard generation
+2025-06-10 00:17:59,414 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-10 00:18:19,141 - flashcard_service - INFO - Received response from Cohere API
+2025-06-10 00:18:19,141 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-10 00:27:55,658 - flashcard_service - INFO - Starting flashcard generation
+2025-06-10 00:27:55,660 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-10 00:28:25,769 - flashcard_service - INFO - Received response from Cohere API
+2025-06-10 00:28:25,770 - flashcard_service - WARNING - Received only 9 valid flashcards, expected 10
+2025-06-10 00:28:37,312 - flashcard_service - INFO - Successfully generated 10 flashcards
+2025-06-10 00:39:24,740 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:46:04,112 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:48:56,968 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:48:57,813 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:49:53,164 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:50:33,155 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:52:09,540 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:52:10,394 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:55:04,788 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:55:50,421 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:55:51,336 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:57:27,036 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:58:01,215 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:59:43,227 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 00:59:44,089 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 01:00:47,541 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 01:07:11,935 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-10 01:07:12,784 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-11 22:45:58,500 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-11 22:45:59,148 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-11 22:48:26,503 - flashcard_service - INFO - Starting flashcard generation
+2025-06-11 22:48:26,503 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-11 22:48:26,505 - flashcard_service - ERROR - Error in generate_flashcards: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 74, in generate_flashcards
+    response = await asyncio.wait_for(
+                     ^^^^^^^
+NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 111, in generate_flashcards
+    except (asyncio.TimeoutError, Exception) as e:
+            ^^^^^^^
+NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'
+2025-06-11 22:48:32,944 - flashcard_service - INFO - Starting flashcard generation
+2025-06-11 22:48:32,944 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-11 22:48:32,945 - flashcard_service - ERROR - Error in generate_flashcards: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 74, in generate_flashcards
+    response = await asyncio.wait_for(
+                     ^^^^^^^
+NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 111, in generate_flashcards
+    except (asyncio.TimeoutError, Exception) as e:
+            ^^^^^^^
+NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'
+2025-06-11 22:50:11,195 - flashcard_service - INFO - Starting flashcard generation
+2025-06-11 22:50:11,195 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-11 22:50:11,196 - flashcard_service - ERROR - Error in generate_flashcards: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 74, in generate_flashcards
+    response = await asyncio.wait_for(
+                     ^^^^^^^
+NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 111, in generate_flashcards
+    except (asyncio.TimeoutError, Exception) as e:
+            ^^^^^^^
+NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'
+2025-06-11 22:51:18,698 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-11 22:51:29,914 - flashcard_service - INFO - Starting flashcard generation
+2025-06-11 22:51:29,916 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-11 22:51:29,917 - flashcard_service - ERROR - Error in generate_flashcards: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 74, in generate_flashcards
+    response = await asyncio.wait_for(
+                     ^^^^^^^
+NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 111, in generate_flashcards
+    except (asyncio.TimeoutError, Exception) as e:
+            ^^^^^^^
+NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'
+2025-06-11 22:53:41,390 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-11 22:54:25,445 - flashcard_service - INFO - Starting flashcard generation
+2025-06-11 22:54:25,447 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-11 22:54:25,447 - flashcard_service - ERROR - Error in generate_flashcards: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 74, in generate_flashcards
+    response = await asyncio.wait_for(
+                     ^^^^^^^
+NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\Projects\Final summer project\clever-chapter-cards\backend\services\flashcard_service.py", line 111, in generate_flashcards
+    except (asyncio.TimeoutError, Exception) as e:
+            ^^^^^^^
+NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'
+2025-06-11 22:55:09,717 - flashcard_service - INFO - Initialized FlashcardService
+2025-06-11 22:56:26,735 - flashcard_service - INFO - Starting flashcard generation
+2025-06-11 22:56:26,738 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-11 22:56:39,331 - flashcard_service - INFO - Generated 5 flashcards via AI
+2025-06-11 23:05:59,505 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2025-06-11 23:08:27,970 - flashcard_service - INFO - Starting flashcard generation
+2025-06-11 23:08:27,970 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-11 23:08:57,973 - flashcard_service - WARNING - AI generation failed or timed out: 
+2025-06-11 23:08:57,974 - flashcard_service - INFO - Falling back to simple flashcard generation
+2025-06-11 23:09:07,520 - flashcard_service - INFO - Generated 10 simple flashcards
+2025-06-11 23:14:25,588 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2025-06-11 23:15:09,293 - flashcard_service - INFO - Starting flashcard generation
+2025-06-11 23:15:09,294 - flashcard_service - INFO - Sending request to Cohere API
+2025-06-11 23:15:39,286 - flashcard_service - WARNING - AI generation failed or timed out: 
+2025-06-11 23:15:39,287 - flashcard_service - INFO - Falling back to simple flashcard generation
+2025-06-11 23:15:47,987 - flashcard_service - INFO - Generated 10 simple flashcards
+2025-08-19 21:52:00,281 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2025-08-19 21:52:00,952 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2025-08-19 21:54:05,993 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2025-12-08 12:45:48,522 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2025-12-08 12:45:48,954 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2025-12-08 12:46:57,377 - flashcard_service - INFO - Starting flashcard generation
+2025-12-08 12:46:57,378 - flashcard_service - INFO - Sending request to Cohere API
+2025-12-08 12:46:57,899 - flashcard_service - WARNING - AI generation failed or timed out: API request failed with status 404: {"id":"ce36eb24-bc73-41cc-9a81-1eb27ec4871d","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2025-12-08 12:46:57,899 - flashcard_service - INFO - Falling back to simple flashcard generation
+2025-12-08 12:47:00,229 - flashcard_service - INFO - Generated 6 simple flashcards
+2026-03-15 11:33:20,356 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 11:33:30,375 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 14:54:36,434 - flashcard_service - INFO - Starting flashcard generation
+2026-03-15 14:54:36,479 - flashcard_service - INFO - Sending request to Cohere API (Fallback)
+2026-03-15 14:54:37,985 - flashcard_service - WARNING - Cohere generation failed: API request failed with status 404: {"id":"82180941-97d7-450e-821c-78660db392fd","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 14:54:37,986 - flashcard_service - INFO - Falling back to simple flashcard generation
+2026-03-15 14:54:53,864 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 14:55:06,166 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 14:56:42,969 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:03:47,897 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:03:58,678 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:04:08,253 - flashcard_service - INFO - Starting flashcard generation
+2026-03-15 15:04:08,283 - flashcard_service - INFO - Sending request to Groq API
+2026-03-15 15:04:08,864 - flashcard_service - WARNING - Groq flashcard generation failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:04:08,864 - flashcard_service - INFO - Sending request to Cohere API (Fallback)
+2026-03-15 15:04:09,408 - flashcard_service - WARNING - Cohere generation failed: API request failed with status 404: {"id":"41bcda6c-083c-4200-9f72-4dfd0842a559","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:04:09,408 - flashcard_service - INFO - Falling back to simple flashcard generation
+2026-03-15 15:04:21,711 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:05:38,805 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:08:34,936 - flashcard_service - INFO - Starting flashcard generation
+2026-03-15 15:08:34,961 - flashcard_service - INFO - Sending request to Groq API
+2026-03-15 15:08:35,516 - flashcard_service - WARNING - Groq flashcard generation failed: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:08:35,516 - flashcard_service - INFO - Sending request to Cohere API (Fallback)
+2026-03-15 15:08:36,030 - flashcard_service - WARNING - Cohere generation failed: API request failed with status 404: {"id":"4c5b23b2-3837-42ed-91d9-cce6c9d5ef90","message":"model 'command' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:08:36,030 - flashcard_service - INFO - Falling back to simple flashcard generation
+2026-03-15 15:12:53,527 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:13:29,076 - flashcard_service - INFO - Starting flashcard generation
+2026-03-15 15:13:29,102 - flashcard_service - INFO - Sending request to Groq API
+2026-03-15 15:13:29,416 - flashcard_service - WARNING - Groq flashcard generation failed: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-15 15:13:29,417 - flashcard_service - INFO - Sending request to Cohere API (Fallback)
+2026-03-15 15:13:30,296 - flashcard_service - WARNING - Cohere generation failed: API request failed with status 404: {"id":"a3349ab3-de33-4b1d-933e-86ae9671e309","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:13:30,296 - flashcard_service - INFO - Falling back to simple flashcard generation
+2026-03-15 15:14:29,567 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:15:28,640 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:15:37,870 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:16:22,702 - flashcard_service - INFO - Starting flashcard generation
+2026-03-15 15:16:22,730 - flashcard_service - INFO - Sending request to Groq API
+2026-03-15 15:16:24,929 - flashcard_service - INFO - Generated 21 flashcards via Groq
+2026-03-15 15:21:42,835 - flashcard_service - INFO - Starting flashcard generation
+2026-03-15 15:21:42,898 - flashcard_service - INFO - Sending request to Groq API
+2026-03-15 15:21:44,650 - flashcard_service - INFO - Sending request to Cohere API (Fallback)
+2026-03-15 15:21:45,141 - flashcard_service - WARNING - Cohere generation failed: API request failed with status 404: {"id":"55b9c66a-acb2-4a8e-900a-e1d892ff820a","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+2026-03-15 15:21:45,142 - flashcard_service - INFO - Falling back to simple flashcard generation
+2026-03-15 15:22:42,287 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:26:15,235 - flashcard_service - INFO - Starting flashcard generation
+2026-03-15 15:26:15,258 - flashcard_service - INFO - Sending request to Groq API
+2026-03-15 15:26:17,441 - flashcard_service - INFO - Generated 20 flashcards via Groq
+2026-03-15 15:31:01,510 - flashcard_service - INFO - Starting flashcard generation
+2026-03-15 15:31:01,525 - flashcard_service - INFO - Sending request to Groq API
+2026-03-15 15:31:03,886 - flashcard_service - INFO - Generated 21 flashcards via Groq
+2026-03-15 15:37:28,802 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:37:42,973 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:38:08,712 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:41:23,260 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:41:33,744 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:42:56,817 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:43:04,102 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:43:58,680 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:48:59,008 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:49:38,969 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:50:02,867 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:50:14,134 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:51:21,188 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 15:51:33,220 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
