@@ -562,3 +562,6 @@ NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'
 2026-03-15 15:50:14,134 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
 2026-03-15 15:51:21,188 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
 2026-03-15 15:51:33,220 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 23:30:59,585 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 23:31:08,575 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)
+2026-03-15 23:33:38,982 - flashcard_service - INFO - Initialized FlashcardService (default_count=20)

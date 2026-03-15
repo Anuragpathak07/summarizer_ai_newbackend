@@ -18,17 +18,23 @@ class RAGService:
             
         self.chroma_client = chromadb.PersistentClient(path=self.persist_directory)
         
-        # Initialize embedding model
-        # Using a small, efficient model for local embeddings
-        logger.info("Loading embedding model: all-MiniLM-L6-v2")
-        self.model = SentenceTransformer('all-MiniLM-L6-v2')
+        # Initialization of embedding model is deferred to lazy load
+        self.model = None
         
-        # Create or get collection
         self.collection = self.chroma_client.get_or_create_collection(
             name="study_materials",
             metadata={"hnsw:space": "cosine"}
         )
         logger.info("Initialized RAGService and ChromaDB collection")
+
+    def get_model(self):
+        """Lazy load the sentence transformer model to speed up server startup."""
+        if self.model is None:
+            logger.info("Lazy loading embedding model: all-MiniLM-L6-v2 on CPU")
+            # Import inside method to completely prevent loading during module import
+            from sentence_transformers import SentenceTransformer
+            self.model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
+        return self.model
 
     def _chunk_text(self, text: str, chunk_size: int = 1000, overlap: int = 200) -> List[str]:
         """Split text into overlapping chunks."""
@@ -53,8 +59,9 @@ class RAGService:
             if not chunks:
                 return
 
-            # Generate embeddings for all chunks
-            embeddings = self.model.encode(chunks).tolist()
+            # Generate embeddings for all chunks Using lazy loaded model
+            model = self.get_model()
+            embeddings = model.encode(chunks).tolist()
             
             # Prepare IDs and metadatas
             ids = [f"{doc_id}_{i}" for i in range(len(chunks))]
@@ -80,7 +87,8 @@ class RAGService:
         try:
             logger.info(f"Querying RAG system for: '{query_text[:50]}...'")
             
-            query_embedding = self.model.encode([query_text]).tolist()
+            model = self.get_model()
+            query_embedding = model.encode([query_text]).tolist()
             
             results = self.collection.query(
                 query_embeddings=query_embedding,

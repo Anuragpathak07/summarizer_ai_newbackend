@@ -279,3 +279,6 @@ groq.BadRequestError: Error code: 400 - {'error': {'message': 'The model `llama3
 2026-03-15 15:51:45,564 - groq_service - INFO - Starting streaming Groq chat completion request
 2026-03-15 15:52:04,408 - groq_service - INFO - Starting streaming Groq chat completion request
 2026-03-15 15:52:15,851 - groq_service - INFO - Starting streaming Groq chat completion request
+2026-03-15 23:30:59,583 - groq_service - INFO - Initialized GroqClient
+2026-03-15 23:31:08,574 - groq_service - INFO - Initialized GroqClient
+2026-03-15 23:33:38,981 - groq_service - INFO - Initialized GroqClient

@@ -152,3 +152,8 @@
 2026-03-15 15:51:29,514 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
 2026-03-15 15:51:32,703 - rag_service - INFO - Initialized RAGService and ChromaDB collection
 2026-03-15 15:51:38,649 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 23:30:55,202 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 23:30:58,872 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 23:31:04,809 - rag_service - INFO - Loading embedding model: all-MiniLM-L6-v2
+2026-03-15 23:31:08,034 - rag_service - INFO - Initialized RAGService and ChromaDB collection
+2026-03-15 23:33:38,319 - rag_service - INFO - Initialized RAGService and ChromaDB collection

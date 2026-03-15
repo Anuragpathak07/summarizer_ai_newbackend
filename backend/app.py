@@ -612,5 +612,5 @@ async def chat():
         return jsonify({'error': 'Failed to process chat request', 'details': str(e)}), 500
 
 if __name__ == '__main__':
-    logger.info("Starting Flask application on port 5000")
-    app.run(debug=True, port=5000, host='0.0.0.0', threaded=True) 
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
